@@ -1,0 +1,16 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+ 
+  "profiles": {
+
+    "ApiService2": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Health",
+      "applicationUrl": "http://localhost:8083",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

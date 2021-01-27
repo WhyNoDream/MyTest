@@ -1,0 +1,12 @@
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\bin\Debug\netstandard2.0\ConsulUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\bin\Debug\netstandard2.0\ConsulUnit.dll
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\bin\Debug\netstandard2.0\ConsulUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\obj\Debug\netstandard2.0\ConsulUnit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\obj\Debug\netstandard2.0\ConsulUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\obj\Debug\netstandard2.0\ConsulUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\obj\Debug\netstandard2.0\ConsulUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\obj\Debug\netstandard2.0\ConsulUnit.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\obj\Debug\netstandard2.0\ConsulUnit.dll
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\ConsulUnit\obj\Debug\netstandard2.0\ConsulUnit.pdb

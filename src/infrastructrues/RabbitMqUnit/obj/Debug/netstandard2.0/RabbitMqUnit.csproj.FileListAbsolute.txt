@@ -1,0 +1,12 @@
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\bin\Debug\netstandard2.0\RabbitMqUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\bin\Debug\netstandard2.0\RabbitMqUnit.dll
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\bin\Debug\netstandard2.0\RabbitMqUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\obj\Debug\netstandard2.0\RabbitMqUnit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\obj\Debug\netstandard2.0\RabbitMqUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\obj\Debug\netstandard2.0\RabbitMqUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\obj\Debug\netstandard2.0\RabbitMqUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\obj\Debug\netstandard2.0\RabbitMqUnit.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\obj\Debug\netstandard2.0\RabbitMqUnit.dll
+E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\RabbitMqUnit\obj\Debug\netstandard2.0\RabbitMqUnit.pdb
