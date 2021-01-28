@@ -4306,11 +4306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\IdentityCenter\\IdentityCenter.csproj",
+      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\IdentityCenter\\IdentityCenter.csproj",
       "projectName": "IdentityCenter",
-      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\IdentityCenter\\IdentityCenter.csproj",
+      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\IdentityCenter\\IdentityCenter.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\IdentityCenter\\obj\\",
+      "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\IdentityCenter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4330,8 +4330,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj"
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj"
             }
           }
         }

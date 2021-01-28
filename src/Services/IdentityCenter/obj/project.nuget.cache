@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0zLzDOsMZAVejyG36irsc22kJKq33th1QfNBEA0gTz6hoQjWvGUnUX3jXJ/0V4THtNfi2o2L9oXhHCKxMmyGXA==",
+  "dgSpecHash": "0JeBgSmVZQhnqj1UWOrXT9vFCkB3zy3hpLwJIWOiCgejEocvFUGcw8yOsFB7GIy80blTJaW1MJvRC6b8qeq+9A==",
   "success": true,
-  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\IdentityCenter\\IdentityCenter.csproj",
+  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\IdentityCenter\\IdentityCenter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\4.5.3.2\\epplus.4.5.3.2.nupkg.sha512",

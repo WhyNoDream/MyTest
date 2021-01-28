@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ybVu4U+Au7bx6cnW0L4+CzdY5IOAH/ihttH5q/0q4zExiJ5QxWYP1KRT5e+aen885t+fTU/ei1FTmJKSRl41pw==",
+  "dgSpecHash": "0nE4Vv+c2Jjits1ukOvusD+ufd/KOVYRto1k/8kPaZD/7YesSRZj2DnFWAkHTWqoEMkkf7mQY72kv4zf98wt1A==",
   "success": true,
-  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj",
+  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\4.5.3.2\\epplus.4.5.3.2.nupkg.sha512",

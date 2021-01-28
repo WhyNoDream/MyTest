@@ -5,7 +5,7 @@
       "DownstreamScheme": "http",
       "AuthenticationOptions": {
         "AuthenticationProviderKey": "Bearer",
-        "AllowedScopes": [ "server4" ]
+        "AllowedScopes": [ "openid" ]
       },
       "UseServiceDiscovery": true,
       "ServiceName": "service1",

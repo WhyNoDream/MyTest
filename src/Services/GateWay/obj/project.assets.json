@@ -1381,6 +1381,20 @@
           "bin/placeholder/ConsulUnit.dll": {}
         }
       },
+      "IdentityService4Unit/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "IdentityServer4.AccessTokenValidation": "2.7.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IdentityService4Unit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IdentityService4Unit.dll": {}
+        }
+      },
       "Ocelot/0.0.0-dev": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -4511,6 +4525,11 @@
       "path": "../../infrastructrues/ConsulUnit/ConsulUnit.csproj",
       "msbuildProject": "../../infrastructrues/ConsulUnit/ConsulUnit.csproj"
     },
+    "IdentityService4Unit/1.0.0": {
+      "type": "project",
+      "path": "../../infrastructrues/IdentityService4Conf/IdentityService4Unit.csproj",
+      "msbuildProject": "../../infrastructrues/IdentityService4Conf/IdentityService4Unit.csproj"
+    },
     "Ocelot/0.0.0-dev": {
       "type": "project",
       "path": "../../infrastructrues/Ocelot/src/Ocelot/Ocelot.csproj",
@@ -4528,6 +4547,7 @@
       "ConsulUnit >= 1.0.0",
       "DotNetCore.CAP >= 3.1.2",
       "IdentityServer4.AccessTokenValidation >= 3.0.1",
+      "IdentityService4Unit >= 1.0.0",
       "Ocelot >= 0.0.0-dev",
       "Ocelot.Provider.Consul >= 0.0.0-dev"
     ]
@@ -4539,11 +4559,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\GateWay\\GateWay.csproj",
+      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\GateWay\\GateWay.csproj",
       "projectName": "GateWay",
-      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\GateWay\\GateWay.csproj",
+      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\GateWay\\GateWay.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\GateWay\\obj\\",
+      "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\GateWay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4563,14 +4583,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj"
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj"
             },
-            "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot.Provider.Consul\\Ocelot.Provider.Consul.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot.Provider.Consul\\Ocelot.Provider.Consul.csproj"
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\IdentityService4Conf\\IdentityService4Unit.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\IdentityService4Conf\\IdentityService4Unit.csproj"
             },
-            "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot\\Ocelot.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot\\Ocelot.csproj"
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot.Provider.Consul\\Ocelot.Provider.Consul.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot.Provider.Consul\\Ocelot.Provider.Consul.csproj"
+            },
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot\\Ocelot.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Ocelot\\src\\Ocelot\\Ocelot.csproj"
             }
           }
         }

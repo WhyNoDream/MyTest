@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\infrastructrues\ConsulUnit\ConsulUnit.csproj" />
+    <ProjectReference Include="..\..\infrastructrues\IdentityService4Conf\IdentityService4Unit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\Ocelot\src\Ocelot.Provider.Consul\Ocelot.Provider.Consul.csproj" />
     <ProjectReference Include="..\..\infrastructrues\Ocelot\src\Ocelot\Ocelot.csproj" />
   </ItemGroup>

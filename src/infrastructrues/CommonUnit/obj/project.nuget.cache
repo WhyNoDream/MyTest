@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oi830cS5hg9n0kGGt1/IuAAySsg2wvUd7JreHXONi+DYqDLD27ofzQHK2fwUmJ+F31pLhusTvUBBPIMvmTaOPQ==",
+  "dgSpecHash": "KkMiPhNYNCqSFJKw1EOO/pgdwmPkVLEG879F/5PbipfVDZJvBtoOfZbFF84/3HWcczaOfMqOIWN1AQrL8Bf/3g==",
   "success": true,
-  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj",
+  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\4.5.3.2\\epplus.4.5.3.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus.core.extensions\\2.4.0\\epplus.core.extensions.2.4.0.nupkg.sha512",

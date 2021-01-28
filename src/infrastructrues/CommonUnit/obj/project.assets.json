@@ -6562,11 +6562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj",
+      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj",
       "projectName": "CommonUnit",
-      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj",
+      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\infrastructrues\\CommonUnit\\obj\\",
+      "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

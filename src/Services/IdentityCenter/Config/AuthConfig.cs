@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace IdentityCenter.Config
 {
-        /// <summary>
-        /// IdentityServer4配置信息
-        /// </summary>
-        public static class AuthConfig
-        {
+    /// <summary>
+    /// IdentityServer4配置信息
+    /// </summary>
+    public static class AuthConfig
+    {
         public static IEnumerable<IdentityResource> GetIdentityResources()
         {
             return new IdentityResource[]
@@ -66,6 +66,6 @@ namespace IdentityCenter.Config
             };
         }
 
-      
+
     }
 }

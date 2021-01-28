@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wSwIeC7R4J233bLsg1sO+aMXTJ6w8eP59v3GIDnqoQwYrg0UvpOG/hE0uQ2WPZWvnR9UabFALGUTOPOyVZC1fg==",
+  "dgSpecHash": "qldr+ij5AMZHEBxm70oi0TQqBJDLrsUiW6DGS0LEWBCA6KyBf75iSfFTYsB7yaSc4p+J7LztxNwxUCWPc9CV7g==",
   "success": true,
-  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\ApiService1\\ApiService1.csproj",
+  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\ApiService1\\ApiService1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\4.5.3.2\\epplus.4.5.3.2.nupkg.sha512",

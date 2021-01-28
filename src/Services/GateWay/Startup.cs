@@ -1,6 +1,7 @@
 using CommonUnit.Config;
 using ConsulUnit;
 using ConsulUnit.Extensions;
+using IdentityService4Unit.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -36,23 +37,7 @@ namespace GateWay
             services.AddServiceDiscoveryOptions(Configuration);
             services.AddConsulService(Configuration);
             services.AddHttpClient();
-            services.AddAuthentication("Bearer")
-                    .AddJwtBearer("Bearer", options =>
-                    {
-                        options.Authority = $"http://localhost:8086";
-                        options.RequireHttpsMetadata = false;
-                        options.TokenValidationParameters = new TokenValidationParameters
-                        {
-                            ValidateAudience = false
-                        };
-                    });
-                    //.AddIdentityServerAuthentication(options =>
-                    //{
-                    //    options.Authority = "http://localhost:8086"; // issuerµÿ÷∑
-                    //    options.SupportedTokens = IdentityServer4.AccessTokenValidation.SupportedTokens.Both;
-                    //    options.ApiName = "server4";
-                    //    options.RequireHttpsMetadata = false; // ∆Ù”√http
-                    //});
+            services.AddIdentityServer4Auth();
             services.AddOcelot().AddConsul();
         }
 

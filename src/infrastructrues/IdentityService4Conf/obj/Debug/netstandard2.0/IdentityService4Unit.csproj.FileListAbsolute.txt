@@ -1,0 +1,9 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\bin\Debug\netstandard2.0\IdentityService4Unit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\bin\Debug\netstandard2.0\IdentityService4Unit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\bin\Debug\netstandard2.0\IdentityService4Unit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\obj\Debug\netstandard2.0\IdentityService4Unit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\obj\Debug\netstandard2.0\IdentityService4Unit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\obj\Debug\netstandard2.0\IdentityService4Unit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\obj\Debug\netstandard2.0\IdentityService4Unit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\obj\Debug\netstandard2.0\IdentityService4Unit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\IdentityService4Conf\obj\Debug\netstandard2.0\IdentityService4Unit.pdb

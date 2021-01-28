@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6kwmXW87Lezu/zRjaj9rwP/dFywsqf8iKS+27RkTYD1+xuGYRTz11SZCJN6N++ediukCWMoIZLkHJHRRlbu2+w==",
+  "dgSpecHash": "q8gfb7WDexfuzPBQBuwpKEtcEMaSelMOBKfqt2KLG0Elc0KGoaxobs/SgIHSjzY8HQ9Ay0T3LELheWPqSzkfrQ==",
   "success": true,
-  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTest\\src\\Services\\GateWay\\GateWay.csproj",
+  "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\GateWay\\GateWay.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\dotnetcore.cap\\3.1.2\\dotnetcore.cap.3.1.2.nupkg.sha512",
