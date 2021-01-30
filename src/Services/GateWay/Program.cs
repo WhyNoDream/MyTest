@@ -34,7 +34,6 @@ namespace GateWay
 
                     webBuilder.UseUrls(ServerAddress);
                     //webBuilder.UseKestrel();
-                    webBuilder.UseConsul();
                     webBuilder.UseStartup<Startup>();
                 });
     }

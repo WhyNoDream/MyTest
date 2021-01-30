@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Caching.CSRedis/3.6.60": {
+        "type": "package",
+        "dependencies": {
+          "CSRedisCore": "3.6.6",
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Caching.CSRedis.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Caching.CSRedis.dll": {}
+        }
+      },
       "Consul/1.6.1.1": {
         "type": "package",
         "dependencies": {
@@ -12,6 +25,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
+      "CSRedisCore/3.6.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/CSRedisCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CSRedisCore.dll": {}
         }
       },
       "EPPlus/4.5.3.2": {
@@ -148,6 +174,18 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.10"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/2.2.0": {
@@ -1271,6 +1309,15 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "CommonUnit/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1307,10 +1354,44 @@
         "runtime": {
           "bin/placeholder/ConsulUnit.dll": {}
         }
+      },
+      "RedisUnit/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Caching.CSRedis": "3.6.60",
+          "CommonUnit": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RedisUnit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RedisUnit.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Caching.CSRedis/3.6.60": {
+      "sha512": "8uDH8o8mSO+QW7ItNf3yuO9LVuZXA05Nq3omqOck6ZBcKLrTvxbeCqS8rSt3+yHjqsWg+5suVM+Oyh/sXO9AAw==",
+      "type": "package",
+      "path": "caching.csredis/3.6.60",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "caching.csredis.3.6.60.nupkg.sha512",
+        "caching.csredis.nuspec",
+        "lib/net5.0/Caching.CSRedis.dll",
+        "lib/net5.0/Caching.CSRedis.xml",
+        "lib/netcoreapp2.1/Caching.CSRedis.dll",
+        "lib/netcoreapp2.1/Caching.CSRedis.xml",
+        "lib/netcoreapp3.1/Caching.CSRedis.dll",
+        "lib/netcoreapp3.1/Caching.CSRedis.xml",
+        "lib/netstandard2.0/Caching.CSRedis.dll",
+        "lib/netstandard2.0/Caching.CSRedis.xml"
+      ]
+    },
     "Consul/1.6.1.1": {
       "sha512": "AJkBiix1bT3cSZRO6OD0Ee31Co1qgVkmVBFwpxym9WdxH5K6LfmAZ8Vb8nGvo9EKC+ir2sv5fKIrY75aENcMDA==",
       "type": "package",
@@ -1322,6 +1403,23 @@
         "consul.nuspec",
         "lib/net461/Consul.dll",
         "lib/netstandard2.0/Consul.dll"
+      ]
+    },
+    "CSRedisCore/3.6.6": {
+      "sha512": "fxP+ZuW3wj1425iILLyF+L1oTjWRM5odFn0p/LFYkUWzEfYznjBB7xzn716kVH3SxD0cSv7fj9Jaf1kKaPduRA==",
+      "type": "package",
+      "path": "csrediscore/3.6.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csrediscore.3.6.6.nupkg.sha512",
+        "csrediscore.nuspec",
+        "lib/net40/CSRedisCore.dll",
+        "lib/net40/CSRedisCore.xml",
+        "lib/net45/CSRedisCore.dll",
+        "lib/net45/CSRedisCore.xml",
+        "lib/netstandard2.0/CSRedisCore.dll",
+        "lib/netstandard2.0/CSRedisCore.xml"
       ]
     },
     "EPPlus/4.5.3.2": {
@@ -1544,6 +1642,22 @@
         "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
         "tools/netcoreapp2.1/GetDocument.Insider.dll",
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
+      ]
+    },
+    "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
+      "sha512": "xdl25cxDgwVxF9ckD9vJ5AdjzRE1vTGLYj9kZf6aL317ZneUijkxd/nSuzN1gEuO74dwG/Yfr1zfs636D6YZsA==",
+      "type": "package",
+      "path": "microsoft.extensions.caching.abstractions/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
+        "microsoft.extensions.caching.abstractions.3.1.10.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration/2.2.0": {
@@ -4282,6 +4396,50 @@
         "system.threading.tasks.nuspec"
       ]
     },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "CommonUnit/1.0.0": {
       "type": "project",
       "path": "../../infrastructrues/CommonUnit/CommonUnit.csproj",
@@ -4291,12 +4449,18 @@
       "type": "project",
       "path": "../../infrastructrues/ConsulUnit/ConsulUnit.csproj",
       "msbuildProject": "../../infrastructrues/ConsulUnit/ConsulUnit.csproj"
+    },
+    "RedisUnit/1.0.0": {
+      "type": "project",
+      "path": "../../infrastructrues/RedisUnit/RedisUnit.csproj",
+      "msbuildProject": "../../infrastructrues/RedisUnit/RedisUnit.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "ConsulUnit >= 1.0.0",
-      "IdentityServer4 >= 4.1.1"
+      "IdentityServer4 >= 4.1.1",
+      "RedisUnit >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4332,6 +4496,9 @@
           "projectReferences": {
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj"
+            },
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\RedisUnit\\RedisUnit.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\RedisUnit\\RedisUnit.csproj"
             }
           }
         }

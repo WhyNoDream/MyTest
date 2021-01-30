@@ -25,7 +25,6 @@ namespace ApiService1
                 {
                     webBuilder.UseUrls(ServerAddress);
                     //webBuilder.UseKestrel();
-                    webBuilder.UseConsul();
                     webBuilder.UseStartup<Startup>();
                 });
     }

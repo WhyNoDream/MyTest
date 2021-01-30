@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\infrastructrues\ConsulUnit\ConsulUnit.csproj" />
+    <ProjectReference Include="..\..\infrastructrues\RedisUnit\RedisUnit.csproj" />
   </ItemGroup>
 
 

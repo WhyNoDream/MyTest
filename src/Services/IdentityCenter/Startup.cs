@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using RedisUnit;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,16 +38,8 @@ namespace IdentityCenter
                 .AddInMemoryClients(AuthConfig.GetClients()) // 添加客户端
                 .AddInMemoryIdentityResources(AuthConfig.GetIdentityResources()) // 添加身份资源
                 .AddResourceOwnerValidator<ResourceOwnerValidator>();  //身份验证
-                //.AddTestUsers(new List<IdentityServer4.Test.TestUser>() // 添加测试用户
-                //{
-                //     new IdentityServer4.Test.TestUser ()
-                //     {
-                //         Username = "admin",
-                //         Password = "123",
-                //         SubjectId = "999"
-                //     }
-                //});
 
+            services.AddCsRedisConf();
             services.AddServiceDiscoveryOptions(Configuration);
             services.AddConsulService(Configuration);
             services.AddControllers();
