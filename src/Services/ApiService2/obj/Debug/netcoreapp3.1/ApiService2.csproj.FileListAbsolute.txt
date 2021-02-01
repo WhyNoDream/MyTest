@@ -47,6 +47,10 @@ E:\WorkSpace\myWorkSpace\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1
 E:\WorkSpace\myWorkSpace\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.dll
 E:\WorkSpace\myWorkSpace\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.pdb
 E:\WorkSpace\myWorkSpace\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.genruntimeconfig.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.MvcApplicationPartsAssemblyInfo.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\netcoreapp3.1\appsettings.json
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\netcoreapp3.1\ApiService2.exe
@@ -83,11 +87,7 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\netcoreapp3.1\ConsulUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\netcoreapp3.1\CommonUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.csprojAssemblyReference.cache
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.AssemblyInfoInputs.cache
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.AssemblyInfo.cs
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.csproj.CoreCompileInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.MvcApplicationPartsAssemblyInfo.cs
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.MvcApplicationPartsAssemblyInfo.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\staticwebassets\ApiService2.StaticWebAssets.Manifest.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\staticwebassets\ApiService2.StaticWebAssets.xml
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\scopedcss\bundle\ApiService2.styles.css

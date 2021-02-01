@@ -10,7 +10,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
+using SwaggerUnits.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +26,6 @@ namespace ApiService3
         {
             Configuration = configuration;
         }
-
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -40,6 +41,7 @@ namespace ApiService3
                 options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             });
             ConfigManagerConf.SetConfiguration(Configuration);
+            services.AddSwagger();
             services.AddServiceDiscoveryOptions();
             services.AddConsulService();
             services.AddExceptionLessLog();
@@ -53,7 +55,7 @@ namespace ApiService3
                 app.UseDeveloperExceptionPage();
             }
             app.UseExceptionLessLog();
-
+            app.UseSwaggerConf();
             app.UseConsul();
 
             app.UseRouting();

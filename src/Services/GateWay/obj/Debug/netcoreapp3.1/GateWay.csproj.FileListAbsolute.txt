@@ -68,6 +68,11 @@ E:\WorkSpace\myWorkSpace\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Mic
 E:\WorkSpace\myWorkSpace\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\WorkSpace\myWorkSpace\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 E:\WorkSpace\myWorkSpace\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.MvcApplicationPartsAssemblyInfo.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\appsettings.json
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\ocelot.json
@@ -126,12 +131,7 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcore
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Ocelot.Provider.Consul.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Ocelot.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\CommonUnit.pdb
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.csprojAssemblyReference.cache
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.AssemblyInfoInputs.cache
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.AssemblyInfo.cs
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.csproj.CoreCompileInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.MvcApplicationPartsAssemblyInfo.cs
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.MvcApplicationPartsAssemblyInfo.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\staticwebassets\GateWay.StaticWebAssets.Manifest.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\staticwebassets\GateWay.StaticWebAssets.xml
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\scopedcss\bundle\GateWay.styles.css
