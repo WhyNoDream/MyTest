@@ -21,7 +21,10 @@ namespace ApiService3.Controllers
             Logger = logger;
         }
 
-        // GET: api/<TestController>
+        /// <summary>
+        /// 测试
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<string> Get()
         {

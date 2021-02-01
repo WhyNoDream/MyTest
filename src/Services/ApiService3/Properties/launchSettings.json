@@ -6,7 +6,7 @@
     "ApiService3": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "Health",
+      "launchUrl": "swagger",
       "applicationUrl": "http://localhost:8082;",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

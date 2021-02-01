@@ -4,11 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\ApiService3.xml</DocumentationFile>
+    <OutputPath>bin\Debug\netcoreapp3.1\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\..\infrastructrues\ConsulUnit\ConsulUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\Exceptionless\ExceptionlessUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\SwaggersUnit\SwaggersUnit.csproj" />
   </ItemGroup>
-
-
 </Project>
