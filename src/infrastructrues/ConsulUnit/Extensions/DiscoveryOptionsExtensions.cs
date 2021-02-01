@@ -3,20 +3,21 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
+using CommonUnit.Config;
 
 namespace ConsulUnit.Extensions
 {
     public static  class DiscoveryOptionsExtensions
     {
-        public static IServiceCollection AddServiceDiscoveryOptions(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddServiceDiscoveryOptions(this IServiceCollection services)
         {
             services.Configure<ServiceDiscoveryOptions>((o)=> {
-                o.ConnectionStringName = configuration.GetValue<string>("ServiceDiscovery:ConnectionStringName");
-                o.Endpoints = configuration.GetValue<string[]>("ServiceDiscovery:Consul:DnsEndpoint");
-                o.HealthCheckTemplate = configuration.GetValue<string>("ServiceDiscovery:HealthCheckTemplate");
-                o.Namespace = configuration.GetValue<string>("ServiceDiscovery:Namespace");
-                o.ServiceName = configuration.GetValue<string>("ServiceDiscovery:ServiceName");
-                o.Version = configuration.GetValue<string>("ServiceDiscovery:Version");
+                o.ConnectionStringName = ConfigManagerConf.GetValue("ServiceDiscovery:ConnectionStringName");
+                o.Endpoints = ConfigManagerConf.GetReferenceValue("ServiceDiscovery:Consul:DnsEndpoint").ToArray();
+                o.HealthCheckTemplate = ConfigManagerConf.GetValue("ServiceDiscovery:HealthCheckTemplate");
+                o.Namespace = ConfigManagerConf.GetValue("ServiceDiscovery:Namespace");
+                o.ServiceName = ConfigManagerConf.GetValue("ServiceDiscovery:ServiceName");
+                o.Version = ConfigManagerConf.GetValue("ServiceDiscovery:Version");
             });
             services.AddHealthChecks();
             return services;

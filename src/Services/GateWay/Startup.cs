@@ -34,8 +34,8 @@ namespace GateWay
         {
             services.AddControllers();
             ConfigManagerConf.SetConfiguration(Configuration);
-            services.AddServiceDiscoveryOptions(Configuration);
-            services.AddConsulService(Configuration);
+            services.AddServiceDiscoveryOptions();
+            services.AddConsulService();
             services.AddHttpClient();
             services.AddIdentityServer4Auth();
             services.AddOcelot().AddConsul();

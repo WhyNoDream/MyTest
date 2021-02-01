@@ -65,7 +65,9 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\IdentityCenter.runtimeconfig.dev.json
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\IdentityCenter.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\IdentityCenter.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Caching.CSRedis.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Consul.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\CSRedisCore.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\EPPlus.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\EPPlus.Core.Extensions.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\IdentityModel.dll
@@ -74,6 +76,7 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -100,7 +103,9 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\CommonUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\ConsulUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\RedisUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\ConsulUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\RedisUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\bin\Debug\netcoreapp3.1\CommonUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\obj\Debug\netcoreapp3.1\IdentityCenter.csprojAssemblyReference.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\IdentityCenter\obj\Debug\netcoreapp3.1\IdentityCenter.AssemblyInfoInputs.cache

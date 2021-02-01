@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ExceptionlessUnit.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,14 @@ namespace ApiService3.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
+
+        public ILogger Logger { get; }
+
+        public TestController(ILogger logger)
+        {
+            Logger = logger;
+        }
+
         // GET: api/<TestController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -23,6 +32,9 @@ namespace ApiService3.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            Logger.Info("测试一下log");
+
+            throw new Exception("我只是测试一下异常");
             return "value";
         }
 

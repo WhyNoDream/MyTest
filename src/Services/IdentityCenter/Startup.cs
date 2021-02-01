@@ -40,8 +40,8 @@ namespace IdentityCenter
                 .AddResourceOwnerValidator<ResourceOwnerValidator>();  //身份验证
 
             services.AddCsRedisConf();
-            services.AddServiceDiscoveryOptions(Configuration);
-            services.AddConsulService(Configuration);
+            services.AddServiceDiscoveryOptions();
+            services.AddConsulService();
             services.AddControllers();
 
         }

@@ -1,6 +1,7 @@
 using CommonUnit.Config;
 using ConsulUnit;
 using ConsulUnit.Extensions;
+using ExceptionlessUnit.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,8 +40,9 @@ namespace ApiService3
                 options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             });
             ConfigManagerConf.SetConfiguration(Configuration);
-            services.AddServiceDiscoveryOptions(Configuration);
-            services.AddConsulService(Configuration);
+            services.AddServiceDiscoveryOptions();
+            services.AddConsulService();
+            services.AddExceptionLessLog();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,10 +52,11 @@ namespace ApiService3
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseExceptionLessLog();
+
             app.UseConsul();
 
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -38,8 +38,8 @@ namespace ApiService1
                 options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             }); ;
             ConfigManagerConf.SetConfiguration(Configuration);
-            services.AddServiceDiscoveryOptions(Configuration);
-            services.AddConsulService(Configuration);
+            services.AddServiceDiscoveryOptions();
+            services.AddConsulService();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

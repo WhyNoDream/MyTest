@@ -118,9 +118,11 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcore
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\CommonUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\ConsulUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\IdentityService4Unit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Ocelot.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Ocelot.Provider.Consul.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\ConsulUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\IdentityService4Unit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Ocelot.Provider.Consul.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Ocelot.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\CommonUnit.pdb
@@ -138,5 +140,3 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcore
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\obj\Debug\netcoreapp3.1\GateWay.genruntimeconfig.cache
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\IdentityService4Unit.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\IdentityService4Unit.pdb

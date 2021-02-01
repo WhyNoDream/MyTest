@@ -96,3 +96,12 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\obj\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\obj\Debug\netcoreapp3.1\ApiService3.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\obj\Debug\netcoreapp3.1\ApiService3.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\obj\Debug\netcoreapp3.1\ApiService3.genruntimeconfig.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\Exceptionless.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\Exceptionless.AspNetCore.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\Exceptionless.Extensions.Hosting.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\System.Reflection.Metadata.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\ExceptionlessUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService3\bin\Debug\netcoreapp3.1\ExceptionlessUnit.pdb

@@ -1,4 +1,5 @@
-﻿using ConsulUnit.Instances;
+﻿using CommonUnit.Config;
+using ConsulUnit.Instances;
 using ConsulUnit.Interface;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -17,15 +18,15 @@ namespace ConsulUnit.Extensions
         /// <param name="services"></param>
         /// <param name="configuration"></param>
         /// <returns></returns>
-        public static IServiceCollection AddConsulService(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddConsulService(this IServiceCollection services)
         {
             services.Configure<ConsulOptions>(o=> {
                 o.DnsEndpoint = new DnsEndpoint()
                 {
-                    Address = configuration.GetValue<string>("ServiceDiscovery:Consul:Address"),
-                    Port = Convert.ToInt32(configuration.GetValue<string>("ServiceDiscovery:Consul:Port"))
+                    Address = ConfigManagerConf.GetValue("ServiceDiscovery:Consul:DnsEndpoint:Address"),
+                    Port = Convert.ToInt32(ConfigManagerConf.GetValue("ServiceDiscovery:Consul:DnsEndpoint:Port"))
                 };
-                o.HttpEndpoint = configuration.GetValue<string>("ServiceDiscovery:Consul:HttpEndpoint");
+                o.HttpEndpoint = ConfigManagerConf.GetValue("ServiceDiscovery:Consul:HttpEndpoint");
             });
             services.TryAddSingleton<IRegistryService, ConsulRegistryService>();
             return services;
