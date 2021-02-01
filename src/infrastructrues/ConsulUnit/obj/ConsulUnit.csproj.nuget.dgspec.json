@@ -60,14 +60,6 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            },
-            "Swashbuckle.AspNetCore.Newtonsoft": {
-              "target": "Package",
-              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -130,6 +122,10 @@
             "Consul": {
               "target": "Package",
               "version": "[1.6.1.1, )"
+            },
+            "Microsoft.AspNetCore.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Hosting.Server.Abstractions": {
               "target": "Package",

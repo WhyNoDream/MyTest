@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rvKluxHfWKkyq2J6eD9IV49K3Ph/jmYGpWJpPd+cl31jLB3Ja1ejUwYlhxmC39xo4+qOBhc8qOTAxti323vXNA==",
+  "dgSpecHash": "m9aucown7ZgU3FYsNPj9O0JGPaXEKJOXPABpPnwGDzK403LDjGm21WheZ1stL62N2HMhpnPr8fJPT/02R952RA==",
   "success": true,
   "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\ApiService3\\ApiService3.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\exceptionless\\4.6.2\\exceptionless.4.6.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\exceptionless.aspnetcore\\4.6.2\\exceptionless.aspnetcore.4.6.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\exceptionless.extensions.hosting\\4.6.2\\exceptionless.extensions.hosting.4.6.2.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.1.1\\microsoft.aspnetcore.hosting.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

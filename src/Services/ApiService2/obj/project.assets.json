@@ -43,6 +43,20 @@
           "lib/netstandard2.0/EPPlus.Core.Extensions.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1179,9 +1193,7 @@
         "dependencies": {
           "EPPlus.Core.Extensions": "2.4.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "Newtonsoft.Json": "12.0.3",
-          "Swashbuckle.AspNetCore": "5.6.3",
-          "Swashbuckle.AspNetCore.Newtonsoft": "5.6.3"
+          "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
           "bin/placeholder/CommonUnit.dll": {}
@@ -1196,6 +1208,7 @@
         "dependencies": {
           "CommonUnit": "1.0.0",
           "Consul": "1.6.1.1",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
@@ -1210,6 +1223,23 @@
         },
         "runtime": {
           "bin/placeholder/ConsulUnit.dll": {}
+        }
+      },
+      "SwaggersUnit/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CommonUnit": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Newtonsoft.Json": "12.0.3",
+          "Swashbuckle.AspNetCore": "5.6.3",
+          "Swashbuckle.AspNetCore.Newtonsoft": "5.6.3"
+        },
+        "compile": {
+          "bin/placeholder/SwaggersUnit.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SwaggersUnit.dll": {}
         }
       }
     }
@@ -1261,6 +1291,19 @@
         "lib/net461/EPPlus.Core.Extensions.xml",
         "lib/netstandard2.0/EPPlus.Core.Extensions.dll",
         "lib/netstandard2.0/EPPlus.Core.Extensions.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.Hosting.Abstractions/2.2.0": {
+      "sha512": "ubycklv+ZY7Kutdwuy1W4upWcZ6VFR8WUXU7l7B2+mvbDBBPAcfpi+E+Y5GFe+Q157YfA3C49D2GCjAZc7Mobw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.hosting.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.xml",
+        "microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.hosting.abstractions.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.2.0": {
@@ -4041,11 +4084,17 @@
       "type": "project",
       "path": "../../infrastructrues/ConsulUnit/ConsulUnit.csproj",
       "msbuildProject": "../../infrastructrues/ConsulUnit/ConsulUnit.csproj"
+    },
+    "SwaggersUnit/1.0.0": {
+      "type": "project",
+      "path": "../../infrastructrues/SwaggersUnit/SwaggersUnit.csproj",
+      "msbuildProject": "../../infrastructrues/SwaggersUnit/SwaggersUnit.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ConsulUnit >= 1.0.0"
+      "ConsulUnit >= 1.0.0",
+      "SwaggersUnit >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4081,6 +4130,9 @@
           "projectReferences": {
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\ConsulUnit\\ConsulUnit.csproj"
+            },
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\SwaggersUnit\\SwaggersUnit.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\SwaggersUnit\\SwaggersUnit.csproj"
             }
           }
         }

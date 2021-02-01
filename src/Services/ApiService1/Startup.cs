@@ -23,7 +23,8 @@ namespace ApiService1
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers().AddNewtonsoftJson(options =>
+            services.AddControllers()
+                .AddNewtonsoftJson(options =>
             {
                 //设置时间格式
                 options.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";

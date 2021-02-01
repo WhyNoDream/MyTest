@@ -96,3 +96,5 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\obj\Debug\netcoreapp3.1\ApiService2.genruntimeconfig.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\netcoreapp3.1\SwaggersUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ApiService2\bin\Debug\netcoreapp3.1\SwaggersUnit.pdb

@@ -110,14 +110,9 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcore
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\SemVer.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Newtonsoft.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\GateWay\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll

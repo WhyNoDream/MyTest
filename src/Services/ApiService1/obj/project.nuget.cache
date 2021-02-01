@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iEOV8XPXaY3U/8HfTZRl68TbJx4h4zHzgHYU0gCDV9xnY1AoXTWFJmv5wYoecfPPKPhs9XMqK7QnAprO79cNEA==",
+  "dgSpecHash": "Vs7ReqzLC7YkftNHqikSnCey2XLn0dCnR41CcZ7y0GEL7HOgxzE5u57uZz2AdRdP/98DdF8rTn8yaWTrgDVHRQ==",
   "success": true,
   "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\ApiService1\\ApiService1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\4.5.3.2\\epplus.4.5.3.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus.core.extensions\\2.4.0\\epplus.core.extensions.2.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
