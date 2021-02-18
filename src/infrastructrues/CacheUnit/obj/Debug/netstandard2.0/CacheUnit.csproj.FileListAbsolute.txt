@@ -1,0 +1,8 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\bin\Debug\netstandard2.0\CacheUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\bin\Debug\netstandard2.0\CacheUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\bin\Debug\netstandard2.0\CacheUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.pdb

@@ -1,0 +1,8 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\Exceptionless.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\Exceptionless.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\Exceptionless.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\Exceptionless.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\Exceptionless.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\Exceptionless.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\Exceptionless.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\Exceptionless.pdb

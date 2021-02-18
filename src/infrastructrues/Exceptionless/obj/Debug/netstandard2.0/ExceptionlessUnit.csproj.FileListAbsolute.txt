@@ -1,0 +1,12 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\ExceptionlessUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\ExceptionlessUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\ExceptionlessUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\ExceptionlessUnit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\ExceptionlessUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\ExceptionlessUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\ExceptionlessUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\ExceptionlessUnit.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\ExceptionlessUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\Exceptionless\obj\Debug\netstandard2.0\ExceptionlessUnit.pdb

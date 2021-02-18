@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiService3</name>
+    </assembly>
+    <members>
+        <member name="M:ApiService3.Controllers.HealthController.GetStatus">
+            <summary>
+            健康检测
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiService3.Controllers.HealthController.GetCapTest">
+            <summary>
+            cap测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ApiService3.Controllers.TestController.Get">
+            <summary>
+            测试
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\obj\Debug\netstandard2.0\SwaggersUnit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\obj\Debug\netstandard2.0\SwaggersUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\obj\Debug\netstandard2.0\SwaggersUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\obj\Debug\netstandard2.0\SwaggersUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\bin\Debug\netstandard2.0\SwaggersUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\bin\Debug\netstandard2.0\SwaggersUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\bin\Debug\netstandard2.0\SwaggersUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\obj\Debug\netstandard2.0\SwaggersUnit.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\obj\Debug\netstandard2.0\SwaggersUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SwaggersUnit\obj\Debug\netstandard2.0\SwaggersUnit.pdb

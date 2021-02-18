@@ -1,0 +1,8 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\bin\Debug\netstandard2.0\HangFireUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\bin\Debug\netstandard2.0\HangFireUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\bin\Debug\netstandard2.0\HangFireUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.pdb

@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionlessUnit", "src\in
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggersUnit", "src\infrastructrues\SwaggersUnit\SwaggersUnit.csproj", "{EDB47DFD-57BF-4AD1-9311-C829F0C83C3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkyWalkingUnit", "src\infrastructrues\SkyWalkingUnit\SkyWalkingUnit.csproj", "{19E3DD18-20F2-4289-8225-CDD773FF27A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{EDB47DFD-57BF-4AD1-9311-C829F0C83C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB47DFD-57BF-4AD1-9311-C829F0C83C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB47DFD-57BF-4AD1-9311-C829F0C83C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E3DD18-20F2-4289-8225-CDD773FF27A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E3DD18-20F2-4289-8225-CDD773FF27A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E3DD18-20F2-4289-8225-CDD773FF27A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E3DD18-20F2-4289-8225-CDD773FF27A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{9662494C-4038-4213-AA5D-110722C1BA89} = {0AD312F8-B104-4A2F-8BB2-1A3E3C6BA9CB}
 		{752F4A2A-EF8D-4B6F-BC62-FCC4A88D83ED} = {0AD312F8-B104-4A2F-8BB2-1A3E3C6BA9CB}
 		{EDB47DFD-57BF-4AD1-9311-C829F0C83C3C} = {0AD312F8-B104-4A2F-8BB2-1A3E3C6BA9CB}
+		{19E3DD18-20F2-4289-8225-CDD773FF27A1} = {0AD312F8-B104-4A2F-8BB2-1A3E3C6BA9CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8AA215A-F185-4615-A696-11EB3184D049}

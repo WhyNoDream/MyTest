@@ -65,8 +65,6 @@ namespace ApiService3
             {
                 endpoints.MapControllers();
             });
-
-
         }
     }
 }
