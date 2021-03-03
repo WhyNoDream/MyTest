@@ -1,0 +1,4 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\netstandard2.0\ABPUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.AssemblyInfo.cs
