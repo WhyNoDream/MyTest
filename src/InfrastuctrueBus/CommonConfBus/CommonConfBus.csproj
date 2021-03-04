@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\infrastructrues\ABPUnit\ABPUnit.csproj" />
+    <ProjectReference Include="..\..\infrastructrues\ConsulUnit\ConsulUnit.csproj" />
+    <ProjectReference Include="..\..\infrastructrues\Exceptionless\ExceptionlessUnit.csproj" />
+    <ProjectReference Include="..\..\infrastructrues\RedisUnit\RedisUnit.csproj" />
+    <ProjectReference Include="..\..\infrastructrues\SkyWalkingUnit\SkyWalkingUnit.csproj" />
+    <ProjectReference Include="..\..\infrastructrues\SwaggersUnit\SwaggersUnit.csproj" />
+  </ItemGroup>
+
+</Project>

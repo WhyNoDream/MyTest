@@ -51,17 +51,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggersUnit", "src\infrast
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkyWalkingUnit", "src\infrastructrues\SkyWalkingUnit\SkyWalkingUnit.csproj", "{19E3DD18-20F2-4289-8225-CDD773FF27A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductDomain", "src\Domains\ProductDomain\ProductDomain.csproj", "{8304B1AD-44C6-44CC-9F89-EBBB1E59DF08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductDomain", "src\Domains\ProductDomain\ProductDomain.csproj", "{8304B1AD-44C6-44CC-9F89-EBBB1E59DF08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreUnit", "src\infrastructrues\EfCoreUnit\EfCoreUnit.csproj", "{E85AA5D2-D5E0-4D4A-B8BC-BB52458790D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCoreUnit", "src\infrastructrues\EfCoreUnit\EfCoreUnit.csproj", "{E85AA5D2-D5E0-4D4A-B8BC-BB52458790D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfrastructrueBus", "InfrastructrueBus", "{548D9A27-73D2-4F86-9836-63690E78E387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreBus", "src\InfrastuctrueBus\EfCoreBus\EfCoreBus.csproj", "{069AB707-2EE7-47B2-AE0E-00DE641B2726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCoreBus", "src\InfrastuctrueBus\EfCoreBus\EfCoreBus.csproj", "{069AB707-2EE7-47B2-AE0E-00DE641B2726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABPUnit", "src\infrastructrues\ABPUnit\ABPUnit.csproj", "{F9621C4A-5809-4CAF-9E46-35EEF115B863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABPUnit", "src\infrastructrues\ABPUnit\ABPUnit.csproj", "{F9621C4A-5809-4CAF-9E46-35EEF115B863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "src\Services\ProductService\ProductService.csproj", "{5D48D278-6585-4CC6-8392-850512622207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "src\Services\ProductService\ProductService.csproj", "{5D48D278-6585-4CC6-8392-850512622207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonConfBus", "src\InfrastuctrueBus\CommonConfBus\CommonConfBus.csproj", "{A8F746ED-F9EB-44DE-AF0D-AB17327B5C08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +159,10 @@ Global
 		{5D48D278-6585-4CC6-8392-850512622207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D48D278-6585-4CC6-8392-850512622207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D48D278-6585-4CC6-8392-850512622207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F746ED-F9EB-44DE-AF0D-AB17327B5C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F746ED-F9EB-44DE-AF0D-AB17327B5C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F746ED-F9EB-44DE-AF0D-AB17327B5C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F746ED-F9EB-44DE-AF0D-AB17327B5C08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -187,6 +193,7 @@ Global
 		{069AB707-2EE7-47B2-AE0E-00DE641B2726} = {548D9A27-73D2-4F86-9836-63690E78E387}
 		{F9621C4A-5809-4CAF-9E46-35EEF115B863} = {0AD312F8-B104-4A2F-8BB2-1A3E3C6BA9CB}
 		{5D48D278-6585-4CC6-8392-850512622207} = {A429EFDA-BB2E-4385-905F-577BB01D102E}
+		{A8F746ED-F9EB-44DE-AF0D-AB17327B5C08} = {548D9A27-73D2-4F86-9836-63690E78E387}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8AA215A-F185-4615-A696-11EB3184D049}
