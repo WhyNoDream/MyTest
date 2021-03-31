@@ -1,0 +1,8 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\bin\Debug\netstandard2.0\SkyWalkingUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\bin\Debug\netstandard2.0\SkyWalkingUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\bin\Debug\netstandard2.0\SkyWalkingUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\obj\Debug\netstandard2.0\SkyWalkingUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\obj\Debug\netstandard2.0\SkyWalkingUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\obj\Debug\netstandard2.0\SkyWalkingUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\obj\Debug\netstandard2.0\SkyWalkingUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\SkyWalkingUnit\obj\Debug\netstandard2.0\SkyWalkingUnit.pdb

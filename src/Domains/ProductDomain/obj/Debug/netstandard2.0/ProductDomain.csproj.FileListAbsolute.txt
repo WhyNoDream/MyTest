@@ -2,3 +2,13 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\ne
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.csprojAssemblyReference.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.AssemblyInfoInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\netstandard2.0\ProductDomain.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\netstandard2.0\ProductDomain.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\netstandard2.0\ProductDomain.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\netstandard2.0\ABPUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\ProductDomain\obj\Debug\netstandard2.0\ProductDomain.pdb

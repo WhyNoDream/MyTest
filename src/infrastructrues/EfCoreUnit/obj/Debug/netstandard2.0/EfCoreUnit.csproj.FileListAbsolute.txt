@@ -1,0 +1,12 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\bin\Debug\netstandard2.0\EfCoreUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\bin\Debug\netstandard2.0\EfCoreUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\bin\Debug\netstandard2.0\EfCoreUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\obj\Debug\netstandard2.0\EfCoreUnit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\obj\Debug\netstandard2.0\EfCoreUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\obj\Debug\netstandard2.0\EfCoreUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\obj\Debug\netstandard2.0\EfCoreUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\obj\Debug\netstandard2.0\EfCoreUnit.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\obj\Debug\netstandard2.0\EfCoreUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\EfCoreUnit\obj\Debug\netstandard2.0\EfCoreUnit.pdb

@@ -1,27 +1,33 @@
 ﻿using CommonUnit.Config;
-using EfCoreUnit;
 using Microsoft.EntityFrameworkCore;
 using ProductDomain.Entitys;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Volo.Abp.Data;
+using Volo.Abp.EntityFrameworkCore;
+using Volo.Abp.EntityFrameworkCore.Modeling;
 
 namespace EfCoreBus
 {
-    public class ProductDbContext: BaseContext
-    {
-		//public DbSet<Blog> Blogs { get; set; }
-
-
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
+	[ConnectionStringName("product")]
+	public class ProductDbContext:AbpDbContext<ProductDbContext>
+	{
+		public ProductDbContext(DbContextOptions<ProductDbContext> options)
+		  : base(options)
 		{
-			modelBuilder.Entity<Product>(pc => pc.ToTable("t_tradeber_account_admin").HasKey(k => k.Id));
 		}
+		public virtual DbSet<Product> Product { get; set; }
 
-		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-		{
-			//配置连接字符串
-			optionsBuilder.UseMySql(ConfigManagerConf.GetValue("ConnectionStrings:Product"));
-		}
-	}
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.Entity<Product>(b =>
+            {
+                b.ToTable("t_product");
+                b.ConfigureByConvention();
+            });
+        }
+
+    }
 }

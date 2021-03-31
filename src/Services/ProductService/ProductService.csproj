@@ -5,7 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore" Version="5.14.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domains\ProductDomain\ProductDomain.csproj" />
     <ProjectReference Include="..\..\InfrastuctrueBus\CommonConfBus\CommonConfBus.csproj" />
+    <ProjectReference Include="..\..\InfrastuctrueBus\EfCoreBus\EfCoreBus.csproj" />
   </ItemGroup>
 
 

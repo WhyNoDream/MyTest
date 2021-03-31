@@ -10,7 +10,6 @@ E:\WorkSpace\myWorkSpace\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstan
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\bin\Debug\netstandard2.0\CommonUnit.deps.json
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\bin\Debug\netstandard2.0\CommonUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\bin\Debug\netstandard2.0\CommonUnit.pdb
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.csprojAssemblyReference.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.AssemblyInfoInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.AssemblyInfo.cs
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.csproj.CoreCompileInputs.cache

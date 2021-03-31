@@ -482,7 +482,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MySqlConnector/0.69.9": {
+      "MySqlConnector/0.61.0": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.4.0",
@@ -578,11 +578,11 @@
           "lib/netstandard2.0/Nito.Disposables.dll": {}
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/3.2.4": {
+      "Pomelo.EntityFrameworkCore.MySql/3.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "[3.1.8, 5.0.0)",
-          "MySqlConnector": "[0.69.9, 1.0.0)",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.0",
+          "MySqlConnector": "0.61.0",
           "Pomelo.JsonObject": "2.2.1"
         },
         "compile": {
@@ -1923,6 +1923,34 @@
           "lib/netstandard2.0/Volo.Abp.Ddd.Domain.dll": {}
         }
       },
+      "Volo.Abp.EntityFrameworkCore/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.8",
+          "Volo.Abp.Ddd.Domain": "3.3.2",
+          "Volo.Abp.Json": "3.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Volo.Abp.EntityFrameworkCore.MySQL/3.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Pomelo.EntityFrameworkCore.MySql": "3.1.1",
+          "Volo.Abp.EntityFrameworkCore": "3.3.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.MySQL.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.MySQL.dll": {}
+        }
+      },
       "Volo.Abp.EventBus/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -2169,20 +2197,6 @@
         },
         "runtime": {
           "bin/placeholder/CommonUnit.dll": {}
-        }
-      },
-      "EfCoreUnit/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "CommonUnit": "1.0.0",
-          "Pomelo.EntityFrameworkCore.MySql": "3.2.4"
-        },
-        "compile": {
-          "bin/placeholder/EfCoreUnit.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EfCoreUnit.dll": {}
         }
       },
       "ProductDomain/1.0.0": {
@@ -2971,10 +2985,10 @@
         "runtime.json"
       ]
     },
-    "MySqlConnector/0.69.9": {
-      "sha512": "WpY4jWc5ee5kgKy3XAK9JMjRmn7+jLYCgDlYvFK+GTrzaiWDWoYLbtJge6l1tqo2teUAP3kzzsJpP8QwJM1W4Q==",
+    "MySqlConnector/0.61.0": {
+      "sha512": "E01yibVzCkVOmhNsUb+B4amjQKfKFlGiR1huNd6Q8aTCqBrACo0I3JMKvJBMpZfYhAsR8bqB9496PwcGpr+LuQ==",
       "type": "package",
-      "path": "mysqlconnector/0.69.9",
+      "path": "mysqlconnector/0.61.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2995,7 +3009,7 @@
         "lib/netstandard2.1/MySqlConnector.dll",
         "lib/netstandard2.1/MySqlConnector.xml",
         "logo.png",
-        "mysqlconnector.0.69.9.nupkg.sha512",
+        "mysqlconnector.0.61.0.nupkg.sha512",
         "mysqlconnector.nuspec"
       ]
     },
@@ -3243,16 +3257,16 @@
         "nito.disposables.nuspec"
       ]
     },
-    "Pomelo.EntityFrameworkCore.MySql/3.2.4": {
-      "sha512": "6UOPWyL2qIsRCnN880YXA6rACpqVV6GE+H3vR4KJytjigWKFp+aiRDwJRSorwZ9ntHu+RDBcXGjmaShj0mBmYA==",
+    "Pomelo.EntityFrameworkCore.MySql/3.1.1": {
+      "sha512": "DYMsaJe/lKoaPGjB0ACnP+h5FeaJC+07f83FewBulkqfkUvc7m97PECX0OUHSTT+qEF0EOmJ7HQR0dltSCDyPQ==",
       "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/3.2.4",
+      "path": "pomelo.entityframeworkcore.mysql/3.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
         "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll",
-        "pomelo.entityframeworkcore.mysql.3.2.4.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.3.1.1.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
@@ -6946,6 +6960,34 @@
         "volo.abp.ddd.domain.nuspec"
       ]
     },
+    "Volo.Abp.EntityFrameworkCore/3.3.2": {
+      "sha512": "+qfzwsbcZ9dJ42kgLjukmrC3m1yMAdbXWVHSnPzjlpJEil4a8s5xzaiuiD5keX+UD6Dlw1buezZms7wLpd4U2g==",
+      "type": "package",
+      "path": "volo.abp.entityframeworkcore/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.dll",
+        "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.pdb",
+        "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.xml",
+        "volo.abp.entityframeworkcore.3.3.2.nupkg.sha512",
+        "volo.abp.entityframeworkcore.nuspec"
+      ]
+    },
+    "Volo.Abp.EntityFrameworkCore.MySQL/3.3.2": {
+      "sha512": "0VigjT5HIn9iqFY4NuiwmEiSuAYg/SZAbNUW9hBPMNeM664E4gebM9i7JT3YBZUmndjko2+r4uiRlA/YP39MPw==",
+      "type": "package",
+      "path": "volo.abp.entityframeworkcore.mysql/3.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.MySQL.dll",
+        "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.MySQL.pdb",
+        "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.MySQL.xml",
+        "volo.abp.entityframeworkcore.mysql.3.3.2.nupkg.sha512",
+        "volo.abp.entityframeworkcore.mysql.nuspec"
+      ]
+    },
     "Volo.Abp.EventBus/4.2.1": {
       "sha512": "zhcaku/ufk88lIkAOCCf9e+4kQ7PCp7DQody+dmC2gUDUgAIzxbF0urcuuVF0Ac7HeElk64uN7KNoY0WLvqfew==",
       "type": "package",
@@ -7194,11 +7236,6 @@
       "path": "../../infrastructrues/CommonUnit/CommonUnit.csproj",
       "msbuildProject": "../../infrastructrues/CommonUnit/CommonUnit.csproj"
     },
-    "EfCoreUnit/1.0.0": {
-      "type": "project",
-      "path": "../../infrastructrues/EfCoreUnit/EfCoreUnit.csproj",
-      "msbuildProject": "../../infrastructrues/EfCoreUnit/EfCoreUnit.csproj"
-    },
     "ProductDomain/1.0.0": {
       "type": "project",
       "path": "../../Domains/ProductDomain/ProductDomain.csproj",
@@ -7207,9 +7244,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "EfCoreUnit >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
-      "ProductDomain >= 1.0.0"
+      "ProductDomain >= 1.0.0",
+      "Volo.Abp.EntityFrameworkCore.MySQL >= 3.3.2"
     ]
   },
   "packageFolders": {
@@ -7245,9 +7282,6 @@
           "projectReferences": {
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\ProductDomain\\ProductDomain.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\ProductDomain\\ProductDomain.csproj"
-            },
-            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\EfCoreUnit\\EfCoreUnit.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\EfCoreUnit\\EfCoreUnit.csproj"
             }
           }
         }
@@ -7267,6 +7301,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Volo.Abp.EntityFrameworkCore.MySQL": {
+            "target": "Package",
+            "version": "[3.3.2, )"
           }
         },
         "imports": [

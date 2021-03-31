@@ -1,0 +1,12 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\bin\Debug\netstandard2.0\ABPUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\bin\Debug\netstandard2.0\ABPUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\bin\Debug\netstandard2.0\ABPUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\obj\Debug\netstandard2.0\ABPUnit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\obj\Debug\netstandard2.0\ABPUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\obj\Debug\netstandard2.0\ABPUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\obj\Debug\netstandard2.0\ABPUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\obj\Debug\netstandard2.0\ABPUnit.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\obj\Debug\netstandard2.0\ABPUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPUnit\obj\Debug\netstandard2.0\ABPUnit.pdb

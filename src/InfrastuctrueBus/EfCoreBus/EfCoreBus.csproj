@@ -6,11 +6,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Domains\ProductDomain\ProductDomain.csproj" />
-    <ProjectReference Include="..\..\infrastructrues\EfCoreUnit\EfCoreUnit.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" Version="3.3.2" />
   </ItemGroup>
 
 </Project>
