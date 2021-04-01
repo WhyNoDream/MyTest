@@ -2010,7 +2010,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "CommonUnit": "1.0.0",
-          "Volo.Abp.Core": "4.2.1"
+          "Volo.Abp.Core": "4.2.1",
+          "Volo.Abp.Ddd.Domain": "4.2.1"
         },
         "compile": {
           "bin/placeholder/ABPUnit.dll": {}

@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domains\ProductDomain\ProductDomain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Repository\" />
   </ItemGroup>
 

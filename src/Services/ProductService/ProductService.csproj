@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Domains\ProductDomain\ProductDomain.csproj" />
     <ProjectReference Include="..\..\InfrastuctrueBus\CommonConfBus\CommonConfBus.csproj" />
     <ProjectReference Include="..\..\InfrastuctrueBus\EfCoreBus\EfCoreBus.csproj" />
   </ItemGroup>

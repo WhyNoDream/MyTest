@@ -47,6 +47,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -54,6 +58,18 @@
               "autoReferenced": true
             },
             "Volo.Abp.Core": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Volo.Abp.Ddd.Application.Contracts": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
               "target": "Package",
               "version": "[4.2.1, )"
             }

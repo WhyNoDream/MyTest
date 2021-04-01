@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "AutoMapper/10.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
       "Caching.CSRedis/3.6.60": {
         "type": "package",
         "dependencies": {
@@ -158,11 +171,12 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authorization/2.1.0": {
+      "Microsoft.AspNetCore.Authorization/5.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "2.1.0",
-          "Microsoft.Extensions.Options": "2.1.0"
+          "Microsoft.AspNetCore.Metadata": "5.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
@@ -278,6 +292,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/5.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
       "Microsoft.AspNetCore.Mvc.Abstractions/2.1.0": {
@@ -438,7 +461,7 @@
           "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/Microsoft.CSharp.dll": {}
@@ -687,10 +710,23 @@
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Embedded/2.1.0": {
+      "Microsoft.Extensions.FileProviders.Composite/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.0"
+          "Microsoft.Extensions.FileProviders.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Composite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Composite.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Embedded/5.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "5.0.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll": {}
@@ -1706,20 +1742,16 @@
           "ref/netstandard1.5/System.Reflection.dll": {}
         }
       },
-      "System.Reflection.Emit/4.3.0": {
+      "System.Reflection.Emit/4.7.0": {
         "type": "package",
         "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Reflection.Emit.ILGeneration": "4.3.0",
-          "System.Reflection.Primitives": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
         },
         "compile": {
-          "ref/netstandard1.1/System.Reflection.Emit.dll": {}
+          "ref/netstandard2.0/System.Reflection.Emit.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.3/System.Reflection.Emit.dll": {}
+          "lib/netstandard2.0/System.Reflection.Emit.dll": {}
         }
       },
       "System.Reflection.Emit.ILGeneration/4.7.0": {
@@ -2387,6 +2419,47 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "TimeZoneConverter/3.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TimeZoneConverter.dll": {}
+        }
+      },
+      "Volo.Abp.Auditing/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Data": "4.2.1",
+          "Volo.Abp.Json": "4.2.1",
+          "Volo.Abp.MultiTenancy": "4.2.1",
+          "Volo.Abp.Security": "4.2.1",
+          "Volo.Abp.Threading": "4.2.1",
+          "Volo.Abp.Timing": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Auditing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Auditing.dll": {}
+        }
+      },
+      "Volo.Abp.Authorization/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "5.0.2",
+          "Volo.Abp.Localization": "4.2.1",
+          "Volo.Abp.MultiTenancy": "4.2.1",
+          "Volo.Abp.Security": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Authorization.dll": {}
+        }
+      },
       "Volo.Abp.Core/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -2415,12 +2488,344 @@
           "lib/netstandard2.0/Volo.Abp.Core.dll": {}
         }
       },
+      "Volo.Abp.Data/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1",
+          "Volo.Abp.ObjectExtending": "4.2.1",
+          "Volo.Abp.Uow": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Data.dll": {}
+        }
+      },
+      "Volo.Abp.Ddd.Application/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization": "4.2.1",
+          "Volo.Abp.Ddd.Application.Contracts": "4.2.1",
+          "Volo.Abp.Ddd.Domain": "4.2.1",
+          "Volo.Abp.Features": "4.2.1",
+          "Volo.Abp.Http.Abstractions": "4.2.1",
+          "Volo.Abp.Localization": "4.2.1",
+          "Volo.Abp.ObjectMapping": "4.2.1",
+          "Volo.Abp.Security": "4.2.1",
+          "Volo.Abp.Settings": "4.2.1",
+          "Volo.Abp.Validation": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll": {}
+        }
+      },
+      "Volo.Abp.Ddd.Application.Contracts/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Auditing": "4.2.1",
+          "Volo.Abp.Localization": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll": {}
+        }
+      },
+      "Volo.Abp.Ddd.Domain/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Auditing": "4.2.1",
+          "Volo.Abp.Data": "4.2.1",
+          "Volo.Abp.EventBus": "4.2.1",
+          "Volo.Abp.ExceptionHandling": "4.2.1",
+          "Volo.Abp.Guids": "4.2.1",
+          "Volo.Abp.MultiTenancy": "4.2.1",
+          "Volo.Abp.ObjectMapping": "4.2.1",
+          "Volo.Abp.Specifications": "4.2.1",
+          "Volo.Abp.Threading": "4.2.1",
+          "Volo.Abp.Timing": "4.2.1",
+          "Volo.Abp.Uow": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Ddd.Domain.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Ddd.Domain.dll": {}
+        }
+      },
+      "Volo.Abp.EventBus/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1",
+          "Volo.Abp.MultiTenancy": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.EventBus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.EventBus.dll": {}
+        }
+      },
+      "Volo.Abp.ExceptionHandling/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "5.0.2",
+          "Volo.Abp.Localization": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.ExceptionHandling.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.ExceptionHandling.dll": {}
+        }
+      },
+      "Volo.Abp.Features/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Localization": "4.2.1",
+          "Volo.Abp.MultiTenancy": "4.2.1",
+          "Volo.Abp.Validation": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Features.dll": {}
+        }
+      },
+      "Volo.Abp.Guids/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Guids.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Guids.dll": {}
+        }
+      },
+      "Volo.Abp.Http.Abstractions/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll": {}
+        }
+      },
+      "Volo.Abp.Json/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Volo.Abp.ObjectExtending": "4.2.1",
+          "Volo.Abp.Timing": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Json.dll": {}
+        }
+      },
+      "Volo.Abp.Localization/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "4.2.1",
+          "Volo.Abp.Settings": "4.2.1",
+          "Volo.Abp.VirtualFileSystem": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Localization.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Localization.dll": {}
+        }
+      },
+      "Volo.Abp.Localization.Abstractions/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.dll": {}
+        }
+      },
+      "Volo.Abp.MultiTenancy/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Data": "4.2.1",
+          "Volo.Abp.Security": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.MultiTenancy.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.MultiTenancy.dll": {}
+        }
+      },
+      "Volo.Abp.ObjectExtending/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "4.2.1",
+          "Volo.Abp.Validation.Abstractions": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.ObjectExtending.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.ObjectExtending.dll": {}
+        }
+      },
+      "Volo.Abp.ObjectMapping/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.ObjectMapping.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.ObjectMapping.dll": {}
+        }
+      },
+      "Volo.Abp.Security/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Security.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Security.dll": {}
+        }
+      },
+      "Volo.Abp.Settings/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Localization.Abstractions": "4.2.1",
+          "Volo.Abp.MultiTenancy": "4.2.1",
+          "Volo.Abp.Security": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Settings.dll": {}
+        }
+      },
+      "Volo.Abp.Specifications/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Specifications.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Specifications.dll": {}
+        }
+      },
+      "Volo.Abp.Threading/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Threading.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Threading.dll": {}
+        }
+      },
+      "Volo.Abp.Timing/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "TimeZoneConverter": "3.3.0",
+          "Volo.Abp.Localization": "4.2.1",
+          "Volo.Abp.Settings": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Timing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Timing.dll": {}
+        }
+      },
+      "Volo.Abp.Uow/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Uow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Uow.dll": {}
+        }
+      },
+      "Volo.Abp.Validation/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Localization": "4.2.1",
+          "Volo.Abp.Validation.Abstractions": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Validation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Validation.dll": {}
+        }
+      },
+      "Volo.Abp.Validation.Abstractions/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.dll": {}
+        }
+      },
+      "Volo.Abp.VirtualFileSystem/4.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Composite": "5.0.0",
+          "Microsoft.Extensions.FileProviders.Embedded": "5.0.2",
+          "Microsoft.Extensions.FileProviders.Physical": "5.0.0",
+          "Volo.Abp.Core": "4.2.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
+        }
+      },
       "ABPUnit/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "CommonUnit": "1.0.0",
-          "Volo.Abp.Core": "4.2.1"
+          "Volo.Abp.Core": "4.2.1",
+          "Volo.Abp.Ddd.Application": "4.2.1",
+          "Volo.Abp.Ddd.Application.Contracts": "4.2.1",
+          "Volo.Abp.Ddd.Domain": "4.2.1"
         },
         "compile": {
           "bin/placeholder/ABPUnit.dll": {}
@@ -2526,6 +2931,22 @@
     }
   },
   "libraries": {
+    "AutoMapper/10.1.1": {
+      "sha512": "uMgbqOdu9ZG5cIOty0C85hzzayBH2i9BthnS5FlMqKtMSHDv4ts81a2jS1VFaDBVhlBeIqJ/kQKjQY95BZde9w==",
+      "type": "package",
+      "path": "automapper/10.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.10.1.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
     "Caching.CSRedis/3.6.60": {
       "sha512": "8uDH8o8mSO+QW7ItNf3yuO9LVuZXA05Nq3omqOck6ZBcKLrTvxbeCqS8rSt3+yHjqsWg+5suVM+Oyh/sXO9AAw==",
       "type": "package",
@@ -2716,16 +3137,22 @@
         "microsoft.aspnetcore.authentication.core.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/2.1.0": {
-      "sha512": "QUMtMVY7mQeJWlP8wmmhZf1HEGM/V8prW/XnYeKDpEniNBCRw0a3qktRb9aBU0vR+bpJwWZ0ibcB8QOvZEmDHQ==",
+    "Microsoft.AspNetCore.Authorization/5.0.2": {
+      "sha512": "yNRS94no3W9npaoy0tmrHu0XXgWKlKkNwx6/M4lti5EZthWg0LjRKj2BhXzZaT1y3R+CdGJg7Eh+n9dbpOvG7Q==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authorization/2.1.0",
+      "path": "microsoft.aspnetcore.authorization/5.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net461/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Authorization.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.2.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.5.0.2.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
@@ -2831,6 +3258,25 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
         "microsoft.aspnetcore.jsonpatch.2.1.0.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/5.0.2": {
+      "sha512": "zi0jWOO1QCv20IC6t1FrW6oaeLZrjb9x0i5ryxhaIB0gih8n1l5b9JXE25LlaZKWyd7iE/dyKezlNDdvVYb8QQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net461/Microsoft.AspNetCore.Metadata.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.5.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Mvc.Abstractions/2.1.0": {
@@ -2985,10 +3431,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3001,6 +3447,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -3010,7 +3457,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -3414,23 +3861,47 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Embedded/2.1.0": {
-      "sha512": "Zh8BkC4aneMITeGzflkDZKDkgDC+YhsvjAaeDLWEmgzNoAGPLbH+tbvn9Boo94V0cryfR/5396goB5KAElKzfw==",
+    "Microsoft.Extensions.FileProviders.Composite/5.0.0": {
+      "sha512": "0IoXXfkgKpYJB1t2lC0jPXAxuaywRNc9y2Mq96ZZNKBthL38vusa2UK73+Bm6Kq/9a5xNHJS6NhsSN+i5TEtkA==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.embedded/2.1.0",
+      "path": "microsoft.extensions.fileproviders.composite/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.FileProviders.Composite.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Composite.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Composite.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Composite.xml",
+        "microsoft.extensions.fileproviders.composite.5.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.composite.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Embedded/5.0.2": {
+      "sha512": "IA6tHInyVnt/8l9Pd++uAYVWLedeES+FvFqp9uMiz+XYvCsXbK5JWkRUPqRATgCe1p7BXNNyaFuVAMUqCa1xIQ==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.embedded/5.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
         "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.props",
         "build/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.targets",
         "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.props",
         "buildMultiTargeting/Microsoft.Extensions.FileProviders.Embedded.targets",
+        "lib/net461/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Embedded.xml",
+        "lib/net5.0/Microsoft.Extensions.FileProviders.Embedded.dll",
+        "lib/net5.0/Microsoft.Extensions.FileProviders.Embedded.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.xml",
-        "microsoft.extensions.fileproviders.embedded.2.1.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.embedded.5.0.2.nupkg.sha512",
         "microsoft.extensions.fileproviders.embedded.nuspec",
-        "tasks/net461/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll",
-        "tasks/netstandard1.5/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
+        "tasks/netstandard2.0/Microsoft.Extensions.FileProviders.Embedded.Manifest.Task.dll"
       ]
     },
     "Microsoft.Extensions.FileProviders.Physical/5.0.0": {
@@ -5987,26 +6458,34 @@
         "system.reflection.nuspec"
       ]
     },
-    "System.Reflection.Emit/4.3.0": {
-      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "type": "package",
-      "path": "system.reflection.emit/4.3.0",
+      "path": "system.reflection.emit/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
-        "lib/monotouch10/_._",
+        "lib/MonoTouch10/_._",
         "lib/net45/_._",
         "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
         "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
         "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
         "ref/netstandard1.1/System.Reflection.Emit.dll",
         "ref/netstandard1.1/System.Reflection.Emit.xml",
         "ref/netstandard1.1/de/System.Reflection.Emit.xml",
@@ -6018,9 +6497,19 @@
         "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
         "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
-        "system.reflection.emit.4.3.0.nupkg.sha512",
-        "system.reflection.emit.nuspec"
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.7.0": {
@@ -7941,6 +8430,61 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "TimeZoneConverter/3.3.0": {
+      "sha512": "OeXMqNZ1Xt/9ehELN2khz8vT8wckg8VVa6Rx+XeYTdEIMaKETlSXkCzj4TuCGQ0L2SgXdpjGSh1XwZVusZE2Yw==",
+      "type": "package",
+      "path": "timezoneconverter/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/TimeZoneConverter.dll",
+        "lib/net35/TimeZoneConverter.xml",
+        "lib/net40/TimeZoneConverter.dll",
+        "lib/net40/TimeZoneConverter.xml",
+        "lib/net45/TimeZoneConverter.dll",
+        "lib/net45/TimeZoneConverter.xml",
+        "lib/net461/TimeZoneConverter.dll",
+        "lib/net461/TimeZoneConverter.xml",
+        "lib/net471/TimeZoneConverter.dll",
+        "lib/net471/TimeZoneConverter.xml",
+        "lib/netstandard1.1/TimeZoneConverter.dll",
+        "lib/netstandard1.1/TimeZoneConverter.xml",
+        "lib/netstandard1.3/TimeZoneConverter.dll",
+        "lib/netstandard1.3/TimeZoneConverter.xml",
+        "lib/netstandard2.0/TimeZoneConverter.dll",
+        "lib/netstandard2.0/TimeZoneConverter.xml",
+        "timezoneconverter.3.3.0.nupkg.sha512",
+        "timezoneconverter.nuspec"
+      ]
+    },
+    "Volo.Abp.Auditing/4.2.1": {
+      "sha512": "rJZPvIgfpaYswHDfrjkajJT8j1rDSxI1BZDHQ02ybu9iMbmcLBiw7Dx60uUuDx7+qkjFUdGC5aGxbrID7IE24Q==",
+      "type": "package",
+      "path": "volo.abp.auditing/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Auditing.dll",
+        "lib/netstandard2.0/Volo.Abp.Auditing.pdb",
+        "lib/netstandard2.0/Volo.Abp.Auditing.xml",
+        "volo.abp.auditing.4.2.1.nupkg.sha512",
+        "volo.abp.auditing.nuspec"
+      ]
+    },
+    "Volo.Abp.Authorization/4.2.1": {
+      "sha512": "uYr0RK4nRKuZb5b9j2p9iSrFOiN7Si7470Qzv6weIUFGXLakMCyO/pZoWPI/x3KcrQbiZlQSLe1TJUCK2eAyWw==",
+      "type": "package",
+      "path": "volo.abp.authorization/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Authorization.dll",
+        "lib/netstandard2.0/Volo.Abp.Authorization.pdb",
+        "lib/netstandard2.0/Volo.Abp.Authorization.xml",
+        "volo.abp.authorization.4.2.1.nupkg.sha512",
+        "volo.abp.authorization.nuspec"
+      ]
+    },
     "Volo.Abp.Core/4.2.1": {
       "sha512": "50fkD+ZxZkCY3Bubit1Ka8jbSoUjAiySMASjQXsG+YcVEQiCpxc/XyUEtG0bRQo/6hSx4eCsm3Rs4YpHTFABNQ==",
       "type": "package",
@@ -7953,6 +8497,342 @@
         "lib/netstandard2.0/Volo.Abp.Core.xml",
         "volo.abp.core.4.2.1.nupkg.sha512",
         "volo.abp.core.nuspec"
+      ]
+    },
+    "Volo.Abp.Data/4.2.1": {
+      "sha512": "PN6ew09Lc5bF2ER2nRC0aM91bWqmZA9vso8zLsg3k2Gx2q9/KpnAHEftFkatE8IDmDAPL4t24LJ7ZlIOUi1mvQ==",
+      "type": "package",
+      "path": "volo.abp.data/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Data.dll",
+        "lib/netstandard2.0/Volo.Abp.Data.pdb",
+        "lib/netstandard2.0/Volo.Abp.Data.xml",
+        "volo.abp.data.4.2.1.nupkg.sha512",
+        "volo.abp.data.nuspec"
+      ]
+    },
+    "Volo.Abp.Ddd.Application/4.2.1": {
+      "sha512": "m82CYfcTi99Q10WfuwXfnW4+SjGlgqLrKmeEOWQweJgRrCiyk8cwx86y9zrd7VfAU8Mv5nv1TNBr8M3aZDQyrQ==",
+      "type": "package",
+      "path": "volo.abp.ddd.application/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.pdb",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.xml",
+        "volo.abp.ddd.application.4.2.1.nupkg.sha512",
+        "volo.abp.ddd.application.nuspec"
+      ]
+    },
+    "Volo.Abp.Ddd.Application.Contracts/4.2.1": {
+      "sha512": "hrsKpPgPZOgCsqWfAXsW2QiOSrFqnvxnMdxhit3wYebszx6j7tdMKokjzPlj1meo4G3pBZ798YF8SvMhFqStEA==",
+      "type": "package",
+      "path": "volo.abp.ddd.application.contracts/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.xml",
+        "volo.abp.ddd.application.contracts.4.2.1.nupkg.sha512",
+        "volo.abp.ddd.application.contracts.nuspec"
+      ]
+    },
+    "Volo.Abp.Ddd.Domain/4.2.1": {
+      "sha512": "s3Dzo/WBooqAvDr3YAOAxhI6VimKce5zqCJY1bLBjzJ/xvjNkWeBbEPWJl86+Bg/wmi6LBWNWmcbcP85WLaRxg==",
+      "type": "package",
+      "path": "volo.abp.ddd.domain/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Domain.dll",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Domain.pdb",
+        "lib/netstandard2.0/Volo.Abp.Ddd.Domain.xml",
+        "volo.abp.ddd.domain.4.2.1.nupkg.sha512",
+        "volo.abp.ddd.domain.nuspec"
+      ]
+    },
+    "Volo.Abp.EventBus/4.2.1": {
+      "sha512": "zhcaku/ufk88lIkAOCCf9e+4kQ7PCp7DQody+dmC2gUDUgAIzxbF0urcuuVF0Ac7HeElk64uN7KNoY0WLvqfew==",
+      "type": "package",
+      "path": "volo.abp.eventbus/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.EventBus.dll",
+        "lib/netstandard2.0/Volo.Abp.EventBus.pdb",
+        "lib/netstandard2.0/Volo.Abp.EventBus.xml",
+        "volo.abp.eventbus.4.2.1.nupkg.sha512",
+        "volo.abp.eventbus.nuspec"
+      ]
+    },
+    "Volo.Abp.ExceptionHandling/4.2.1": {
+      "sha512": "uy8YCkd7NVvb2v8J24iXD35/Z/a5VWKueClXXnpZREpnYykrWV0DT87kvOLgi18Ow3Ykk2xh4W2WDT2geTeU8A==",
+      "type": "package",
+      "path": "volo.abp.exceptionhandling/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.ExceptionHandling.dll",
+        "lib/netstandard2.0/Volo.Abp.ExceptionHandling.pdb",
+        "lib/netstandard2.0/Volo.Abp.ExceptionHandling.xml",
+        "volo.abp.exceptionhandling.4.2.1.nupkg.sha512",
+        "volo.abp.exceptionhandling.nuspec"
+      ]
+    },
+    "Volo.Abp.Features/4.2.1": {
+      "sha512": "+uNhU1I1S9W8imWJHRGBw/rcrD2zMltQpbMDLhASqQJLDxMIPYJp5tlthh0W8sFdjRJtfZogH6eUYGkNm8AfkQ==",
+      "type": "package",
+      "path": "volo.abp.features/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Features.dll",
+        "lib/netstandard2.0/Volo.Abp.Features.pdb",
+        "lib/netstandard2.0/Volo.Abp.Features.xml",
+        "volo.abp.features.4.2.1.nupkg.sha512",
+        "volo.abp.features.nuspec"
+      ]
+    },
+    "Volo.Abp.Guids/4.2.1": {
+      "sha512": "0JtdmhkvJx4W5kAZS1UqbAVZbA0F8xjxnLa8op0XWbADBLABne/8xRyGf4MC0V4VGX2Ct4spyzwano+ava3BjQ==",
+      "type": "package",
+      "path": "volo.abp.guids/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Guids.dll",
+        "lib/netstandard2.0/Volo.Abp.Guids.pdb",
+        "lib/netstandard2.0/Volo.Abp.Guids.xml",
+        "volo.abp.guids.4.2.1.nupkg.sha512",
+        "volo.abp.guids.nuspec"
+      ]
+    },
+    "Volo.Abp.Http.Abstractions/4.2.1": {
+      "sha512": "+uhtLrMwVIKxNynCfmWKGupap15ewAlHDZtK/G3DcrtZMmxqjQL7m2onN7DMypo3Im6CITUWm1OdANZc9qHggg==",
+      "type": "package",
+      "path": "volo.abp.http.abstractions/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll",
+        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.pdb",
+        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.xml",
+        "volo.abp.http.abstractions.4.2.1.nupkg.sha512",
+        "volo.abp.http.abstractions.nuspec"
+      ]
+    },
+    "Volo.Abp.Json/4.2.1": {
+      "sha512": "G9gXBL9Yor7UqE0MtaFddlz8ADGNuJvDP+RIIJ4sqtORHJfyQXAKBLNmaHJZ2d5jzmm2U+g1VY7SNDvxf8GHvQ==",
+      "type": "package",
+      "path": "volo.abp.json/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Json.dll",
+        "lib/netstandard2.0/Volo.Abp.Json.pdb",
+        "lib/netstandard2.0/Volo.Abp.Json.xml",
+        "volo.abp.json.4.2.1.nupkg.sha512",
+        "volo.abp.json.nuspec"
+      ]
+    },
+    "Volo.Abp.Localization/4.2.1": {
+      "sha512": "P4LNQ6u3RL/zQQbCtsvpJzAOJfov2OeUK/Hp7adbti5nRCg4AEeugmuuNN4s3joEAUS3PXmMMVU1p6zQA0QpRQ==",
+      "type": "package",
+      "path": "volo.abp.localization/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Localization.dll",
+        "lib/netstandard2.0/Volo.Abp.Localization.pdb",
+        "lib/netstandard2.0/Volo.Abp.Localization.xml",
+        "volo.abp.localization.4.2.1.nupkg.sha512",
+        "volo.abp.localization.nuspec"
+      ]
+    },
+    "Volo.Abp.Localization.Abstractions/4.2.1": {
+      "sha512": "QN6J/7PgyEArxRSjirTQMzc/9v5JuyoE50VgnGsJg0ua5U/mqflmUMtPO7qQNSMUMWtmrkWXcwLcQ8B061U3TA==",
+      "type": "package",
+      "path": "volo.abp.localization.abstractions/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.pdb",
+        "lib/netstandard2.0/Volo.Abp.Localization.Abstractions.xml",
+        "volo.abp.localization.abstractions.4.2.1.nupkg.sha512",
+        "volo.abp.localization.abstractions.nuspec"
+      ]
+    },
+    "Volo.Abp.MultiTenancy/4.2.1": {
+      "sha512": "9PBznPldzrsMmVsZFW7xyFk1yv3wDLKJfu7Ec2KJZr1nDg7ao1mK4a6wju+7MIup1FinofRWAcsNK0A9VmhPHQ==",
+      "type": "package",
+      "path": "volo.abp.multitenancy/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.MultiTenancy.dll",
+        "lib/netstandard2.0/Volo.Abp.MultiTenancy.pdb",
+        "lib/netstandard2.0/Volo.Abp.MultiTenancy.xml",
+        "volo.abp.multitenancy.4.2.1.nupkg.sha512",
+        "volo.abp.multitenancy.nuspec"
+      ]
+    },
+    "Volo.Abp.ObjectExtending/4.2.1": {
+      "sha512": "Io2fIlGMwmhJiUEoQ0YjIspo3yPycFYSV2l2Xb58xO3h3G1+k76v2u8i0/+/VXQrF181xBZyLQznbm21HBRXoQ==",
+      "type": "package",
+      "path": "volo.abp.objectextending/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.ObjectExtending.dll",
+        "lib/netstandard2.0/Volo.Abp.ObjectExtending.pdb",
+        "lib/netstandard2.0/Volo.Abp.ObjectExtending.xml",
+        "volo.abp.objectextending.4.2.1.nupkg.sha512",
+        "volo.abp.objectextending.nuspec"
+      ]
+    },
+    "Volo.Abp.ObjectMapping/4.2.1": {
+      "sha512": "OUg1KO+SDmKiihuFrOmMDRx2Qhwvncn4odm8q1NU48GGfi4j3K5VNXfE51802mHgnPVq6FfHQLT7B+sym9isTQ==",
+      "type": "package",
+      "path": "volo.abp.objectmapping/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.ObjectMapping.dll",
+        "lib/netstandard2.0/Volo.Abp.ObjectMapping.pdb",
+        "lib/netstandard2.0/Volo.Abp.ObjectMapping.xml",
+        "volo.abp.objectmapping.4.2.1.nupkg.sha512",
+        "volo.abp.objectmapping.nuspec"
+      ]
+    },
+    "Volo.Abp.Security/4.2.1": {
+      "sha512": "iL/T40SFS/+OeaQb9tJKEL7h4GjH1bhDsBa0vT4itO5pfmSp3SIKMUKvBA2atE/KRjWcYMe+g/5BJfQpJuwx9Q==",
+      "type": "package",
+      "path": "volo.abp.security/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Security.dll",
+        "lib/netstandard2.0/Volo.Abp.Security.pdb",
+        "lib/netstandard2.0/Volo.Abp.Security.xml",
+        "volo.abp.security.4.2.1.nupkg.sha512",
+        "volo.abp.security.nuspec"
+      ]
+    },
+    "Volo.Abp.Settings/4.2.1": {
+      "sha512": "7FYyVS/WtU9MSbZ25zw0rkNpH0G9sWvsNRJ/PPhZ5PyqPRVww0pIn3n1I7xZPEbW22r85zpQ10szQkJ6dinaWA==",
+      "type": "package",
+      "path": "volo.abp.settings/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Settings.dll",
+        "lib/netstandard2.0/Volo.Abp.Settings.pdb",
+        "lib/netstandard2.0/Volo.Abp.Settings.xml",
+        "volo.abp.settings.4.2.1.nupkg.sha512",
+        "volo.abp.settings.nuspec"
+      ]
+    },
+    "Volo.Abp.Specifications/4.2.1": {
+      "sha512": "hjCR4Eg/MdIxa0HWh/iACXo4ludqTj+CjMiDh43I0JzzedVBqhnS+RYT69Mcv675Z+HYY8dxWPhUXmz/UqWQ4w==",
+      "type": "package",
+      "path": "volo.abp.specifications/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Specifications.dll",
+        "lib/netstandard2.0/Volo.Abp.Specifications.pdb",
+        "lib/netstandard2.0/Volo.Abp.Specifications.xml",
+        "volo.abp.specifications.4.2.1.nupkg.sha512",
+        "volo.abp.specifications.nuspec"
+      ]
+    },
+    "Volo.Abp.Threading/4.2.1": {
+      "sha512": "zKZgYy8vyVF5SDzVw4Kw+96ephWG4ESxzkQyQlNUGNjB5rWnuercdkxzSXZ78XJtdtUSK6dGNmMv1dpu1CxuTA==",
+      "type": "package",
+      "path": "volo.abp.threading/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Threading.dll",
+        "lib/netstandard2.0/Volo.Abp.Threading.pdb",
+        "lib/netstandard2.0/Volo.Abp.Threading.xml",
+        "volo.abp.threading.4.2.1.nupkg.sha512",
+        "volo.abp.threading.nuspec"
+      ]
+    },
+    "Volo.Abp.Timing/4.2.1": {
+      "sha512": "SP5jcnzJGKXoRjNkEoLHAPxF882z2uGNO6LhJ0DllAjIryU5iqeNYBDVhEc25zXaZsNG9HDghwg9zZPeRHY5fA==",
+      "type": "package",
+      "path": "volo.abp.timing/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Timing.dll",
+        "lib/netstandard2.0/Volo.Abp.Timing.pdb",
+        "lib/netstandard2.0/Volo.Abp.Timing.xml",
+        "volo.abp.timing.4.2.1.nupkg.sha512",
+        "volo.abp.timing.nuspec"
+      ]
+    },
+    "Volo.Abp.Uow/4.2.1": {
+      "sha512": "Ngl/Ec9tihzI0VU9PSGKA/dPwRxzWs5vsO8Ky1C82shJFiF/CDbNE/+1BC647ZypDoMCxkS0KQEq+wsEkn5rHg==",
+      "type": "package",
+      "path": "volo.abp.uow/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Uow.dll",
+        "lib/netstandard2.0/Volo.Abp.Uow.pdb",
+        "lib/netstandard2.0/Volo.Abp.Uow.xml",
+        "volo.abp.uow.4.2.1.nupkg.sha512",
+        "volo.abp.uow.nuspec"
+      ]
+    },
+    "Volo.Abp.Validation/4.2.1": {
+      "sha512": "IShQMAOzjJeE9tjBTPdsr6yYCmvTOMfgsnh6N43Y6eg7t4DQ0RTCwqaDc4WN3azRbpDfdZTc0JOzd/pjjbFH7Q==",
+      "type": "package",
+      "path": "volo.abp.validation/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Validation.dll",
+        "lib/netstandard2.0/Volo.Abp.Validation.pdb",
+        "lib/netstandard2.0/Volo.Abp.Validation.xml",
+        "volo.abp.validation.4.2.1.nupkg.sha512",
+        "volo.abp.validation.nuspec"
+      ]
+    },
+    "Volo.Abp.Validation.Abstractions/4.2.1": {
+      "sha512": "1dtSJMGdjN39jd6U+pf6xlUekT0L5PGdYG+jdVFmVZsBmcqdRFGU4xWciU1aBHry+d+1GbmAJWks/NJRQJ3pqQ==",
+      "type": "package",
+      "path": "volo.abp.validation.abstractions/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.dll",
+        "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.pdb",
+        "lib/netstandard2.0/Volo.Abp.Validation.Abstractions.xml",
+        "volo.abp.validation.abstractions.4.2.1.nupkg.sha512",
+        "volo.abp.validation.abstractions.nuspec"
+      ]
+    },
+    "Volo.Abp.VirtualFileSystem/4.2.1": {
+      "sha512": "dZnJ703wyq3O4QKb35tB6yaHeWG87ZXubaghf5mt2RpRreF831sKxmL0jylXZu+p6orfYooFaLC2WIjG/+Fv0w==",
+      "type": "package",
+      "path": "volo.abp.virtualfilesystem/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll",
+        "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.pdb",
+        "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.xml",
+        "volo.abp.virtualfilesystem.4.2.1.nupkg.sha512",
+        "volo.abp.virtualfilesystem.nuspec"
       ]
     },
     "ABPUnit/1.0.0": {
