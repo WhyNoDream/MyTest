@@ -6,3 +6,4 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\D
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.csproj.CoreCompileInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\HangFireUnit\obj\Debug\netstandard2.0\HangFireUnit.csprojAssemblyReference.cache

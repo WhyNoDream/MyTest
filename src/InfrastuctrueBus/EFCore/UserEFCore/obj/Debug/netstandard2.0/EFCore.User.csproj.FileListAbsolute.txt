@@ -1,0 +1,16 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\EFCore.User.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\EFCore.User.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\EFCore.User.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\ABPUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\Domain.User.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\Domain.User.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\ABPUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.pdb

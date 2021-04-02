@@ -59,29 +59,6 @@
           "lib/netstandard2.0/JetBrains.Annotations.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authorization/5.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "5.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Options": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Metadata/5.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -94,15 +71,6 @@
           "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll": {}
         }
       },
-      "Microsoft.Bcl.HashCode/1.1.0": {
-        "type": "package",
-        "compile": {
-          "ref/netstandard2.0/Microsoft.Bcl.HashCode.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Bcl.HashCode.dll": {}
-        }
-      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -110,84 +78,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.CSharp.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Bcl.HashCode": "1.1.0",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.8",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.8",
-          "Microsoft.Extensions.Caching.Memory": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "System.Collections.Immutable": "1.7.1",
-          "System.ComponentModel.Annotations": "4.7.0",
-          "System.Diagnostics.DiagnosticSource": "4.7.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.8": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/_._": {}
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/3.1.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/5.0.0": {
@@ -518,20 +408,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MySqlConnector/0.69.9": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.4.0",
-          "System.Memory": "4.5.0",
-          "System.Threading.Tasks.Extensions": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/MySqlConnector.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/MySqlConnector.dll": {}
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -612,33 +488,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Nito.Disposables.dll": {}
-        }
-      },
-      "Pomelo.EntityFrameworkCore.MySql/3.2.4": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "[3.1.8, 5.0.0)",
-          "MySqlConnector": "[0.69.9, 1.0.0)",
-          "Pomelo.JsonObject": "2.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
-        }
-      },
-      "Pomelo.JsonObject/2.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Newtonsoft.Json": "11.0.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/Pomelo.JsonObject.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Pomelo.JsonObject.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -1886,21 +1735,6 @@
           "lib/netstandard2.0/Volo.Abp.Auditing.dll": {}
         }
       },
-      "Volo.Abp.Authorization/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "5.0.2",
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.MultiTenancy": "4.2.1",
-          "Volo.Abp.Security": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Authorization.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Authorization.dll": {}
-        }
-      },
       "Volo.Abp.Core/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -1941,27 +1775,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Volo.Abp.Data.dll": {}
-        }
-      },
-      "Volo.Abp.Ddd.Application/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Authorization": "4.2.1",
-          "Volo.Abp.Ddd.Application.Contracts": "4.2.1",
-          "Volo.Abp.Ddd.Domain": "4.2.1",
-          "Volo.Abp.Features": "4.2.1",
-          "Volo.Abp.Http.Abstractions": "4.2.1",
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.ObjectMapping": "4.2.1",
-          "Volo.Abp.Security": "4.2.1",
-          "Volo.Abp.Settings": "4.2.1",
-          "Volo.Abp.Validation": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll": {}
         }
       },
       "Volo.Abp.Ddd.Application.Contracts/4.2.1": {
@@ -2025,20 +1838,6 @@
           "lib/netstandard2.0/Volo.Abp.ExceptionHandling.dll": {}
         }
       },
-      "Volo.Abp.Features/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.MultiTenancy": "4.2.1",
-          "Volo.Abp.Validation": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Features.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Features.dll": {}
-        }
-      },
       "Volo.Abp.Guids/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -2049,18 +1848,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Volo.Abp.Guids.dll": {}
-        }
-      },
-      "Volo.Abp.Http.Abstractions/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Core": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll": {}
         }
       },
       "Volo.Abp.Json/4.2.1": {
@@ -2217,19 +2004,6 @@
           "lib/netstandard2.0/Volo.Abp.Uow.dll": {}
         }
       },
-      "Volo.Abp.Validation/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.Validation.Abstractions": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Validation.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Validation.dll": {}
-        }
-      },
       "Volo.Abp.Validation.Abstractions/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -2264,8 +2038,6 @@
           "AutoMapper": "10.1.1",
           "CommonUnit": "1.0.0",
           "Volo.Abp.Core": "4.2.1",
-          "Volo.Abp.Ddd.Application": "4.2.1",
-          "Volo.Abp.Ddd.Application.Contracts": "4.2.1",
           "Volo.Abp.Ddd.Domain": "4.2.1"
         },
         "compile": {
@@ -2290,32 +2062,18 @@
           "bin/placeholder/CommonUnit.dll": {}
         }
       },
-      "EfCoreUnit/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "CommonUnit": "1.0.0",
-          "Pomelo.EntityFrameworkCore.MySql": "3.2.4"
-        },
-        "compile": {
-          "bin/placeholder/EfCoreUnit.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EfCoreUnit.dll": {}
-        }
-      },
-      "UserDomain/1.0.0": {
+      "Domain.User/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "ABPUnit": "1.0.0",
-          "EfCoreUnit": "1.0.0"
+          "Volo.Abp.Ddd.Domain": "4.2.1"
         },
         "compile": {
-          "bin/placeholder/UserDomain.dll": {}
+          "bin/placeholder/Domain.User.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UserDomain.dll": {}
+          "bin/placeholder/Domain.User.dll": {}
         }
       }
     }
@@ -2394,44 +2152,6 @@
         "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
       ]
     },
-    "Microsoft.AspNetCore.Authorization/5.0.2": {
-      "sha512": "yNRS94no3W9npaoy0tmrHu0XXgWKlKkNwx6/M4lti5EZthWg0LjRKj2BhXzZaT1y3R+CdGJg7Eh+n9dbpOvG7Q==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authorization/5.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.AspNetCore.Authorization.dll",
-        "lib/net461/Microsoft.AspNetCore.Authorization.xml",
-        "lib/net5.0/Microsoft.AspNetCore.Authorization.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Authorization.xml",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.5.0.2.nupkg.sha512",
-        "microsoft.aspnetcore.authorization.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Metadata/5.0.2": {
-      "sha512": "zi0jWOO1QCv20IC6t1FrW6oaeLZrjb9x0i5ryxhaIB0gih8n1l5b9JXE25LlaZKWyd7iE/dyKezlNDdvVYb8QQ==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.metadata/5.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.AspNetCore.Metadata.dll",
-        "lib/net461/Microsoft.AspNetCore.Metadata.xml",
-        "lib/net5.0/Microsoft.AspNetCore.Metadata.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Metadata.xml",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.5.0.2.nupkg.sha512",
-        "microsoft.aspnetcore.metadata.nuspec"
-      ]
-    },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
       "sha512": "W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
       "type": "package",
@@ -2450,33 +2170,6 @@
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
         "microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Microsoft.Bcl.HashCode/1.1.0": {
-      "sha512": "J2G1k+u5unBV+aYcwxo94ip16Rkp65pgWFb0R6zwJipzWNMgvqlWeuI7/+R+e8bob66LnSG+llLJ+z8wI94cHg==",
-      "type": "package",
-      "path": "microsoft.bcl.hashcode/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Bcl.HashCode.dll",
-        "lib/net461/Microsoft.Bcl.HashCode.xml",
-        "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
-        "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.xml",
-        "lib/netstandard2.0/Microsoft.Bcl.HashCode.dll",
-        "lib/netstandard2.0/Microsoft.Bcl.HashCode.xml",
-        "lib/netstandard2.1/Microsoft.Bcl.HashCode.dll",
-        "lib/netstandard2.1/Microsoft.Bcl.HashCode.xml",
-        "microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
-        "microsoft.bcl.hashcode.nuspec",
-        "ref/net461/Microsoft.Bcl.HashCode.dll",
-        "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
-        "ref/netstandard2.0/Microsoft.Bcl.HashCode.dll",
-        "ref/netstandard2.1/Microsoft.Bcl.HashCode.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -2548,94 +2241,6 @@
         "ref/xamarinwatchos10/_._",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore/3.1.8": {
-      "sha512": "bI+yxA329qf+8efR6A35/3L2NLekcsWJOfXakA37ILUiWcX1qp/XsXmEi6SYMpMikioy0a5p0IU8gHoqSvtLaA==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.3.1.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Abstractions/3.1.8": {
-      "sha512": "bJ6Crbz3FP2Cze1DXg+FiE5l0AFK8y6j32LP+6tMFrpdJc0XB8XBGXEX6w9baulxXC8U3OYUq1yxFVwgNdVyJw==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.3.1.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Analyzers/3.1.8": {
-      "sha512": "Cm1+PV53O/xN4P8fMkSZq9aqyXRjEZ5kmuWs7W4yE4V4GLgrqTCRmtooM5tUPM3R7VI47hAa8Aab+UuSRvpU+w==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.3.1.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
-      "sha512": "n8c2Nyfyl0AKXdM++tiKZmX/jeiu1Uv+uxZAHGgKuiQJbpOCPAhjRB4tHLdo1jOvfkhJT9K6wekf9VaXjtL1tw==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.3.1.8.nupkg.sha512",
-        "microsoft.entityframeworkcore.relational.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
-      "sha512": "iBIdKjKa2nR4LdknV2JMSRpJVM5TOca25EckPm6SZQT6HfH8RoHrn9m14GUAkvzE+uOziXRoAwr8YIC6ZOpyXg==",
-      "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.3.1.8.nupkg.sha512",
-        "microsoft.extensions.caching.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.Caching.Memory/3.1.8": {
-      "sha512": "u04q7+tgc8l6pQ5HOcr6scgapkQQHnrhpGoCaaAZd24R36/NxGsGxuhSmhHOrQx9CsBLe2CVBN/4CkLlxtnnXw==",
-      "type": "package",
-      "path": "microsoft.extensions.caching.memory/3.1.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.3.1.8.nupkg.sha512",
-        "microsoft.extensions.caching.memory.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration/5.0.0": {
@@ -3145,34 +2750,6 @@
         "runtime.json"
       ]
     },
-    "MySqlConnector/0.69.9": {
-      "sha512": "WpY4jWc5ee5kgKy3XAK9JMjRmn7+jLYCgDlYvFK+GTrzaiWDWoYLbtJge6l1tqo2teUAP3kzzsJpP8QwJM1W4Q==",
-      "type": "package",
-      "path": "mysqlconnector/0.69.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/MySqlConnector.dll",
-        "lib/net45/MySqlConnector.xml",
-        "lib/net461/MySqlConnector.dll",
-        "lib/net461/MySqlConnector.xml",
-        "lib/net471/MySqlConnector.dll",
-        "lib/net471/MySqlConnector.xml",
-        "lib/netcoreapp2.1/MySqlConnector.dll",
-        "lib/netcoreapp2.1/MySqlConnector.xml",
-        "lib/netcoreapp3.0/MySqlConnector.dll",
-        "lib/netcoreapp3.0/MySqlConnector.xml",
-        "lib/netstandard1.3/MySqlConnector.dll",
-        "lib/netstandard1.3/MySqlConnector.xml",
-        "lib/netstandard2.0/MySqlConnector.dll",
-        "lib/netstandard2.0/MySqlConnector.xml",
-        "lib/netstandard2.1/MySqlConnector.dll",
-        "lib/netstandard2.1/MySqlConnector.xml",
-        "logo.png",
-        "mysqlconnector.0.69.9.nupkg.sha512",
-        "mysqlconnector.nuspec"
-      ]
-    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -3415,31 +2992,6 @@
         "lib/netstandard2.1/Nito.Disposables.xml",
         "nito.disposables.2.2.0.nupkg.sha512",
         "nito.disposables.nuspec"
-      ]
-    },
-    "Pomelo.EntityFrameworkCore.MySql/3.2.4": {
-      "sha512": "6UOPWyL2qIsRCnN880YXA6rACpqVV6GE+H3vR4KJytjigWKFp+aiRDwJRSorwZ9ntHu+RDBcXGjmaShj0mBmYA==",
-      "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/3.2.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll",
-        "pomelo.entityframeworkcore.mysql.3.2.4.nupkg.sha512",
-        "pomelo.entityframeworkcore.mysql.nuspec"
-      ]
-    },
-    "Pomelo.JsonObject/2.2.1": {
-      "sha512": "VHPk3Yf7nDt+tZMC1M4oAoc3bgTYsOrap3VTjn//vd91b/nfquAbAeq1k0Lf7mPt8J7imLd9Pbzm50uB5euuZA==",
-      "type": "package",
-      "path": "pomelo.jsonobject/2.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Pomelo.JsonObject.dll",
-        "pomelo.jsonobject.2.2.1.nupkg.sha512",
-        "pomelo.jsonobject.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
@@ -7109,20 +6661,6 @@
         "volo.abp.auditing.nuspec"
       ]
     },
-    "Volo.Abp.Authorization/4.2.1": {
-      "sha512": "uYr0RK4nRKuZb5b9j2p9iSrFOiN7Si7470Qzv6weIUFGXLakMCyO/pZoWPI/x3KcrQbiZlQSLe1TJUCK2eAyWw==",
-      "type": "package",
-      "path": "volo.abp.authorization/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Authorization.dll",
-        "lib/netstandard2.0/Volo.Abp.Authorization.pdb",
-        "lib/netstandard2.0/Volo.Abp.Authorization.xml",
-        "volo.abp.authorization.4.2.1.nupkg.sha512",
-        "volo.abp.authorization.nuspec"
-      ]
-    },
     "Volo.Abp.Core/4.2.1": {
       "sha512": "50fkD+ZxZkCY3Bubit1Ka8jbSoUjAiySMASjQXsG+YcVEQiCpxc/XyUEtG0bRQo/6hSx4eCsm3Rs4YpHTFABNQ==",
       "type": "package",
@@ -7149,20 +6687,6 @@
         "lib/netstandard2.0/Volo.Abp.Data.xml",
         "volo.abp.data.4.2.1.nupkg.sha512",
         "volo.abp.data.nuspec"
-      ]
-    },
-    "Volo.Abp.Ddd.Application/4.2.1": {
-      "sha512": "m82CYfcTi99Q10WfuwXfnW4+SjGlgqLrKmeEOWQweJgRrCiyk8cwx86y9zrd7VfAU8Mv5nv1TNBr8M3aZDQyrQ==",
-      "type": "package",
-      "path": "volo.abp.ddd.application/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.pdb",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.xml",
-        "volo.abp.ddd.application.4.2.1.nupkg.sha512",
-        "volo.abp.ddd.application.nuspec"
       ]
     },
     "Volo.Abp.Ddd.Application.Contracts/4.2.1": {
@@ -7221,20 +6745,6 @@
         "volo.abp.exceptionhandling.nuspec"
       ]
     },
-    "Volo.Abp.Features/4.2.1": {
-      "sha512": "+uNhU1I1S9W8imWJHRGBw/rcrD2zMltQpbMDLhASqQJLDxMIPYJp5tlthh0W8sFdjRJtfZogH6eUYGkNm8AfkQ==",
-      "type": "package",
-      "path": "volo.abp.features/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Features.dll",
-        "lib/netstandard2.0/Volo.Abp.Features.pdb",
-        "lib/netstandard2.0/Volo.Abp.Features.xml",
-        "volo.abp.features.4.2.1.nupkg.sha512",
-        "volo.abp.features.nuspec"
-      ]
-    },
     "Volo.Abp.Guids/4.2.1": {
       "sha512": "0JtdmhkvJx4W5kAZS1UqbAVZbA0F8xjxnLa8op0XWbADBLABne/8xRyGf4MC0V4VGX2Ct4spyzwano+ava3BjQ==",
       "type": "package",
@@ -7247,20 +6757,6 @@
         "lib/netstandard2.0/Volo.Abp.Guids.xml",
         "volo.abp.guids.4.2.1.nupkg.sha512",
         "volo.abp.guids.nuspec"
-      ]
-    },
-    "Volo.Abp.Http.Abstractions/4.2.1": {
-      "sha512": "+uhtLrMwVIKxNynCfmWKGupap15ewAlHDZtK/G3DcrtZMmxqjQL7m2onN7DMypo3Im6CITUWm1OdANZc9qHggg==",
-      "type": "package",
-      "path": "volo.abp.http.abstractions/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll",
-        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.pdb",
-        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.xml",
-        "volo.abp.http.abstractions.4.2.1.nupkg.sha512",
-        "volo.abp.http.abstractions.nuspec"
       ]
     },
     "Volo.Abp.Json/4.2.1": {
@@ -7431,20 +6927,6 @@
         "volo.abp.uow.nuspec"
       ]
     },
-    "Volo.Abp.Validation/4.2.1": {
-      "sha512": "IShQMAOzjJeE9tjBTPdsr6yYCmvTOMfgsnh6N43Y6eg7t4DQ0RTCwqaDc4WN3azRbpDfdZTc0JOzd/pjjbFH7Q==",
-      "type": "package",
-      "path": "volo.abp.validation/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Validation.dll",
-        "lib/netstandard2.0/Volo.Abp.Validation.pdb",
-        "lib/netstandard2.0/Volo.Abp.Validation.xml",
-        "volo.abp.validation.4.2.1.nupkg.sha512",
-        "volo.abp.validation.nuspec"
-      ]
-    },
     "Volo.Abp.Validation.Abstractions/4.2.1": {
       "sha512": "1dtSJMGdjN39jd6U+pf6xlUekT0L5PGdYG+jdVFmVZsBmcqdRFGU4xWciU1aBHry+d+1GbmAJWks/NJRQJ3pqQ==",
       "type": "package",
@@ -7483,21 +6965,17 @@
       "path": "../../infrastructrues/CommonUnit/CommonUnit.csproj",
       "msbuildProject": "../../infrastructrues/CommonUnit/CommonUnit.csproj"
     },
-    "EfCoreUnit/1.0.0": {
+    "Domain.User/1.0.0": {
       "type": "project",
-      "path": "../../infrastructrues/EfCoreUnit/EfCoreUnit.csproj",
-      "msbuildProject": "../../infrastructrues/EfCoreUnit/EfCoreUnit.csproj"
-    },
-    "UserDomain/1.0.0": {
-      "type": "project",
-      "path": "../../Domains/UserDomain/UserDomain.csproj",
-      "msbuildProject": "../../Domains/UserDomain/UserDomain.csproj"
+      "path": "../../Domains/UserDomain/Domain.User.csproj",
+      "msbuildProject": "../../Domains/UserDomain/Domain.User.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Domain.User >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
-      "UserDomain >= 1.0.0"
+      "Volo.Abp.Ddd.Application.Contracts >= 4.2.1"
     ]
   },
   "packageFolders": {
@@ -7507,9 +6985,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Applications\\IUserService\\UserServiceContracts.csproj",
-      "projectName": "UserServiceContracts",
-      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Applications\\IUserService\\UserServiceContracts.csproj",
+      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Applications\\IUserService\\Applicatiion.UserServiceContracts.csproj",
+      "projectName": "Applicatiion.UserServiceContracts",
+      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Applications\\IUserService\\Applicatiion.UserServiceContracts.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Applications\\IUserService\\obj\\",
       "projectStyle": "PackageReference",
@@ -7531,8 +7009,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\UserDomain.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\UserDomain.csproj"
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj"
             }
           }
         }
@@ -7552,6 +7030,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Volo.Abp.Ddd.Application.Contracts": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           }
         },
         "imports": [

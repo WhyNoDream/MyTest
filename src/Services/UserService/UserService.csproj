@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Applications\IUserService\Applicatiion.UserServiceContracts.csproj" />
+    <ProjectReference Include="..\..\InfrastuctrueBus\CommonConfBus\CommonConfBus.csproj" />
+    <ProjectReference Include="..\..\InfrastuctrueBus\EFCore\UserEFCore\EFCore.User.csproj" />
+  </ItemGroup>
+
+
+</Project>

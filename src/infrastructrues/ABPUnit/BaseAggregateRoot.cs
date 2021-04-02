@@ -5,7 +5,7 @@ using Volo.Abp.Domain.Entities;
 
 namespace ABPUnit
 {
-    public class BaseAggregateRoot<T>: AggregateRoot<T>
+    public class BaseAggregateRoot<T>:   AggregateRoot<T>
     {
         public List<BaseEventHandler> EventHandlers { get; private set; }
 

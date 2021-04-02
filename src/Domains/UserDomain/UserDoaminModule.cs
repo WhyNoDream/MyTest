@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Volo.Abp.Modularity;
 
-namespace UserDomain
+namespace Domain.User
 {
     public class UserDoaminModule : BaseModule
     {

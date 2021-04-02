@@ -1,10 +1,9 @@
 using CommonConfBus;
 using CommonUnit.Config;
-using EfCoreBus;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+//using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -41,10 +40,10 @@ namespace ProductService
             //服务初始化
             services.WebServiceExtensions(Configuration);
 
-            services.AddAbpDbContext<ProductDbContext>(options =>
-            {
-                options.AddDefaultRepositories();
-            });
+            //services.AddAbpDbContext<ProductDbContext>(options =>
+            //{
+            //    options.AddDefaultRepositories();
+            //});
             //services.AddDbContextPool<ProductDbContext>(options => options.UseMySql(ConfigManagerConf.GetValue("ConnectionStrings:product"), b => b.MigrationsAssembly("ProductService"))); //配置mariadb连接字符串
 
         }

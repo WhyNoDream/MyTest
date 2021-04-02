@@ -1,13 +1,14 @@
 ﻿using ABPUnit;
+using Domain.User;
+using EFCore.User;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using UserDomain;
 using Volo.Abp.Modularity;
 
-namespace UserService
+namespace Applicatiion.UserService
 {
-    [DependsOn(typeof(UserDoaminModule))]
+    [DependsOn(typeof(UserDoaminModule), typeof(UserEFCoreModule))]
     public class UserServiceModule : BaseModule
     {
         //服务配置

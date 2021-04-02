@@ -1,0 +1,10 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\ABPUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\EfCoreUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\UserDomain.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\EfCoreUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\ABPUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\UserEFCore.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\UserEFCore.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\UserEFCore.AssemblyInfo.cs

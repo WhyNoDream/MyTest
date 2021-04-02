@@ -4,19 +4,23 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using UserDomain.IRepositories;
 using UserServiceContracts.Dto;
 using Volo.Abp.Application.Services;
+using Domain.User.IRepositories;
+using Domain.User.Entitys;
+using Volo.Abp.Domain.Repositories;
 
-namespace UserService
+namespace Applicatiion.UserService
 {
     public class UserLogin : ApplicationService, IUserLogin
     {
 
         private readonly IMapper _mapper;
-        private readonly IUserRepository _userRepository;
 
-        public UserLogin(IMapper mapper, IUserRepository userRepository)
+        private readonly IRepository<User, long> _userRepository;
+        //private readonly IUserRepository _userRepository;
+
+        public UserLogin(IMapper mapper, IRepository<User, long> userRepository)
         {
             _mapper = mapper;
             _userRepository = userRepository;

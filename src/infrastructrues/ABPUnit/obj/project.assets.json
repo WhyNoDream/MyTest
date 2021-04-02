@@ -59,29 +59,6 @@
           "lib/netstandard2.0/JetBrains.Annotations.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Authorization/5.0.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Metadata": "5.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Options": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Metadata/5.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll": {}
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -1758,21 +1735,6 @@
           "lib/netstandard2.0/Volo.Abp.Auditing.dll": {}
         }
       },
-      "Volo.Abp.Authorization/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "5.0.2",
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.MultiTenancy": "4.2.1",
-          "Volo.Abp.Security": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Authorization.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Authorization.dll": {}
-        }
-      },
       "Volo.Abp.Core/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -1813,40 +1775,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Volo.Abp.Data.dll": {}
-        }
-      },
-      "Volo.Abp.Ddd.Application/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Authorization": "4.2.1",
-          "Volo.Abp.Ddd.Application.Contracts": "4.2.1",
-          "Volo.Abp.Ddd.Domain": "4.2.1",
-          "Volo.Abp.Features": "4.2.1",
-          "Volo.Abp.Http.Abstractions": "4.2.1",
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.ObjectMapping": "4.2.1",
-          "Volo.Abp.Security": "4.2.1",
-          "Volo.Abp.Settings": "4.2.1",
-          "Volo.Abp.Validation": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll": {}
-        }
-      },
-      "Volo.Abp.Ddd.Application.Contracts/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Auditing": "4.2.1",
-          "Volo.Abp.Localization": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll": {}
         }
       },
       "Volo.Abp.Ddd.Domain/4.2.1": {
@@ -1897,20 +1825,6 @@
           "lib/netstandard2.0/Volo.Abp.ExceptionHandling.dll": {}
         }
       },
-      "Volo.Abp.Features/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.MultiTenancy": "4.2.1",
-          "Volo.Abp.Validation": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Features.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Features.dll": {}
-        }
-      },
       "Volo.Abp.Guids/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -1921,18 +1835,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Volo.Abp.Guids.dll": {}
-        }
-      },
-      "Volo.Abp.Http.Abstractions/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Core": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll": {}
         }
       },
       "Volo.Abp.Json/4.2.1": {
@@ -2089,19 +1991,6 @@
           "lib/netstandard2.0/Volo.Abp.Uow.dll": {}
         }
       },
-      "Volo.Abp.Validation/4.2.1": {
-        "type": "package",
-        "dependencies": {
-          "Volo.Abp.Localization": "4.2.1",
-          "Volo.Abp.Validation.Abstractions": "4.2.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Volo.Abp.Validation.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.Validation.dll": {}
-        }
-      },
       "Volo.Abp.Validation.Abstractions/4.2.1": {
         "type": "package",
         "dependencies": {
@@ -2218,44 +2107,6 @@
         "lib/netstandard2.0/JetBrains.Annotations.xml",
         "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
         "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
-      ]
-    },
-    "Microsoft.AspNetCore.Authorization/5.0.2": {
-      "sha512": "yNRS94no3W9npaoy0tmrHu0XXgWKlKkNwx6/M4lti5EZthWg0LjRKj2BhXzZaT1y3R+CdGJg7Eh+n9dbpOvG7Q==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.authorization/5.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.AspNetCore.Authorization.dll",
-        "lib/net461/Microsoft.AspNetCore.Authorization.xml",
-        "lib/net5.0/Microsoft.AspNetCore.Authorization.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Authorization.xml",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
-        "microsoft.aspnetcore.authorization.5.0.2.nupkg.sha512",
-        "microsoft.aspnetcore.authorization.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Metadata/5.0.2": {
-      "sha512": "zi0jWOO1QCv20IC6t1FrW6oaeLZrjb9x0i5ryxhaIB0gih8n1l5b9JXE25LlaZKWyd7iE/dyKezlNDdvVYb8QQ==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.metadata/5.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.AspNetCore.Metadata.dll",
-        "lib/net461/Microsoft.AspNetCore.Metadata.xml",
-        "lib/net5.0/Microsoft.AspNetCore.Metadata.dll",
-        "lib/net5.0/Microsoft.AspNetCore.Metadata.xml",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
-        "microsoft.aspnetcore.metadata.5.0.2.nupkg.sha512",
-        "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
@@ -6767,20 +6618,6 @@
         "volo.abp.auditing.nuspec"
       ]
     },
-    "Volo.Abp.Authorization/4.2.1": {
-      "sha512": "uYr0RK4nRKuZb5b9j2p9iSrFOiN7Si7470Qzv6weIUFGXLakMCyO/pZoWPI/x3KcrQbiZlQSLe1TJUCK2eAyWw==",
-      "type": "package",
-      "path": "volo.abp.authorization/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Authorization.dll",
-        "lib/netstandard2.0/Volo.Abp.Authorization.pdb",
-        "lib/netstandard2.0/Volo.Abp.Authorization.xml",
-        "volo.abp.authorization.4.2.1.nupkg.sha512",
-        "volo.abp.authorization.nuspec"
-      ]
-    },
     "Volo.Abp.Core/4.2.1": {
       "sha512": "50fkD+ZxZkCY3Bubit1Ka8jbSoUjAiySMASjQXsG+YcVEQiCpxc/XyUEtG0bRQo/6hSx4eCsm3Rs4YpHTFABNQ==",
       "type": "package",
@@ -6807,34 +6644,6 @@
         "lib/netstandard2.0/Volo.Abp.Data.xml",
         "volo.abp.data.4.2.1.nupkg.sha512",
         "volo.abp.data.nuspec"
-      ]
-    },
-    "Volo.Abp.Ddd.Application/4.2.1": {
-      "sha512": "m82CYfcTi99Q10WfuwXfnW4+SjGlgqLrKmeEOWQweJgRrCiyk8cwx86y9zrd7VfAU8Mv5nv1TNBr8M3aZDQyrQ==",
-      "type": "package",
-      "path": "volo.abp.ddd.application/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.dll",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.pdb",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.xml",
-        "volo.abp.ddd.application.4.2.1.nupkg.sha512",
-        "volo.abp.ddd.application.nuspec"
-      ]
-    },
-    "Volo.Abp.Ddd.Application.Contracts/4.2.1": {
-      "sha512": "hrsKpPgPZOgCsqWfAXsW2QiOSrFqnvxnMdxhit3wYebszx6j7tdMKokjzPlj1meo4G3pBZ798YF8SvMhFqStEA==",
-      "type": "package",
-      "path": "volo.abp.ddd.application.contracts/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.dll",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.pdb",
-        "lib/netstandard2.0/Volo.Abp.Ddd.Application.Contracts.xml",
-        "volo.abp.ddd.application.contracts.4.2.1.nupkg.sha512",
-        "volo.abp.ddd.application.contracts.nuspec"
       ]
     },
     "Volo.Abp.Ddd.Domain/4.2.1": {
@@ -6879,20 +6688,6 @@
         "volo.abp.exceptionhandling.nuspec"
       ]
     },
-    "Volo.Abp.Features/4.2.1": {
-      "sha512": "+uNhU1I1S9W8imWJHRGBw/rcrD2zMltQpbMDLhASqQJLDxMIPYJp5tlthh0W8sFdjRJtfZogH6eUYGkNm8AfkQ==",
-      "type": "package",
-      "path": "volo.abp.features/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Features.dll",
-        "lib/netstandard2.0/Volo.Abp.Features.pdb",
-        "lib/netstandard2.0/Volo.Abp.Features.xml",
-        "volo.abp.features.4.2.1.nupkg.sha512",
-        "volo.abp.features.nuspec"
-      ]
-    },
     "Volo.Abp.Guids/4.2.1": {
       "sha512": "0JtdmhkvJx4W5kAZS1UqbAVZbA0F8xjxnLa8op0XWbADBLABne/8xRyGf4MC0V4VGX2Ct4spyzwano+ava3BjQ==",
       "type": "package",
@@ -6905,20 +6700,6 @@
         "lib/netstandard2.0/Volo.Abp.Guids.xml",
         "volo.abp.guids.4.2.1.nupkg.sha512",
         "volo.abp.guids.nuspec"
-      ]
-    },
-    "Volo.Abp.Http.Abstractions/4.2.1": {
-      "sha512": "+uhtLrMwVIKxNynCfmWKGupap15ewAlHDZtK/G3DcrtZMmxqjQL7m2onN7DMypo3Im6CITUWm1OdANZc9qHggg==",
-      "type": "package",
-      "path": "volo.abp.http.abstractions/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.dll",
-        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.pdb",
-        "lib/netstandard2.0/Volo.Abp.Http.Abstractions.xml",
-        "volo.abp.http.abstractions.4.2.1.nupkg.sha512",
-        "volo.abp.http.abstractions.nuspec"
       ]
     },
     "Volo.Abp.Json/4.2.1": {
@@ -7089,20 +6870,6 @@
         "volo.abp.uow.nuspec"
       ]
     },
-    "Volo.Abp.Validation/4.2.1": {
-      "sha512": "IShQMAOzjJeE9tjBTPdsr6yYCmvTOMfgsnh6N43Y6eg7t4DQ0RTCwqaDc4WN3azRbpDfdZTc0JOzd/pjjbFH7Q==",
-      "type": "package",
-      "path": "volo.abp.validation/4.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Volo.Abp.Validation.dll",
-        "lib/netstandard2.0/Volo.Abp.Validation.pdb",
-        "lib/netstandard2.0/Volo.Abp.Validation.xml",
-        "volo.abp.validation.4.2.1.nupkg.sha512",
-        "volo.abp.validation.nuspec"
-      ]
-    },
     "Volo.Abp.Validation.Abstractions/4.2.1": {
       "sha512": "1dtSJMGdjN39jd6U+pf6xlUekT0L5PGdYG+jdVFmVZsBmcqdRFGU4xWciU1aBHry+d+1GbmAJWks/NJRQJ3pqQ==",
       "type": "package",
@@ -7143,8 +6910,6 @@
       "CommonUnit >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Volo.Abp.Core >= 4.2.1",
-      "Volo.Abp.Ddd.Application >= 4.2.1",
-      "Volo.Abp.Ddd.Application.Contracts >= 4.2.1",
       "Volo.Abp.Ddd.Domain >= 4.2.1"
     ]
   },
@@ -7206,14 +6971,6 @@
             "autoReferenced": true
           },
           "Volo.Abp.Core": {
-            "target": "Package",
-            "version": "[4.2.1, )"
-          },
-          "Volo.Abp.Ddd.Application": {
-            "target": "Package",
-            "version": "[4.2.1, )"
-          },
-          "Volo.Abp.Ddd.Application.Contracts": {
             "target": "Package",
             "version": "[4.2.1, )"
           },

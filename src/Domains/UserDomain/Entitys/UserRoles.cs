@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Volo.Abp.Domain.Entities;
 
-namespace UserDomain.Entitys
+namespace Domain.User.Entitys
 {
     /// <summary>
     /// 人员角色对应

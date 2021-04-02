@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using UserDomain.Entitys;
+using Domain.User.Entitys;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.Domain.Repositories;
 
-namespace UserDomain.IRepositories
+namespace Domain.User.IRepositories
 {
-    public interface IUserRepository : IRepository<User, long>, ITransientDependency
+    public interface IUserRepository : IRepository<Domain.User.Entitys.User, long>, ITransientDependency
     {
 
     }

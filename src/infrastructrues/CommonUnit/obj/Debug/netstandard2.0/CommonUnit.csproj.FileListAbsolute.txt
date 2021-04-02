@@ -15,3 +15,4 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Deb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.csproj.CoreCompileInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CommonUnit\obj\Debug\netstandard2.0\CommonUnit.csprojAssemblyReference.cache

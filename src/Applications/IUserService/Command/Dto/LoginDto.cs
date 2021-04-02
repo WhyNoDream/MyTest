@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
+using Domain.User.Entitys;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using UserDomain.Entitys;
 
 namespace UserServiceContracts.Dto
 {

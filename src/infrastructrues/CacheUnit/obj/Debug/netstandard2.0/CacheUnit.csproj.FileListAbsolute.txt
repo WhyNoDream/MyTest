@@ -6,3 +6,4 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debu
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.csproj.CoreCompileInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\CacheUnit\obj\Debug\netstandard2.0\CacheUnit.csprojAssemblyReference.cache

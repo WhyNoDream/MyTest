@@ -1,11 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\infrastructrues\ABPUnit\ABPUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\ConsulUnit\ConsulUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\Exceptionless\ExceptionlessUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\RedisUnit\RedisUnit.csproj" />
