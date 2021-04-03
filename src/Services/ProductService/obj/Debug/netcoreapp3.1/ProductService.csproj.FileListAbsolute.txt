@@ -65,7 +65,6 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\System.Linq.Dynamic.Core.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\System.Reflection.Metadata.dll
@@ -86,13 +85,11 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.ObjectMapping.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Security.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Settings.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Specifications.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Threading.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Timing.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Uow.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Validation.Abstractions.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.VirtualFileSystem.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\ABPUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\CommonConfBus.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\CommonUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\ConsulUnit.dll
@@ -101,7 +98,6 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\SkyWalkingUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\SwaggersUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\CommonConfBus.pdb
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\ABPUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\CommonUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\ConsulUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\ExceptionlessUnit.pdb
@@ -123,7 +119,6 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\obj\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\obj\Debug\netcoreapp3.1\ProductService.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\obj\Debug\netcoreapp3.1\ProductService.genruntimeconfig.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.EntityFrameworkCore.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
@@ -419,7 +414,6 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\AutoMapper.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Authorization.dll
@@ -428,3 +422,13 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Features.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Http.Abstractions.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Validation.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.ApiVersioning.Abstractions.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.AspNetCore.Mvc.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.GlobalFeatures.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Http.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.Minify.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\ProductService\bin\Debug\netcoreapp3.1\Volo.Abp.UI.dll

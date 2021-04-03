@@ -7,8 +7,9 @@ using Volo.Abp.Domain.Repositories;
 
 namespace Domain.User.IRepositories
 {
-    public interface IUserRepository : IRepository<Domain.User.Entitys.User, long>, ITransientDependency
-    {
 
+    public interface IUserRepository : IRepository<Domain.User.Entitys.User, long>
+    {
+       
     }
 }

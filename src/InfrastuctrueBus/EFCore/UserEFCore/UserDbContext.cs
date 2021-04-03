@@ -9,14 +9,17 @@ using Volo.Abp.EntityFrameworkCore.Modeling;
 
 namespace EFCore.User
 {
-    [ConnectionStringName("user")]
+    [ConnectionStringName("Default")]
     public class UserDbContext : AbpDbContext<UserDbContext>
     {
         public UserDbContext(DbContextOptions<UserDbContext> options)
           : base(options)
         {
         }
-        public virtual DbSet<Domain.User.Entitys.User> Product { get; set; }
+        public virtual DbSet<Domain.User.Entitys.User> UserDB { get; set; }
+        public virtual DbSet<Domain.User.Entitys.UserRoles> UserRolesDB { get; set; }
+        public virtual DbSet<Domain.User.Entitys.Department> DepartmentDB { get; set; }
+        public virtual DbSet<Domain.User.Entitys.Role> RoleDB { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -25,12 +28,16 @@ namespace EFCore.User
             {
                 b.ToTable("t_user");
                 b.ConfigureByConvention();
+                b.Property(x => x.Id).IsRequired().HasMaxLength(20);
+               // b.HasMany(o => o.UserRole).WithOne().HasForeignKey(o => o.UserId);
             });
-            builder.Entity<UserRoles>(pc => pc.ToTable("t_user_roles").HasKey(k => k.Id));
-            builder.Entity<Domain.User.Entitys.User>(pc => pc.ToTable("t_user").HasKey(k => k.Id));
-            builder.Entity<Domain.User.Entitys.User>().HasMany(o => o.UserRole).WithOne().HasForeignKey(o => o.UserId);
 
-
+            builder.Entity<Domain.User.Entitys.UserRoles>(b =>
+            {
+                b.ToTable("t_user_roles");
+                b.ConfigureByConvention();
+                b.Property(x => x.Id).IsRequired().HasMaxLength(20);
+            });
 
             //builder.Entity<User>().OwnsOne(p => p.UserRole
             //  , of =>

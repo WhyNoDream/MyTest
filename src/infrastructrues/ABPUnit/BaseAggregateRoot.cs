@@ -7,6 +7,10 @@ namespace ABPUnit
 {
     public class BaseAggregateRoot<T>:   AggregateRoot<T>
     {
+        public BaseAggregateRoot() : base()
+        {
+
+        }
         public List<BaseEventHandler> EventHandlers { get; private set; }
 
         public  void AddEvent(BaseEventHandler eventHandler)

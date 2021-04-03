@@ -1,28 +1,28 @@
-﻿//using CommonConfBus;
-//using Microsoft.AspNetCore.Mvc;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Threading.Tasks;
-//using UserServiceContracts;
-//using UserServiceContracts.Dto;
+﻿using CommonConfBus;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using UserServiceContracts;
+using UserServiceContracts.Dto;
 
-//namespace UserService.Controllers
-//{
-  
-//    public class LoginController : BaseController
-//    {
-//        private readonly IUserLogin _iUserLogin;
+namespace UserService.Controllers
+{
 
-//        public LoginController(IUserLogin userLogin)
-//        {
-//            _iUserLogin = userLogin;
-//        }
+    public class LoginController : BaseController
+    {
+        private readonly IUserLogin _iUserLogin;
 
-//        [HttpGet]
-//        public async Task<LoginDto> Login(string account, string password)
-//        {
-//           return await _iUserLogin.Login(account, password);
-//        }
-//    }
-//}
+        public LoginController(IUserLogin userLogin)
+        {
+            _iUserLogin = userLogin;
+        }
+
+        [HttpGet]
+        public async Task<LoginDto> Login(string account, string password)
+        {
+            return await _iUserLogin.Login(account, password);
+        }
+    }
+}

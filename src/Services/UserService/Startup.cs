@@ -1,10 +1,12 @@
 using CommonConfBus;
+using CommonUnit.Config;
 using EFCore.User;
 //using EFCore.User;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -43,11 +45,11 @@ namespace UserService
             //服务初始化
             services.WebServiceExtensions(Configuration);
 
-            services.AddAbpDbContext<UserDbContext>(options =>
-            {
-                options.AddDefaultRepositories();
-            });
-            //services.AddDbContextPool<ProductDbContext>(options => options.UseMySql(ConfigManagerConf.GetValue("ConnectionStrings:product"), b => b.MigrationsAssembly("ProductService"))); //配置mariadb连接字符串
+            //services.AddAbpDbContext<UserDbContext>(options =>
+            //{
+            //    options.AddDefaultRepositories();
+            //});
+          services.AddDbContextPool<UserDbContext>(options => options.UseMySql(ConfigManagerConf.GetValue("ConnectionStrings:Default"), b => b.MigrationsAssembly("ProductService"))); //配置mariadb连接字符串
 
         }
 

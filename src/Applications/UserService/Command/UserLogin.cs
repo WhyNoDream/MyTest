@@ -6,23 +6,27 @@ using System.Text;
 using System.Threading.Tasks;
 using UserServiceContracts.Dto;
 using Volo.Abp.Application.Services;
-using Domain.User.IRepositories;
 using Domain.User.Entitys;
 using Volo.Abp.Domain.Repositories;
+using Domain.User.IRepositories;
+using Volo.Abp.Uow;
 
 namespace Applicatiion.UserService
 {
+    [UnitOfWork]
     public class UserLogin : ApplicationService, IUserLogin
     {
 
-        private readonly IMapper _mapper;
+       // private readonly IMapper _mapper;
 
-        private readonly IRepository<User, long> _userRepository;
-        //private readonly IUserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
+        //private readonly IRepository<User,long> _userRepository; 
+        
+        //IMapper mapper,
 
-        public UserLogin(IMapper mapper, IRepository<User, long> userRepository)
+        public UserLogin(IUserRepository  userRepository)
         {
-            _mapper = mapper;
+            //_mapper = mapper;
             _userRepository = userRepository;
         }
 
@@ -34,15 +38,16 @@ namespace Applicatiion.UserService
         /// <returns></returns>
         public async Task<LoginDto> Login(string account, string password)
         {
-            var userInfo=  await _userRepository.GetAsync(o => o.Account == account);
+            var userInfo = _userRepository.GetDbContext();//  (o => o.Account == account);
             if (userInfo == null)
             {
                 throw new Exception("用户不存在");
             }
-            if (userInfo.Login(account, password))
-            {
-                return _mapper.Map<LoginDto>(userInfo);
-            }
+            //if (userInfo.Login(account, password))
+            //{
+            //    // return _mapper.Map<LoginDto>(userInfo);
+            //    return new LoginDto();
+            //}
             throw new Exception("用户名密码不正确");
         }
     }

@@ -25,7 +25,7 @@ namespace Domain.User.Entitys
             this.Name = Name;
             this.Phone = Phone;
             this.Email = Email;
-            this.UserRole = new List<UserRoles>() ;
+            //this.UserRole = new List<UserRoles>() ;
         }
         #endregion
 
@@ -57,7 +57,7 @@ namespace Domain.User.Entitys
         /// <summary>
         /// 用户角色映射
         /// </summary>
-        public List<UserRoles> UserRole { get; private set; }
+        //public List<UserRoles> UserRole { get; private set; }
         #endregion
 
         #region 行为与业务

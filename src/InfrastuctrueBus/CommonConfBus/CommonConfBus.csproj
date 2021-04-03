@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\infrastructrues\ConsulUnit\ConsulUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\Exceptionless\ExceptionlessUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\RedisUnit\RedisUnit.csproj" />

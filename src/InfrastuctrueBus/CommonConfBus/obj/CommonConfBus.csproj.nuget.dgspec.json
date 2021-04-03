@@ -514,6 +514,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

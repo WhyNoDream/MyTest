@@ -11,6 +11,7 @@ namespace Applicatiion.UserServiceContracts
     {
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
+         //   base.ConfigureServices(context);
 
             //...
         }

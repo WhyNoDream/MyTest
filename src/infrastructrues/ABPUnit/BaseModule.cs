@@ -11,18 +11,18 @@ namespace ABPUnit
         public override void PreConfigureServices(ServiceConfigurationContext context)
         {
             //...
-            base.PreConfigureServices(context);
+           // base.PreConfigureServices(context);
         }
         //服务配置
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            base.ConfigureServices(context);
+           // base.ConfigureServices(context);
 
         }
         //服务配置后
         public override void PostConfigureServices(ServiceConfigurationContext context)
         {
-            base.PostConfigureServices(context);
+           // base.PostConfigureServices(context);
         }
 
     }

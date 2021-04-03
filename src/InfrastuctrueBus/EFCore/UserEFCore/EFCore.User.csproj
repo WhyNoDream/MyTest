@@ -9,11 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="3.2.1" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" Version="3.3.2" />
   </ItemGroup>
 
 </Project>

@@ -55,7 +55,7 @@
             },
             "Volo.Abp.Ddd.Application.Contracts": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[3.3.2, )"
             }
           },
           "imports": [
@@ -123,7 +123,7 @@
             },
             "Volo.Abp.Ddd.Domain": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[3.3.2, )"
             }
           },
           "imports": [
@@ -183,23 +183,23 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[3.3.2, )"
+            },
             "Volo.Abp.Core": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[3.3.2, )"
             },
             "Volo.Abp.Ddd.Domain": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[3.3.2, )"
             }
           },
           "imports": [

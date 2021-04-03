@@ -6,12 +6,12 @@ using Volo.Abp.Modularity;
 
 namespace Domain.User
 {
-    public class UserDoaminModule : BaseModule
+    public class UserDoaminModule : AbpModule
     {
         //服务配置
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            base.ConfigureServices(context);
+            //base.ConfigureServices(context);
         }
     }
 
