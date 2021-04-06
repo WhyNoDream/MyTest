@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Applications\UserService\Applicatiion.UserService.csproj" />
     <ProjectReference Include="..\..\InfrastuctrueBus\CommonConfBus\CommonConfBus.csproj" />
+    <ProjectReference Include="..\..\InfrastuctrueBus\EFCore\UserEFCore\EFCore.User.csproj" />
   </ItemGroup>
 
 

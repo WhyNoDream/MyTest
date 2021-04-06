@@ -16,10 +16,8 @@ namespace EFCore.User
           : base(options)
         {
         }
-        public virtual DbSet<Domain.User.Entitys.User> UserDB { get; set; }
-        public virtual DbSet<Domain.User.Entitys.UserRoles> UserRolesDB { get; set; }
-        public virtual DbSet<Domain.User.Entitys.Department> DepartmentDB { get; set; }
-        public virtual DbSet<Domain.User.Entitys.Role> RoleDB { get; set; }
+        public virtual DbSet<Domain.User.Entitys.User> User { get; set; }
+        public virtual DbSet<Domain.User.Entitys.UserRoles> UserRoles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -28,31 +26,13 @@ namespace EFCore.User
             {
                 b.ToTable("t_user");
                 b.ConfigureByConvention();
-                b.Property(x => x.Id).IsRequired().HasMaxLength(20);
-               // b.HasMany(o => o.UserRole).WithOne().HasForeignKey(o => o.UserId);
             });
 
             builder.Entity<Domain.User.Entitys.UserRoles>(b =>
             {
                 b.ToTable("t_user_roles");
                 b.ConfigureByConvention();
-                b.Property(x => x.Id).IsRequired().HasMaxLength(20);
             });
-
-            //builder.Entity<User>().OwnsOne(p => p.UserRole
-            //  , of =>
-            //  {
-            //      of.Property(p => p.ProductId).HasColumnName("ProductId");
-            //      of.Property(p => p.SkuId).HasColumnName("SkuId");
-            //      of.OwnsOne(oo => oo.OriginalSize, ooItem =>
-            //      {
-            //          ooItem.Property(p => p.OriginalWeight).HasColumnName("OriginalWeight");
-            //          ooItem.Property(p => p.OriginalLength).HasColumnName("OriginalLength");
-            //          ooItem.Property(p => p.OriginalWidth).HasColumnName("OriginalWidth");
-            //          ooItem.Property(p => p.OriginalHeight).HasColumnName("OriginalHeight");
-            //      });
-            //  });
-
         }
 
     }

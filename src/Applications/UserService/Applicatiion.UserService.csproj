@@ -5,15 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\InfrastuctrueBus\EFCore\UserEFCore\EFCore.User.csproj" />
+    <ProjectReference Include="..\..\Domains\UserDomain\Domain.User.csproj" />
     <ProjectReference Include="..\IUserService\Applicatiion.UserServiceContracts.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Query\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="3.3.2" />
     <PackageReference Include="Volo.Abp.Ddd.Application" Version="3.3.2" />
   </ItemGroup>
 

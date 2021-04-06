@@ -6,15 +6,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using UserServiceContracts;
 using UserServiceContracts.Dto;
+using Volo.Abp.AspNetCore.Mvc;
 
 namespace UserService.Controllers
 {
-
-    public class LoginController : BaseController
+    [ApiController]
+    [Route("[controller]")]
+    public class LoginController : AbpController
     {
-        private readonly IUserLogin _iUserLogin;
+        private readonly IUserLoginCommand _iUserLogin;
 
-        public LoginController(IUserLogin userLogin)
+        public LoginController(IUserLoginCommand userLogin)
         {
             _iUserLogin = userLogin;
         }

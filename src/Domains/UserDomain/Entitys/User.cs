@@ -65,7 +65,7 @@ namespace Domain.User.Entitys
         public bool Login(string account,string password)
         {
             var pwdEncry = PasswordEncryHelper.PwdEncry(password, "password");
-            if (account == this.Account && password == this.Password)
+            if (account == this.Account && pwdEncry == this.Password)
             {
                 return true;
             }

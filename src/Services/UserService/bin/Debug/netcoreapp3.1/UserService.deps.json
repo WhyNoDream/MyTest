@@ -26,6 +26,7 @@
         "dependencies": {
           "Applicatiion.UserService": "1.0.0",
           "CommonConfBus": "1.0.0",
+          "EFCore.User": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -2572,7 +2573,8 @@
       "Applicatiion.UserService/1.0.0": {
         "dependencies": {
           "Applicatiion.UserServiceContracts": "1.0.0",
-          "EFCore.User": "1.0.0",
+          "Domain.User": "1.0.0",
+          "Volo.Abp.AutoMapper": "3.3.2",
           "Volo.Abp.Ddd.Application": "3.3.2"
         },
         "runtime": {
@@ -2584,7 +2586,6 @@
       },
       "Applicatiion.UserServiceContracts/1.0.0": {
         "dependencies": {
-          "Domain.User": "1.0.0",
           "Volo.Abp.Ddd.Application.Contracts": "3.3.2"
         },
         "runtime": {

@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -10,8 +9,8 @@ namespace CommonConfBus
     /// <summary>
     /// 
     /// </summary>
-    [Microsoft.AspNetCore.Mvc.Route("api/[controller]/[action]")]
     [ApiController]
+    [Route("api/[controller]/[action]")]
     public class BaseController : AbpController
     {
        

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Events\" />
+    <Folder Include="IRepositories\" />
     <Folder Include="Services\" />
     <Folder Include="ValueObjects\" />
   </ItemGroup>

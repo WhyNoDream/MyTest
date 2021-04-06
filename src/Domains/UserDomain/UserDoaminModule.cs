@@ -11,7 +11,7 @@ namespace Domain.User
         //服务配置
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-            //base.ConfigureServices(context);
+            base.ConfigureServices(context);
         }
     }
 

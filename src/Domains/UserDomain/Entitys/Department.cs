@@ -5,8 +5,8 @@ using Volo.Abp.Domain.Entities;
 
 namespace Domain.User.Entitys
 {
-    public class Department:Entity<long>
-    {
-        public string Name { get; private set; }
-    }
+    //public class Department:Entity<long>
+    //{
+    //    public string Name { get; private set; }
+    //}
 }

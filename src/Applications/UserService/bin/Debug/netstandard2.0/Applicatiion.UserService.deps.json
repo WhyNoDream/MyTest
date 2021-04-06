@@ -10,8 +10,9 @@
       "Applicatiion.UserService/1.0.0": {
         "dependencies": {
           "Applicatiion.UserServiceContracts": "1.0.0",
-          "EFCore.User": "1.0.0",
+          "Domain.User": "1.0.0",
           "NETStandard.Library": "2.0.3",
+          "Volo.Abp.AutoMapper": "3.3.2",
           "Volo.Abp.Ddd.Application": "3.3.2"
         },
         "runtime": {
@@ -103,84 +104,11 @@
           }
         }
       },
-      "Microsoft.Bcl.HashCode/1.1.0": {
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Bcl.HashCode.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.19.56404"
-          }
-        }
-      },
       "Microsoft.CSharp/4.7.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.CSharp.dll": {
             "assemblyVersion": "4.0.5.0",
             "fileVersion": "4.700.19.56404"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore/3.1.8": {
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
-          "Microsoft.Bcl.HashCode": "1.1.0",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.8",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.8",
-          "Microsoft.Extensions.Caching.Memory": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection": "3.1.8",
-          "Microsoft.Extensions.Logging": "3.1.8",
-          "System.Collections.Immutable": "1.7.1",
-          "System.ComponentModel.Annotations": "4.7.0",
-          "System.Diagnostics.DiagnosticSource": "4.7.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42012"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.8": {
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42012"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.8": {},
-      "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42012"
-          }
-        }
-      },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42004"
-          }
-        }
-      },
-      "Microsoft.Extensions.Caching.Memory/3.1.8": {
-        "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Options": "3.1.8"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
-            "assemblyVersion": "3.1.8.0",
-            "fileVersion": "3.100.820.42004"
           }
         }
       },
@@ -449,19 +377,6 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "MySqlConnector/0.61.0": {
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Memory": "4.5.4",
-          "System.Threading.Tasks.Extensions": "4.5.4"
-        },
-        "runtime": {
-          "lib/netstandard2.0/MySqlConnector.dll": {
-            "assemblyVersion": "0.61.0.0",
-            "fileVersion": "0.61.0.0"
-          }
-        }
-      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -526,31 +441,6 @@
           "lib/netstandard2.0/Nito.Disposables.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
-          }
-        }
-      },
-      "Pomelo.EntityFrameworkCore.MySql/3.1.1": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8",
-          "MySqlConnector": "0.61.0",
-          "Pomelo.JsonObject": "2.2.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "assemblyVersion": "3.1.1.0",
-            "fileVersion": "3.1.1.0"
-          }
-        }
-      },
-      "Pomelo.JsonObject/2.2.1": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Pomelo.JsonObject.dll": {
-            "assemblyVersion": "2.2.1.0",
-            "fileVersion": "2.2.1.0"
           }
         }
       },
@@ -755,17 +645,6 @@
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0",
           "System.Runtime": "4.3.0"
-        }
-      },
-      "System.Diagnostics.DiagnosticSource/4.7.1": {
-        "dependencies": {
-          "System.Memory": "4.5.4"
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
-            "assemblyVersion": "4.0.5.0",
-            "fileVersion": "4.700.20.21406"
-          }
         }
       },
       "System.Diagnostics.Tracing/4.3.0": {
@@ -1587,32 +1466,6 @@
           }
         }
       },
-      "Volo.Abp.EntityFrameworkCore/3.3.2": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.8",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.8",
-          "Volo.Abp.Ddd.Domain": "3.3.2",
-          "Volo.Abp.Json": "3.3.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.dll": {
-            "assemblyVersion": "3.3.2.0",
-            "fileVersion": "3.3.2.0"
-          }
-        }
-      },
-      "Volo.Abp.EntityFrameworkCore.MySQL/3.3.2": {
-        "dependencies": {
-          "Pomelo.EntityFrameworkCore.MySql": "3.1.1",
-          "Volo.Abp.EntityFrameworkCore": "3.3.2"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Volo.Abp.EntityFrameworkCore.MySQL.dll": {
-            "assemblyVersion": "3.3.2.0",
-            "fileVersion": "3.3.2.0"
-          }
-        }
-      },
       "Volo.Abp.EventBus/3.3.2": {
         "dependencies": {
           "Volo.Abp.Core": "3.3.2",
@@ -1854,7 +1707,6 @@
       },
       "Applicatiion.UserServiceContracts/1.0.0": {
         "dependencies": {
-          "Domain.User": "1.0.0",
           "Volo.Abp.Ddd.Application.Contracts": "3.3.2"
         },
         "runtime": {
@@ -1878,15 +1730,6 @@
         },
         "runtime": {
           "Domain.User.dll": {}
-        }
-      },
-      "EFCore.User/1.0.0": {
-        "dependencies": {
-          "Domain.User": "1.0.0",
-          "Volo.Abp.EntityFrameworkCore.MySQL": "3.3.2"
-        },
-        "runtime": {
-          "EFCore.User.dll": {}
         }
       }
     }
@@ -1946,61 +1789,12 @@
       "path": "microsoft.bcl.asyncinterfaces/1.1.1",
       "hashPath": "microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512"
     },
-    "Microsoft.Bcl.HashCode/1.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-J2G1k+u5unBV+aYcwxo94ip16Rkp65pgWFb0R6zwJipzWNMgvqlWeuI7/+R+e8bob66LnSG+llLJ+z8wI94cHg==",
-      "path": "microsoft.bcl.hashcode/1.1.0",
-      "hashPath": "microsoft.bcl.hashcode.1.1.0.nupkg.sha512"
-    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bI+yxA329qf+8efR6A35/3L2NLekcsWJOfXakA37ILUiWcX1qp/XsXmEi6SYMpMikioy0a5p0IU8gHoqSvtLaA==",
-      "path": "microsoft.entityframeworkcore/3.1.8",
-      "hashPath": "microsoft.entityframeworkcore.3.1.8.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Abstractions/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bJ6Crbz3FP2Cze1DXg+FiE5l0AFK8y6j32LP+6tMFrpdJc0XB8XBGXEX6w9baulxXC8U3OYUq1yxFVwgNdVyJw==",
-      "path": "microsoft.entityframeworkcore.abstractions/3.1.8",
-      "hashPath": "microsoft.entityframeworkcore.abstractions.3.1.8.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Analyzers/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Cm1+PV53O/xN4P8fMkSZq9aqyXRjEZ5kmuWs7W4yE4V4GLgrqTCRmtooM5tUPM3R7VI47hAa8Aab+UuSRvpU+w==",
-      "path": "microsoft.entityframeworkcore.analyzers/3.1.8",
-      "hashPath": "microsoft.entityframeworkcore.analyzers.3.1.8.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Relational/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-n8c2Nyfyl0AKXdM++tiKZmX/jeiu1Uv+uxZAHGgKuiQJbpOCPAhjRB4tHLdo1jOvfkhJT9K6wekf9VaXjtL1tw==",
-      "path": "microsoft.entityframeworkcore.relational/3.1.8",
-      "hashPath": "microsoft.entityframeworkcore.relational.3.1.8.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-iBIdKjKa2nR4LdknV2JMSRpJVM5TOca25EckPm6SZQT6HfH8RoHrn9m14GUAkvzE+uOziXRoAwr8YIC6ZOpyXg==",
-      "path": "microsoft.extensions.caching.abstractions/3.1.8",
-      "hashPath": "microsoft.extensions.caching.abstractions.3.1.8.nupkg.sha512"
-    },
-    "Microsoft.Extensions.Caching.Memory/3.1.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-u04q7+tgc8l6pQ5HOcr6scgapkQQHnrhpGoCaaAZd24R36/NxGsGxuhSmhHOrQx9CsBLe2CVBN/4CkLlxtnnXw==",
-      "path": "microsoft.extensions.caching.memory/3.1.8",
-      "hashPath": "microsoft.extensions.caching.memory.3.1.8.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/3.1.8": {
       "type": "package",
@@ -2177,13 +1971,6 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "MySqlConnector/0.61.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-E01yibVzCkVOmhNsUb+B4amjQKfKFlGiR1huNd6Q8aTCqBrACo0I3JMKvJBMpZfYhAsR8bqB9496PwcGpr+LuQ==",
-      "path": "mysqlconnector/0.61.0",
-      "hashPath": "mysqlconnector.0.61.0.nupkg.sha512"
-    },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
@@ -2232,20 +2019,6 @@
       "sha512": "sha512-ExJl/jTjegSLHGcwnmaYaI5xIlrefAsVdeLft7VLtXI2+W5irihiu36LizWvlaUpzY1/llo+YSh09uSHMu2VFw==",
       "path": "nito.disposables/2.0.0",
       "hashPath": "nito.disposables.2.0.0.nupkg.sha512"
-    },
-    "Pomelo.EntityFrameworkCore.MySql/3.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DYMsaJe/lKoaPGjB0ACnP+h5FeaJC+07f83FewBulkqfkUvc7m97PECX0OUHSTT+qEF0EOmJ7HQR0dltSCDyPQ==",
-      "path": "pomelo.entityframeworkcore.mysql/3.1.1",
-      "hashPath": "pomelo.entityframeworkcore.mysql.3.1.1.nupkg.sha512"
-    },
-    "Pomelo.JsonObject/2.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VHPk3Yf7nDt+tZMC1M4oAoc3bgTYsOrap3VTjn//vd91b/nfquAbAeq1k0Lf7mPt8J7imLd9Pbzm50uB5euuZA==",
-      "path": "pomelo.jsonobject/2.2.1",
-      "hashPath": "pomelo.jsonobject.2.2.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {
       "type": "package",
@@ -2435,13 +2208,6 @@
       "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
       "path": "system.diagnostics.debug/4.3.0",
       "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
-    },
-    "System.Diagnostics.DiagnosticSource/4.7.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
-      "path": "system.diagnostics.diagnosticsource/4.7.1",
-      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
     },
     "System.Diagnostics.Tracing/4.3.0": {
       "type": "package",
@@ -2877,20 +2643,6 @@
       "path": "volo.abp.ddd.domain/3.3.2",
       "hashPath": "volo.abp.ddd.domain.3.3.2.nupkg.sha512"
     },
-    "Volo.Abp.EntityFrameworkCore/3.3.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+qfzwsbcZ9dJ42kgLjukmrC3m1yMAdbXWVHSnPzjlpJEil4a8s5xzaiuiD5keX+UD6Dlw1buezZms7wLpd4U2g==",
-      "path": "volo.abp.entityframeworkcore/3.3.2",
-      "hashPath": "volo.abp.entityframeworkcore.3.3.2.nupkg.sha512"
-    },
-    "Volo.Abp.EntityFrameworkCore.MySQL/3.3.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-0VigjT5HIn9iqFY4NuiwmEiSuAYg/SZAbNUW9hBPMNeM664E4gebM9i7JT3YBZUmndjko2+r4uiRlA/YP39MPw==",
-      "path": "volo.abp.entityframeworkcore.mysql/3.3.2",
-      "hashPath": "volo.abp.entityframeworkcore.mysql.3.3.2.nupkg.sha512"
-    },
     "Volo.Abp.EventBus/3.3.2": {
       "type": "package",
       "serviceable": true,
@@ -3040,11 +2792,6 @@
       "sha512": ""
     },
     "Domain.User/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "EFCore.User/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

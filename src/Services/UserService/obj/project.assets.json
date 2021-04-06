@@ -2662,7 +2662,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Applicatiion.UserServiceContracts": "1.0.0",
-          "EFCore.User": "1.0.0",
+          "Domain.User": "1.0.0",
+          "Volo.Abp.AutoMapper": "3.3.2",
           "Volo.Abp.Ddd.Application": "3.3.2"
         },
         "compile": {
@@ -2676,7 +2677,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Domain.User": "1.0.0",
           "Volo.Abp.Ddd.Application.Contracts": "3.3.2"
         },
         "compile": {
@@ -7932,7 +7932,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Applicatiion.UserService >= 1.0.0",
-      "CommonConfBus >= 1.0.0"
+      "CommonConfBus >= 1.0.0",
+      "EFCore.User >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7971,6 +7972,9 @@
             },
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\CommonConfBus\\CommonConfBus.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\CommonConfBus\\CommonConfBus.csproj"
+            },
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\EFCore\\UserEFCore\\EFCore.User.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\EFCore\\UserEFCore\\EFCore.User.csproj"
             }
           }
         }

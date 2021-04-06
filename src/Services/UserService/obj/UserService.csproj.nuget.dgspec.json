@@ -30,11 +30,7 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {
-              "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj": {
-                "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -102,8 +98,8 @@
               "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Applications\\IUserService\\Applicatiion.UserServiceContracts.csproj": {
                 "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Applications\\IUserService\\Applicatiion.UserServiceContracts.csproj"
               },
-              "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\EFCore\\UserEFCore\\EFCore.User.csproj": {
-                "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\EFCore\\UserEFCore\\EFCore.User.csproj"
+              "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj": {
+                "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj"
               }
             }
           }
@@ -123,6 +119,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[3.3.2, )"
             },
             "Volo.Abp.Ddd.Application": {
               "target": "Package",
@@ -925,6 +925,9 @@
               },
               "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\CommonConfBus\\CommonConfBus.csproj": {
                 "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\CommonConfBus\\CommonConfBus.csproj"
+              },
+              "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\EFCore\\UserEFCore\\EFCore.User.csproj": {
+                "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\EFCore\\UserEFCore\\EFCore.User.csproj"
               }
             }
           }
