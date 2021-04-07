@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using Volo.Abp.Domain.Entities;
 
@@ -11,20 +12,39 @@ namespace ABPUnit
         {
 
         }
-        public List<BaseEventHandler> EventHandlers { get; private set; }
+        [NotMapped]
+        private  List<BaseEventHandler<T>> EventHandlers { get;  set; }
 
-        public  void AddEvent(BaseEventHandler eventHandler)
+        /// <summary>
+        /// 添加领域事件
+        /// </summary>
+        /// <param name="content"></param>
+        /// <param name="data"></param>
+        public virtual void AddEvent(string content, object data)
         {
+            BaseEventHandler<T> eventHandler = new BaseEventHandler<T>(this.Id, content, data);
             EventHandlers.Add(eventHandler);
         }
 
-        public void RemoveEvent(BaseEventHandler eventHandler)
+        /// <summary>
+        /// 获取领域事件
+        /// </summary>
+        public virtual List<BaseEventHandler<T>> GetEvents()
         {
-            EventHandlers.Remove(eventHandler);
+            return EventHandlers;
         }
-        public void ClearEvent(BaseEventHandler eventHandler)
+        /// <summary>
+        /// 清空领域事件
+        /// </summary>
+        public virtual void ClearEvent()
         {
             EventHandlers.Clear();
         }
+
+        ////移除事件：暂时无效
+        //public virtual void RemoveEvent(BaseEventHandler eventHandler)
+        //{
+        //    EventHandlers.Remove(eventHandler);
+        //}
     }
 }

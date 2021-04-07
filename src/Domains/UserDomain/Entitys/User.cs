@@ -29,11 +29,6 @@ namespace Domain.User.Entitys
         }
         #endregion
 
-        #region 领域事件
-
-
-        #endregion
-
         #region 基础属性
         /// <summary>
         /// 账号
@@ -57,7 +52,7 @@ namespace Domain.User.Entitys
         /// <summary>
         /// 用户角色映射
         /// </summary>
-        //public List<UserRoles> UserRole { get; private set; }
+        public List<UserRoles> UserRole { get; private set; }
         #endregion
 
         #region 行为与业务
@@ -71,7 +66,14 @@ namespace Domain.User.Entitys
             }
             return false;
         }
-        
+
+
+        #endregion
+
+
+
+        #region 领域事件
+
 
         #endregion
 

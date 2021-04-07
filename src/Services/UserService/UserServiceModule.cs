@@ -68,7 +68,13 @@ namespace UserService
 
             app.UseStaticFiles();
             app.UseRouting();
-            app.UseConfiguredEndpoints();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+
+            //app.UseConfiguredEndpoints();
 
         }
     }
