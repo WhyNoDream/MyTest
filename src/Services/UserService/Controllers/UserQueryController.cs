@@ -14,23 +14,23 @@ namespace UserService.Controllers
     [Route("[controller]")]
     public class UserQueryController : AbpController
     {
-        private readonly IUserInfoQuery _userInfoQuery;
+        private readonly IUserQuery _UserQuery;
 
-        public UserQueryController(IUserInfoQuery  userInfoQuery)
+        public UserQueryController(IUserQuery  UserQuery)
         {
-            _userInfoQuery = userInfoQuery;
+            _UserQuery = UserQuery;
         }
 
         [HttpGet]
-        public async Task<List<GetUserInfoDto>> GetUserInfos(int pageIndex, int pageSize)
+        public async Task<List<GetUserDto>> GetUsers(int pageIndex, int pageSize)
         {
-            return await _userInfoQuery.GetUserInfos(pageIndex,pageSize);
+            return await _UserQuery.GetUsers(pageIndex,pageSize);
         }
 
-        [HttpGet("GetUserInfo")]
-        public async Task<GetUserInfoDto> GetUserInfo(long id)
+        [HttpGet("GetUser")]
+        public async Task<GetUserDto> GetUser(long id)
         {
-            return await _userInfoQuery.GetUserInfo(id);
+            return await _UserQuery.GetUser(id);
         }
     }
 }

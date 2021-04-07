@@ -14,9 +14,9 @@ namespace Domain.User.Entitys
         {
 
         }
-        public UserRoles(long userId,long roleId)
+        public UserRoles(long userForId, long roleId)
         {
-            this.UserId = userId;
+            this.UserId = userForId;
             this.RoleId = roleId;
         }
         public long UserId { get; private set; }

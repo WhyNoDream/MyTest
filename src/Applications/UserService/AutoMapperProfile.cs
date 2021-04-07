@@ -13,8 +13,8 @@ namespace Applicatiion.UserService
         public AutoMapperProfile()
         {
             CreateMap<User, LoginDto>().ReverseMap();
-            CreateMap<User, GetUserInfoDto>().ReverseMap();
-            CreateMap<List<User>, List<GetUserInfoDto>>().ReverseMap();
+            CreateMap<User, GetUserDto>().ReverseMap();
+            CreateMap<List<User>, List<GetUserDto>>().ReverseMap();
             //CreateMap<LoginDto,User>().ForMember(o=>o.ConcurrencyStamp,option=>option.Ignore())
             //    .ForMember(o => o.ExtraProperties, option => option.Ignore());
         }

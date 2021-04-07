@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Applicatiion.UserServiceContracts.Query.Dto
 {
-    public class GetUserInfoDto
+    public class GetUserDto
     {
         public long Id { get; set; }
         /// <summary>

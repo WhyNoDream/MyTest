@@ -39,14 +39,14 @@ namespace Applicatiion.UserService
         {
             try
             {
-                var userInfo = _userRepository.FirstOrDefault(o => o.Account == account);
-                if (userInfo == null)
+                var User = _userRepository.FirstOrDefault(o => o.Account == account);
+                if (User == null)
                 {
                     throw new Exception("用户不存在");
                 }
-                if (userInfo.Login(account, password))
+                if (User.Login(account, password))
                 {
-                    return _mapper.Map<User, LoginDto>(userInfo);
+                    return _mapper.Map<User, LoginDto>(User);
                 }
             }
             catch (Exception ex)

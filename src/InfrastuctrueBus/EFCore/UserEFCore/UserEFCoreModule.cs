@@ -22,7 +22,6 @@ namespace EFCore.User
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             base.ConfigureServices(context);
-            // context.Services.AddAbpDbContext<UserDbContext>();
             context.Services.AddAbpDbContext<UserDbContext>(options =>
             {
                 options.AddDefaultRepositories(includeAllEntities: true);

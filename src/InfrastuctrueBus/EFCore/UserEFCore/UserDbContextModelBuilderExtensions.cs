@@ -19,7 +19,7 @@ namespace EFCore.User
             {
                 b.ToTable("t_user");
                 b.ConfigureByConvention();
-                b.HasMany<UserRoles>().WithOne().HasForeignKey(o => o.UserId);
+                b.HasMany<UserRoles>().WithOne().HasForeignKey(o=>o.Id);
             });
 
             builder.Entity<Domain.User.Entitys.UserRoles>(b =>

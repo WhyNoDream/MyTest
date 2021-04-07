@@ -7,9 +7,9 @@ using Volo.Abp.Application.Services;
 
 namespace UserServiceContracts
 {
-    public interface IUserInfoQuery: IApplicationService
+    public interface IUserQuery: IApplicationService
     {
-        Task<List<GetUserInfoDto>> GetUserInfos(int pageIndex, int pageSize);
-        Task<GetUserInfoDto> GetUserInfo(long id);
+        Task<List<GetUserDto>> GetUsers(int pageIndex, int pageSize);
+        Task<GetUserDto> GetUser(long id);
     }
 }

@@ -10,7 +10,7 @@ namespace Domain.User.Entitys
     /// <summary>
     /// 用户聚合根
     /// </summary>
-    public class User: BaseAggregateRoot<long>
+    public class User : BaseAggregateRoot<long>
     {
         #region 构造函数
         private User()

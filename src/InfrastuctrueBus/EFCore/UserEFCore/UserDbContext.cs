@@ -25,19 +25,7 @@ namespace EFCore.User
 
             //配置映射
             builder.ConfigureUserDB();
-
-            //builder.Entity<Domain.User.Entitys.User>(b =>
-            //{
-            //    b.ToTable("t_user");
-            //    b.ConfigureByConvention();
-            //    b.HasMany<UserRoles>().WithOne().HasForeignKey(o => o.UserId);
-            //});
-
-            //builder.Entity<Domain.User.Entitys.UserRoles>(b =>
-            //{
-            //    b.ToTable("t_user_roles");
-            //    b.ConfigureByConvention();
-            //});
+            
         }
 
     }
