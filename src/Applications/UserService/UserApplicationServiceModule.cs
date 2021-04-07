@@ -1,6 +1,7 @@
 ﻿using ABPUnit;
 using Applicatiion.UserServiceContracts;
 using Domain.User;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -16,10 +17,12 @@ namespace Applicatiion.UserService
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             base.ConfigureServices(context);
+
+            context.Services.AddAutoMapperObjectMapper< UserApplicationServiceModule>();
             Configure<AbpAutoMapperOptions>(options =>
             {
+                //options.AddProfile<AutoMapperProfile>(validate: true);
                 options.AddMaps<UserApplicationServiceModule>(validate: true);
-                options.AddProfile<AutoMapperProfile>(validate: true);
             });
         }
     }

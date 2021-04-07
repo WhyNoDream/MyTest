@@ -435,3 +435,9 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Volo.Abp.EntityFrameworkCore.MySQL.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Autofac.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Castle.Core.AsyncInterceptor.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Volo.Abp.Autofac.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Volo.Abp.Castle.Core.dll

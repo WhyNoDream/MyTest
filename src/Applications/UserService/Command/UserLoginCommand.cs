@@ -11,6 +11,7 @@ using Volo.Abp.Domain.Repositories;
 using Volo.Abp.Uow;
 using System.Linq;
 using Applicatiion.UserServiceContracts.Query.Dto;
+using Volo.Abp.ObjectMapping;
 
 namespace Applicatiion.UserService
 {
@@ -19,11 +20,12 @@ namespace Applicatiion.UserService
 
         //private readonly IUserRolesRepository _userRepository;
         private readonly IRepository<User, long> _userRepository; 
-        
+        private readonly IObjectMapper<UserApplicationServiceModule> _mapper;
 
-        public UserLoginCommand(IRepository<User, long> userRepository)
+
+        public UserLoginCommand(IRepository<User, long> userRepository, IObjectMapper<UserApplicationServiceModule> mapper)
         {
-            //_mapper = mapper;
+            _mapper = mapper;
             _userRepository = userRepository;
         }
 
@@ -35,18 +37,24 @@ namespace Applicatiion.UserService
         /// <returns></returns>
         public async Task<LoginDto> Login(string account, string password)
         {
+            try
+            {
+                var userInfo = _userRepository.FirstOrDefault(o => o.Account == account);
+                if (userInfo == null)
+                {
+                    throw new Exception("用户不存在");
+                }
+                if (userInfo.Login(account, password))
+                {
+                    return _mapper.Map<User, LoginDto>(userInfo);
+                }
+            }
+            catch (Exception ex)
+            {
 
-            GetUserInfoDto getUserInfoDto = new GetUserInfoDto() { Account = "11", Email="11", Id=1, Name="1", Phone="1" };
-            ObjectMapper.Map<GetUserInfoDto, LoginDto>(getUserInfoDto);
-            var userInfo =  _userRepository.FirstOrDefault(o => o.Account == account);
-            if (userInfo == null)
-            {
-                throw new Exception("用户不存在");
+                throw new Exception(ex.Message);
             }
-            if (userInfo.Login(account, password))
-            {
-                return ObjectMapper.Map<User, LoginDto>(userInfo);
-            }
+
             throw new Exception("用户名密码不正确");
         }
     }

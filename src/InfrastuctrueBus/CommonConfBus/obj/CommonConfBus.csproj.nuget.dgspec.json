@@ -518,6 +518,10 @@
             "Volo.Abp.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[3.3.2, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[3.3.2, )"
             }
           },
           "imports": [

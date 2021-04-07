@@ -18,7 +18,6 @@ using Volo.Abp.Modularity;
 
 namespace UserService
 {
-    //typeof(UserDoaminModule), typeof(UserEFCoreModule), typeof(UserServiceContractsModule), 
     [DependsOn(typeof(AbpAspNetCoreMvcModule),typeof(UserApplicationServiceModule), typeof(UserEFCoreModule)
     )]
     public class UserServiceModule : AbpModule 
