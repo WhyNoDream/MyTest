@@ -1,8 +1,11 @@
 ﻿using ABPUnit;
 using CommonUnit.Encryption;
+using CommonUnit.StringUnit;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 using Volo.Abp.Domain.Entities;
 
 namespace Domain.User.Entitys
@@ -57,6 +60,12 @@ namespace Domain.User.Entitys
 
         #region 行为与业务
 
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="account"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         public bool Login(string account,string password)
         {
             var pwdEncry = PasswordEncryHelper.PwdEncry(password, "password");
@@ -67,7 +76,23 @@ namespace Domain.User.Entitys
             return false;
         }
 
+        /// <summary>
+        /// 注册
+        /// </summary>
+        /// <returns></returns>
+        public bool Registered()
+        {
+            //业务
+            if(CheckHelper.CheckPhone(this.Phone))
+            {
+                throw new Exception("手机号格式不正确");
+            }
 
+
+            //添加注册完成领域事件
+            AddEventHandler(JsonConvert.SerializeObject(this), this);
+            return true;
+        }
         #endregion
 
 

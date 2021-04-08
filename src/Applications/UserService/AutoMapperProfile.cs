@@ -1,4 +1,5 @@
-﻿using Applicatiion.UserServiceContracts.Query.Dto;
+﻿using Applicatiion.UserServiceContracts.Command.Dto;
+using Applicatiion.UserServiceContracts.Query.Dto;
 using AutoMapper;
 using Domain.User.Entitys;
 using System;
@@ -15,8 +16,7 @@ namespace Applicatiion.UserService
             CreateMap<User, LoginDto>().ReverseMap();
             CreateMap<User, GetUserDto>().ReverseMap();
             CreateMap<List<User>, List<GetUserDto>>().ReverseMap();
-            //CreateMap<LoginDto,User>().ForMember(o=>o.ConcurrencyStamp,option=>option.Ignore())
-            //    .ForMember(o => o.ExtraProperties, option => option.Ignore());
+            CreateMap<User, RegisteredDto>().ReverseMap();
         }
     }
 }

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Applicatiion.UserServiceContracts</name>
+    </assembly>
+    <members>
+        <member name="P:UserServiceContracts.Dto.LoginDto.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:UserServiceContracts.Dto.LoginDto.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Applicatiion.UserServiceContracts.Command.Dto.RegisteredDto.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Applicatiion.UserServiceContracts.Command.Dto.RegisteredDto.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Applicatiion.UserServiceContracts.Command.Dto.RegisteredDto.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Applicatiion.UserServiceContracts.Query.Dto.GetUserDto.Account">
+            <summary>
+            账号
+            </summary>
+        </member>
+        <member name="P:Applicatiion.UserServiceContracts.Query.Dto.GetUserDto.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+    </members>
+</doc>

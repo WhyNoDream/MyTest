@@ -20,7 +20,7 @@ namespace ABPUnit
         /// </summary>
         /// <param name="content"></param>
         /// <param name="data"></param>
-        public virtual void AddEvent(string content, object data)
+        public virtual void AddEventHandler(string content, object data)
         {
             BaseEventHandler<T> eventHandler = new BaseEventHandler<T>(this.Id, content, data);
             EventHandlers.Add(eventHandler);
@@ -29,14 +29,14 @@ namespace ABPUnit
         /// <summary>
         /// 获取领域事件
         /// </summary>
-        public virtual List<BaseEventHandler<T>> GetEvents()
+        public virtual List<BaseEventHandler<T>> GetEventsHandler()
         {
             return EventHandlers;
         }
         /// <summary>
         /// 清空领域事件
         /// </summary>
-        public virtual void ClearEvent()
+        public virtual void ClearEventHandler()
         {
             EventHandlers.Clear();
         }

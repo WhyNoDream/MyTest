@@ -1,4 +1,6 @@
-﻿using CommonConfBus;
+﻿using Applicatiion.UserServiceContracts.Command;
+using Applicatiion.UserServiceContracts.Command.Dto;
+using CommonConfBus;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -15,16 +17,31 @@ namespace UserService.Controllers
     public class LoginController : AbpController
     {
         private readonly IUserLoginCommand _iUserLogin;
-
-        public LoginController(IUserLoginCommand userLogin)
+        private readonly IRegisteredCommand  _registered;
+        
+        public LoginController(IUserLoginCommand userLogin, IRegisteredCommand registered)
         {
             _iUserLogin = userLogin;
+            _registered = registered;
         }
 
         [HttpGet]
         public async Task<LoginDto> Login(string account, string password)
         {
             return await _iUserLogin.Login(account, password);
+        }
+
+
+        /// <summary>
+        /// 注册
+        /// 
+        /// </summary>
+        /// <param name="registeredDto"></param>
+        /// <returns></returns>
+        [HttpPost("Registered")]
+        public async Task<bool> Registered(RegisteredDto registeredDto)
+        {
+            return await _registered.Registered(registeredDto);
         }
     }
 }

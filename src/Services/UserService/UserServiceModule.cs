@@ -22,13 +22,17 @@ namespace UserService
     )]
     public class UserServiceModule : AbpModule 
     {
-        //服务配置
+        /// <summary>
+        /// 服务配置
+        /// </summary>
+        /// <param name="context"></param>
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
-             base.ConfigureServices(context);
+            base.ConfigureServices(context);
             var configuration = context.Services.GetConfiguration();
             var hostingEnvironment = context.Services.GetHostingEnvironment();
 
+            //配置自动映射
             Configure<AbpAutoMapperOptions>(options =>
             {
                 options.AddMaps<UserServiceModule>();
@@ -44,24 +48,19 @@ namespace UserService
                 options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             });
 
-            //服务初始化
+            //服务初始化注入
             context.Services.WebServiceExtensions(configuration);
 
         }
 
+        /// <summary>
+        /// 初始化
+        /// </summary>
+        /// <param name="context"></param>
         public override void OnApplicationInitialization(ApplicationInitializationContext context)
         {
             var app = context.GetApplicationBuilder();
             var env = context.GetEnvironment();
-
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Error");
-            }
 
             //配置初始化
             app.WebConfigExtensions();
@@ -73,9 +72,6 @@ namespace UserService
             {
                 endpoints.MapControllers();
             });
-
-            //app.UseConfiguredEndpoints();
-
         }
     }
 }

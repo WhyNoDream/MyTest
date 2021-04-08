@@ -20,7 +20,7 @@ namespace SwaggerUnits.Entity
                         Description = ConfigManagerConf.GetValue("Swagger:Description")
                     }
              };
-             options.Files = ConfigManagerConf.GetReferenceValue("Swagger:Files");
+             options.Files = ConfigManagerConf.GetValue("Swagger:Files")?.Split(',');
          };
     }
 }

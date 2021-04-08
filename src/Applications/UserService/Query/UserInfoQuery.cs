@@ -38,7 +38,6 @@ namespace Applicatiion.UserService.Query
             try
             {
                 var user = _UserRepository.WithDetails(o=>o.UserRole).FirstOrDefault(o => o.Id == 1);
-                //var User =  _userRepository.WithDetails(o=>o.UserRole).FirstOrDefault(o => o.Id == 1);
                 return _mapper.Map<User, GetUserDto>(user);
             }
             catch (Exception ex)

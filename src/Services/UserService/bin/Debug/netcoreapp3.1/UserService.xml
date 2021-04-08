@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserService</name>
+    </assembly>
+    <members>
+        <member name="M:UserService.Controllers.LoginController.Registered(Applicatiion.UserServiceContracts.Command.Dto.RegisteredDto)">
+            <summary>
+            注册
+            
+            </summary>
+            <param name="registeredDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

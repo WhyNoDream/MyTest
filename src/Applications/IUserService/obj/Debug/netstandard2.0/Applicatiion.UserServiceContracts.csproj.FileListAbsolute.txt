@@ -7,3 +7,4 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\IUserService\bin\Debu
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\IUserService\bin\Debug\netstandard2.0\Applicatiion.UserServiceContracts.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\IUserService\obj\Debug\netstandard2.0\Applicatiion.UserServiceContracts.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\IUserService\obj\Debug\netstandard2.0\Applicatiion.UserServiceContracts.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\IUserService\bin\Debug\netstandard2.0\Applicatiion.UserServiceContracts.xml

@@ -1,5 +1,4 @@
-﻿//using AutoMapper;
-using UserServiceContracts;
+﻿using UserServiceContracts;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -39,14 +38,14 @@ namespace Applicatiion.UserService
         {
             try
             {
-                var User = _userRepository.FirstOrDefault(o => o.Account == account);
-                if (User == null)
+                var user = _userRepository.FirstOrDefault(o => o.Account == account);
+                if (user == null)
                 {
                     throw new Exception("用户不存在");
                 }
-                if (User.Login(account, password))
+                if (user.Login(account, password))
                 {
-                    return _mapper.Map<User, LoginDto>(User);
+                    return _mapper.Map<User, LoginDto>(user);
                 }
             }
             catch (Exception ex)

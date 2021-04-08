@@ -441,3 +441,6 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Castle.Core.AsyncInterceptor.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Volo.Abp.Autofac.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Volo.Abp.Castle.Core.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\UserService.xml
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Applicatiion.UserService.xml
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Applicatiion.UserServiceContracts.xml

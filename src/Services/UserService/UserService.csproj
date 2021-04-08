@@ -4,11 +4,20 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\UserService.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp3.1\UserService.xml</DocumentationFile>
+  </PropertyGroup>
+  
   <ItemGroup>
     <ProjectReference Include="..\..\Applications\UserService\Applicatiion.UserService.csproj" />
     <ProjectReference Include="..\..\InfrastuctrueBus\CommonConfBus\CommonConfBus.csproj" />
     <ProjectReference Include="..\..\InfrastuctrueBus\EFCore\UserEFCore\EFCore.User.csproj" />
   </ItemGroup>
+  
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 
 </Project>

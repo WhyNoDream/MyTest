@@ -9,6 +9,14 @@
     <ProjectReference Include="..\IUserService\Applicatiion.UserServiceContracts.csproj" />
   </ItemGroup>
 
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp3.1\Applicatiion.UserService.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp3.1\Applicatiion.UserService.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Volo.Abp.AutoMapper" Version="3.3.2" />
     <PackageReference Include="Volo.Abp.Ddd.Application" Version="3.3.2" />
