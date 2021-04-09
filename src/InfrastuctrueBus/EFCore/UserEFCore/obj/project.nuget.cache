@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZnGawwAA7VGGbJdFi3J+8tTb7pvSspi2TrUyYHN8rq//s2XkyJqDnlGOkCF20mnUw0bN/K90+HCyCG9pakA+jw==",
+  "dgSpecHash": "7u0rIhyL75CHEnS/nV+FLMadmtkgbkvWT09uGC56l7oEelxcdmy8l1uCRfchVlIVxL/Gcj7LLRYxswGHdup6rQ==",
   "success": true,
   "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\EFCore\\UserEFCore\\EFCore.User.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus\\4.5.3.2\\epplus.4.5.3.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\epplus.core.extensions\\2.4.0\\epplus.core.extensions.2.4.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

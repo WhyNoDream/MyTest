@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediatR;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
@@ -12,8 +13,11 @@ namespace ABPUnit
         {
 
         }
+
+        #region 不经过MediatR领域事件
+
         [NotMapped]
-        private  List<BaseEventHandler<T>> EventHandlers { get;  set; }
+        private List<BaseEventHandler<T>> EventHandlers { get; set; }
 
         /// <summary>
         /// 添加领域事件
@@ -40,11 +44,39 @@ namespace ABPUnit
         {
             EventHandlers.Clear();
         }
+        #endregion
 
-        ////移除事件：暂时无效
-        //public virtual void RemoveEvent(BaseEventHandler eventHandler)
-        //{
-        //    EventHandlers.Remove(eventHandler);
-        //}
+
+        #region 经过MediatR领域事件
+
+
+        [NotMapped]
+        private List<INotification> NotificationEventHandlers { get; set; }
+
+        /// <summary>
+        /// 添加领域事件
+        /// </summary>
+        /// <param name="content"></param>
+        /// <param name="data"></param>
+        public virtual void AddNotificationEventHandler(INotification notification)
+        {
+            NotificationEventHandlers.Add(notification);
+        }
+        /// <summary>
+        /// 获取领域事件
+        /// </summary>
+        public virtual List<INotification> GetNotificationEventsHandler()
+        {
+            return NotificationEventHandlers;
+        }
+        /// <summary>
+        /// 清空领域事件
+        /// </summary>
+        public virtual void ClearNotificationEventHandler()
+        {
+            NotificationEventHandlers.Clear();
+        }
+        #endregion
+
     }
 }

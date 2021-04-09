@@ -1,4 +1,5 @@
-﻿using Domain.User;
+﻿using ABPEFCoreMySqlUnit;
+using Domain.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -12,7 +13,7 @@ using Volo.Abp.Uow;
 
 namespace EFCore.User
 {
-    [DependsOn(typeof(AbpEntityFrameworkCoreMySQLModule), typeof(UserDoaminModule))]//, typeof(UserDoaminModule)
+    [DependsOn(typeof(AbpEntityFrameworkCoreMySQLModule), typeof(UserDoaminModule), typeof(ABPEFCoreMySqlUnitModule))]//
     public class UserEFCoreModule : AbpModule
     {
         public override void PreConfigureServices(ServiceConfigurationContext context)

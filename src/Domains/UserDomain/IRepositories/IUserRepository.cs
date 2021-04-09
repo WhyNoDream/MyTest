@@ -10,6 +10,5 @@ namespace Domain.User.IRepositories
 
     public interface IUserRepository : IRepository<Domain.User.Entitys.User, long>
     {
-
     }
 }

@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Domains\UserDomain\Domain.User.csproj" />
+    <ProjectReference Include="..\..\..\infrastructrues\ABPEFCoreMySqlUnit\ABPEFCoreMySqlUnit.csproj" />
   </ItemGroup>
 
 </Project>

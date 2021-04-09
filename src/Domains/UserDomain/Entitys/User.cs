@@ -1,6 +1,7 @@
 ﻿using ABPUnit;
 using CommonUnit.Encryption;
 using CommonUnit.StringUnit;
+using Domain.User.Events;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -80,18 +81,16 @@ namespace Domain.User.Entitys
         /// 注册
         /// </summary>
         /// <returns></returns>
-        public bool Registered()
+        public void Registered()
         {
             //业务
             if(CheckHelper.CheckPhone(this.Phone))
             {
                 throw new Exception("手机号格式不正确");
             }
-
-
+            RegisteredEvent registeredEvent = new RegisteredEvent(this.Id,this.Account,this.Password,this.Name,this.Phone,this.Email);
             //添加注册完成领域事件
-            AddEventHandler(JsonConvert.SerializeObject(this), this);
-            return true;
+            AddNotificationEventHandler(registeredEvent);
         }
         #endregion
 

@@ -1,4 +1,6 @@
-﻿using Domain.User.IRepositories;
+﻿using ABPEFCoreMySqlUnit;
+using Domain.User.IRepositories;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,10 +10,12 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace EFCore.User.Repository
 {
-    public class UserRepository : EfCoreRepository<UserDbContext, Domain.User.Entitys.User, long>, IUserRepository
+    public class UserRepository : BaseRepository<UserDbContext, Domain.User.Entitys.User, long>, IUserRepository
     {
-        public UserRepository(IDbContextProvider<UserDbContext> dbContextProvider) : base(dbContextProvider)
+        private readonly IMediator _mediator;
+        public UserRepository(IDbContextProvider<UserDbContext> dbContextProvider, IMediator mediator) : base(dbContextProvider, mediator)
         {
+
         }
     }
 }
