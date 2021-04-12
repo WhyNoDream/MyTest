@@ -53,6 +53,7 @@ namespace UserService
             //服务初始化注入
             context.Services.WebServiceExtensions(configuration);
 
+            //添加MediatR事件处理者所在程序集
             context.Services.AddMediatR(typeof(UserApplicationServiceModule).Assembly);
 
         }
