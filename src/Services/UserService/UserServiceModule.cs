@@ -3,6 +3,7 @@ using Applicatiion.UserServiceContracts;
 using CommonConfBus;
 using Domain.User;
 using EFCore.User;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,6 +29,7 @@ namespace UserService
         /// <param name="context"></param>
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
+
             base.ConfigureServices(context);
             var configuration = context.Services.GetConfiguration();
             var hostingEnvironment = context.Services.GetHostingEnvironment();
@@ -50,6 +52,8 @@ namespace UserService
 
             //服务初始化注入
             context.Services.WebServiceExtensions(configuration);
+
+            context.Services.AddMediatR(typeof(UserApplicationServiceModule).Assembly);
 
         }
 

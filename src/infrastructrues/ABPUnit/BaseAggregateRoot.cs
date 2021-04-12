@@ -11,7 +11,8 @@ namespace ABPUnit
     {
         public BaseAggregateRoot() : base()
         {
-
+            this.EventHandlers = new List<BaseEventHandler<T>>();
+            this.NotificationEventHandlers = new List<INotification>();
         }
 
         #region 不经过MediatR领域事件
@@ -49,7 +50,9 @@ namespace ABPUnit
 
         #region 经过MediatR领域事件
 
-
+        /// <summary>
+        /// 广播领域事件
+        /// </summary>
         [NotMapped]
         private List<INotification> NotificationEventHandlers { get; set; }
 

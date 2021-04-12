@@ -12,7 +12,6 @@ namespace EFCore.User.Repository
 {
     public class UserRepository : BaseRepository<UserDbContext, Domain.User.Entitys.User, long>, IUserRepository
     {
-        private readonly IMediator _mediator;
         public UserRepository(IDbContextProvider<UserDbContext> dbContextProvider, IMediator mediator) : base(dbContextProvider, mediator)
         {
 

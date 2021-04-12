@@ -444,3 +444,7 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\UserService.xml
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Applicatiion.UserService.xml
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\Applicatiion.UserServiceContracts.xml
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\MediatR.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\ABPEFCoreMySqlUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\ABPEFCoreMySqlUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll

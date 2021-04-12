@@ -37,7 +37,7 @@ namespace ABPEFCoreMySqlUnit
             {
                 foreach (var item in events)
                 {
-                    await _mediator.Publish(item);
+                    _mediator.Publish(item);
                 }
             }
             return await DbContext.SaveChangesAsync();

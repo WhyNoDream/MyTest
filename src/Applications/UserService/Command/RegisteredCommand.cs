@@ -13,15 +13,16 @@ using Applicatiion.UserServiceContracts.Query.Dto;
 using Volo.Abp.ObjectMapping;
 using Applicatiion.UserServiceContracts.Command.Dto;
 using Applicatiion.UserServiceContracts.Command;
+using Domain.User.IRepositories;
 
 namespace Applicatiion.UserService.Command
 {
     public class RegisteredCommand : ApplicationService, IRegisteredCommand
     {
-        private readonly IRepository<User, long> _userRepository;
+        private readonly IUserRepository _userRepository;
         private readonly IObjectMapper<UserApplicationServiceModule> _mapper;
 
-        public RegisteredCommand(IRepository<User, long> userRepository, IObjectMapper<UserApplicationServiceModule> mapper)
+        public RegisteredCommand(IUserRepository userRepository, IObjectMapper<UserApplicationServiceModule> mapper)
         {
             _mapper = mapper;
             _userRepository = userRepository;
@@ -45,7 +46,7 @@ namespace Applicatiion.UserService.Command
                 }
                 var userMapEntity= _mapper.Map<RegisteredDto, User>(registeredDto);
                 userMapEntity.Registered();
-                await _userRepository.InsertAsync(userMapEntity);
+                await _userRepository.Save(userMapEntity);
                 return true;
             }
             catch (Exception ex)

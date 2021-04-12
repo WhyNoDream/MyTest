@@ -15,7 +15,7 @@ namespace ABPUnit
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        Task<int> Save(TEntity entity, bool bAdd);
+        Task<int> Save(TEntity entity, bool bAdd=true);
 
     }
 }

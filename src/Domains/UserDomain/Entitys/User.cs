@@ -84,7 +84,7 @@ namespace Domain.User.Entitys
         public void Registered()
         {
             //业务
-            if(CheckHelper.CheckPhone(this.Phone))
+            if(!CheckHelper.CheckPhone(this.Phone))
             {
                 throw new Exception("手机号格式不正确");
             }

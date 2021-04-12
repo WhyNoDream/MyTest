@@ -20,6 +20,11 @@
             <param name="password"></param>
             <returns></returns>
         </member>
+        <member name="T:Applicatiion.UserService.EventHandle.RegisteredEventHandler">
+            <summary>
+            已注册事件接收处理
+            </summary>
+        </member>
         <member name="M:Applicatiion.UserService.Query.UserQuery.GetUser(System.Int64)">
             <summary>
             获取单个用户

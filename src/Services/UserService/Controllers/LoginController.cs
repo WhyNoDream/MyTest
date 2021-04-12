@@ -1,6 +1,8 @@
 ﻿using Applicatiion.UserServiceContracts.Command;
 using Applicatiion.UserServiceContracts.Command.Dto;
 using CommonConfBus;
+using Domain.User.Events;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -18,11 +20,13 @@ namespace UserService.Controllers
     {
         private readonly IUserLoginCommand _iUserLogin;
         private readonly IRegisteredCommand  _registered;
-        
-        public LoginController(IUserLoginCommand userLogin, IRegisteredCommand registered)
+        private readonly IMediator _mediator;
+
+        public LoginController(IUserLoginCommand userLogin, IRegisteredCommand registered, IMediator mediator)
         {
             _iUserLogin = userLogin;
             _registered = registered;
+            _mediator = mediator;
         }
 
         [HttpGet]
@@ -39,7 +43,7 @@ namespace UserService.Controllers
         /// <param name="registeredDto"></param>
         /// <returns></returns>
         [HttpPost("Registered")]
-        public async Task<bool> Registered(RegisteredDto registeredDto)
+        public async Task<bool> Registered([FromBody] RegisteredDto registeredDto)
         {
             return await _registered.Registered(registeredDto);
         }

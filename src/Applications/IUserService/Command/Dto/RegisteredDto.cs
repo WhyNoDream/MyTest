@@ -9,20 +9,20 @@ namespace Applicatiion.UserServiceContracts.Command.Dto
         /// <summary>
         /// 账号
         /// </summary>
-        public string Account { get; private set; }
+        public string Account { get;  set; }
 
         /// <summary>
         /// 密码
         /// </summary>
-        public string Password { get; private set; }
+        public string Password { get;  set; }
 
         /// <summary>
         /// 姓名
         /// </summary>
-        public string Name { get; private set; }
+        public string Name { get;  set; }
 
-        public string Phone { get; private set; }
+        public string Phone { get;  set; }
 
-        public string Email { get; private set; }
+        public string Email { get;  set; }
     }
 }

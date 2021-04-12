@@ -1,0 +1,14 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\bin\Debug\netstandard2.0\ABPEFCoreMySqlUnit.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\bin\Debug\netstandard2.0\ABPEFCoreMySqlUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\bin\Debug\netstandard2.0\ABPEFCoreMySqlUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\bin\Debug\netstandard2.0\ABPUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\bin\Debug\netstandard2.0\ABPUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\obj\Debug\netstandard2.0\ABPEFCoreMySqlUnit.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\obj\Debug\netstandard2.0\ABPEFCoreMySqlUnit.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\obj\Debug\netstandard2.0\ABPEFCoreMySqlUnit.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\obj\Debug\netstandard2.0\ABPEFCoreMySqlUnit.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\obj\Debug\netstandard2.0\ABPEFCoreMySqlUnit.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\obj\Debug\netstandard2.0\ABPEFCoreMySqlUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\infrastructrues\ABPEFCoreMySqlUnit\obj\Debug\netstandard2.0\ABPEFCoreMySqlUnit.pdb

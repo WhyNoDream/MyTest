@@ -14,3 +14,5 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\ABPUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\CommonUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\obj\Debug\netstandard2.0\EFCore.User.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\ABPEFCoreMySqlUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\EFCore\UserEFCore\bin\Debug\netstandard2.0\ABPEFCoreMySqlUnit.pdb

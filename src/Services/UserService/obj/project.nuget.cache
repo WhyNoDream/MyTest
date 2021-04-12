@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o6lCSLsL/Wn3eiR8M4lErAMr1sQoYWPddZY15ULvZ1/bxkiRulkQvOau8t8nK966A7Ru1z0sB2NSe5yjIZBoyw==",
+  "dgSpecHash": "BigAb/wKQsgDYGL4lDeMBnIjTxugBIKbsSMCaVxdtApGi5Fa7uSSZTyy8T16MWvGDgqhmHRKloqGTvNmRAoslg==",
   "success": true,
   "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Services\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\exceptionless.extensions.hosting\\4.6.2\\exceptionless.extensions.hosting.4.6.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.8\\microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",

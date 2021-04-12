@@ -12,5 +12,17 @@
             <param name="registeredDto"></param>
             <returns></returns>
         </member>
+        <member name="M:UserService.UserServiceModule.ConfigureServices(Volo.Abp.Modularity.ServiceConfigurationContext)">
+            <summary>
+            服务配置
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:UserService.UserServiceModule.OnApplicationInitialization(Volo.Abp.ApplicationInitializationContext)">
+            <summary>
+            初始化
+            </summary>
+            <param name="context"></param>
+        </member>
     </members>
 </doc>
