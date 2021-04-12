@@ -17,19 +17,7 @@ namespace Applicatiion.UserService.EventHandle
         public Task Handle(RegisteredEvent notification, CancellationToken cancellationToken)
         {
             Debug.WriteLine("注册已完成事件");
-            return null;
+            return Task.CompletedTask;
         }
-
-        //Task<string> IRequestHandler<RegisteredEvent, string>.Handle(RegisteredEvent request, CancellationToken cancellationToken)
-        //{
-        //    Debug.WriteLine("注册已完成事件");
-
-        //}
-
-        //Task<Unit> IRequestHandler<RegisteredEvent, Unit>.Handle(RegisteredEvent request, CancellationToken cancellationToken)
-        //{
-        //    Console.WriteLine("注册事件处理");
-        //    return null;
-        //}
     }
 }
