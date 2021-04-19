@@ -3,6 +3,7 @@ using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using MQInfrastructrue.Contracts;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -27,11 +28,15 @@ namespace Applicatiion.UserService.EventHandle
         public Task Handle(RegisteredEvent notification, CancellationToken cancellationToken)
         {
             Debug.WriteLine("注册已完成事件");
+
+            #region mq发送测试
             var mQHelper = _serviceProvider.GetRequiredService<IMQHelper>();
             string exchangeName = "myTest";  
             string queName = "myTest";
-            byte[] body = Encoding.Unicode.GetBytes("test");
+            byte[] body = Encoding.Unicode.GetBytes(JsonConvert.SerializeObject(notification));
             var  mqResult= mQHelper.SendMsg(exchangeName, queName, body);
+            #endregion
+
             return Task.CompletedTask;
         }
     }

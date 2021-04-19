@@ -217,56 +217,56 @@ namespace RebbitMQInfrastructrue
         /// </summary>
         /// <param name="queName"></param>
         /// <param name="received"></param>
-        public  void Receive<T>(string exchangeName, string queName, IModel channel, Action<T> received, bool delay = false, int expires = 0, int ttl = 0) where T : class
+        public  void Receive<T>(string exchangeName, string queName, Action<T> received, bool delay = false, int expires = 0, int ttl = 0) where T : class
         {
             try
             {
-                {
-                    Dictionary<string, object> dic = new Dictionary<string, object>
+                IModel channel = GetChannel(queName);
+
+                Dictionary<string, object> dic = new Dictionary<string, object>
                         {
                             { "x-expires", expires * 1000 },
                             { "x-message-ttl", ttl * 1000 },//队列上消息过期时间，应小于队列过期时间
                             { "x-dead-letter-exchange", "exchange-direct" },//过期消息转向路由
                             { "x-dead-letter-routing-key", "routing-delay" }//过期消息转向路由相匹配routingkey
                         };
-                    if (!string.IsNullOrEmpty(exchangeName))
-                    {
-                        //声明交换机
-                        channel.ExchangeDeclare(exchangeName, ExchangeType.Direct, true);
-                        //声明一个队列
-                        channel.QueueDeclare(queName, true, false, false, arguments: delay ? dic : null);
-                        //绑定队列，交换机，路由键
-                        channel.QueueBind(queName, exchangeName, queName);
-                    }
-                    else
-                    {
-                        //声明一个队列
-                        channel.QueueDeclare(queName, true, false, false, arguments: delay ? dic : null);
-                    }
-                    channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+                if (!string.IsNullOrEmpty(exchangeName))
+                {
+                    //声明交换机
+                    channel.ExchangeDeclare(exchangeName, ExchangeType.Direct, true);
+                    //声明一个队列
+                    channel.QueueDeclare(queName, true, false, false, arguments: delay ? dic : null);
+                    //绑定队列，交换机，路由键
+                    channel.QueueBind(queName, exchangeName, queName);
+                }
+                else
+                {
+                    //声明一个队列
+                    channel.QueueDeclare(queName, true, false, false, arguments: delay ? dic : null);
+                }
+                channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
-                    //事件基本消费者
-                    var consumer = new EventingBasicConsumer(channel);
-                    //接收到消息事件
-                    consumer.Received += (ch, ea) =>
-                    {
-                        string message = Encoding.UTF8.GetString(ea.Body.ToArray());
-                        var msg = message.ToObject<T>();
-                        DateTime time = DateTime.Now;
-                        received(msg);
-                        var timeEnd = DateTime.Now - time;
+                //事件基本消费者
+                var consumer = new EventingBasicConsumer(channel);
+                //接收到消息事件
+                consumer.Received += (ch, ea) =>
+                {
+                    string message = Encoding.UTF8.GetString(ea.Body.ToArray());
+                    var msg = message.ToObject<T>();
+                    DateTime time = DateTime.Now;
+                    received(msg);
+                    var timeEnd = DateTime.Now - time;
                         //channel.DefaultConsumer.HandleBasicCancelOk(consumer.ConsumerTag);
                         if (channel.IsClosed)
-                        {
-                            return;
-                        }
-                        Console.WriteLine($"任务执行完成，用时 {timeEnd.TotalSeconds.ToString("0.00")}s {queName} 队列剩余任务数量： {channel.MessageCount(queName)}");
+                    {
+                        return;
+                    }
+                    Console.WriteLine($"任务执行完成，用时 {timeEnd.TotalSeconds.ToString("0.00")}s {queName} 队列剩余任务数量： {channel.MessageCount(queName)}");
                         //确认该消息已被消费
                         channel.BasicAck(ea.DeliveryTag, false);
-                    };
-                    //启动消费者 设置为手动应答消息
-                    channel.BasicConsume(queName, false, consumer);
-                }
+                };
+                //启动消费者 设置为手动应答消息
+                channel.BasicConsume(queName, false, consumer);
             }
             catch (Exception)
             {
@@ -278,11 +278,13 @@ namespace RebbitMQInfrastructrue
         /// </summary>
         /// <param name="queName"></param>
         /// <param name="received"></param>
-        public  void Receive(string exchangeName, string queName, IModel channel, Action<byte[]> received, bool delay = false, int expires = 0, int ttl = 0)
+        public  void Receive(string exchangeName, string queName, Action<byte[]> received, bool delay = false, int expires = 0, int ttl = 0)
         {
             try
             {
                 {
+                    IModel channel = GetChannel(queName);
+
                     Dictionary<string, object> dic = new Dictionary<string, object>
                         {
                             { "x-expires", expires * 1000 },
