@@ -22,7 +22,11 @@ namespace RabbitMQInfrastructrue
         {
             if (connectionFactory != null)
             {
-                return connection = connectionFactory.CreateConnection(name); ;
+                if (connection == null)
+                {
+                    connection = connectionFactory.CreateConnection(name); 
+                }
+                 return connection;
             }
             return null;
         }
