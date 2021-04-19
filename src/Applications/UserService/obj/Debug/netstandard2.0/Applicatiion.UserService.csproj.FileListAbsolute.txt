@@ -18,3 +18,5 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\obj\Debug
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\obj\Debug\netstandard2.0\Applicatiion.UserService.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\Applicatiion.UserService.xml
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\Applicatiion.UserServiceContracts.xml
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.pdb

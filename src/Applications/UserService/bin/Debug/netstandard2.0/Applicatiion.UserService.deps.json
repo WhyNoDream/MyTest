@@ -11,7 +11,9 @@
         "dependencies": {
           "Applicatiion.UserServiceContracts": "1.0.0",
           "Domain.User": "1.0.0",
+          "MQInfrastructrue.Contracts": "1.0.0",
           "MediatR": "9.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "NETStandard.Library": "2.0.3",
           "Volo.Abp.AutoMapper": "3.3.2",
           "Volo.Abp.Ddd.Application": "3.3.2"
@@ -103,6 +105,29 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {
             "assemblyVersion": "3.1.8.0",
             "fileVersion": "3.100.820.42106"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
@@ -1753,6 +1778,11 @@
         "runtime": {
           "Domain.User.dll": {}
         }
+      },
+      "MQInfrastructrue.Contracts/1.0.0": {
+        "runtime": {
+          "MQInfrastructrue.Contracts.dll": {}
+        }
       }
     }
   },
@@ -1810,6 +1840,20 @@
       "sha512": "sha512-vBVCalVaxmv8MqFH1/Qe/fMjwmFWZhGJISiNEa6Is0ZNNFAHHdbvBmreL7qmGaIHt4krnDiV8i3GZa/zi21FBA==",
       "path": "microsoft.aspnetcore.authorization/3.1.8",
       "hashPath": "microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Metadata/3.1.8": {
       "type": "package",
@@ -2828,6 +2872,11 @@
       "sha512": ""
     },
     "Domain.User/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MQInfrastructrue.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

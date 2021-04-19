@@ -5,6 +5,7 @@ using ExceptionlessUnit.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using RabbitMQInfrastructrue;
 using SwaggerUnits.Extensions;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ namespace CommonConfBus
             services.AddServiceDiscoveryOptions();
             services.AddConsulService();
             services.AddExceptionLessLog();
-
+            services.AddRabbitMQ();
             return services;
         }
         public static IApplicationBuilder WebConfigExtensions(this IApplicationBuilder app)

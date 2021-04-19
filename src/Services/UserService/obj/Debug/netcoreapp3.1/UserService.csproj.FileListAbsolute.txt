@@ -334,7 +334,6 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
@@ -448,3 +447,9 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\net
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\ABPEFCoreMySqlUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\ABPEFCoreMySqlUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\MQInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\RabbitMQInfrastructrue.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\MQInfrastructrue.Contracts.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Services\UserService\bin\Debug\netcoreapp3.1\RabbitMQInfrastructrue.pdb

@@ -1,0 +1,14 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\bin\Debug\netstandard2.0\CommonUnit.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\bin\Debug\netstandard2.0\CommonUnit.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\obj\Debug\netstandard2.0\RabbitMQInfrastructrue.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\obj\Debug\netstandard2.0\RabbitMQInfrastructrue.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\obj\Debug\netstandard2.0\RabbitMQInfrastructrue.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\bin\Debug\netstandard2.0\RabbitMQInfrastructrue.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\bin\Debug\netstandard2.0\RabbitMQInfrastructrue.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\bin\Debug\netstandard2.0\RabbitMQInfrastructrue.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\obj\Debug\netstandard2.0\RabbitMQInfrastructrue.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\obj\Debug\netstandard2.0\RabbitMQInfrastructrue.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\obj\Debug\netstandard2.0\RabbitMQInfrastructrue.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RebbitMQInfrastructrue\obj\Debug\netstandard2.0\RabbitMQInfrastructrue.pdb

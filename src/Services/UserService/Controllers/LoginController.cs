@@ -47,5 +47,6 @@ namespace UserService.Controllers
         {
             return await _registered.Registered(registeredDto);
         }
+
     }
 }

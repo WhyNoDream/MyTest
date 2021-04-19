@@ -15,6 +15,7 @@
     <ProjectReference Include="..\..\infrastructrues\RedisUnit\RedisUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\SkyWalkingUnit\SkyWalkingUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\SwaggersUnit\SwaggersUnit.csproj" />
+    <ProjectReference Include="..\RebbitMQInfrastructrue\RabbitMQInfrastructrue.csproj" />
   </ItemGroup>
 
 </Project>

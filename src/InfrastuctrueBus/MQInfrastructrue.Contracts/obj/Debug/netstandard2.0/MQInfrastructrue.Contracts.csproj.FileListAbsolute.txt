@@ -1,0 +1,9 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\obj\Debug\netstandard2.0\MQInfrastructrue.Contracts.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\obj\Debug\netstandard2.0\MQInfrastructrue.Contracts.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\obj\Debug\netstandard2.0\MQInfrastructrue.Contracts.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\obj\Debug\netstandard2.0\MQInfrastructrue.Contracts.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\obj\Debug\netstandard2.0\MQInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\MQInfrastructrue.Contracts\obj\Debug\netstandard2.0\MQInfrastructrue.Contracts.pdb

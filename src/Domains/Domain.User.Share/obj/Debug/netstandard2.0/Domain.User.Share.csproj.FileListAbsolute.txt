@@ -1,0 +1,9 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\bin\Debug\netstandard2.0\Domain.User.Share.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\bin\Debug\netstandard2.0\Domain.User.Share.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\bin\Debug\netstandard2.0\Domain.User.Share.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\obj\Debug\netstandard2.0\Domain.User.Share.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\obj\Debug\netstandard2.0\Domain.User.Share.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\obj\Debug\netstandard2.0\Domain.User.Share.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\obj\Debug\netstandard2.0\Domain.User.Share.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\obj\Debug\netstandard2.0\Domain.User.Share.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Domains\Domain.User.Share\obj\Debug\netstandard2.0\Domain.User.Share.pdb

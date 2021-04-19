@@ -95,6 +95,31 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Metadata/3.1.8": {
         "type": "package",
         "compile": {
@@ -2185,6 +2210,16 @@
         "runtime": {
           "bin/placeholder/Domain.User.dll": {}
         }
+      },
+      "MQInfrastructrue.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MQInfrastructrue.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MQInfrastructrue.Contracts.dll": {}
+        }
       }
     }
   },
@@ -2308,6 +2343,32 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
         "microsoft.aspnetcore.authorization.3.1.8.nupkg.sha512",
         "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
+        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Metadata/3.1.8": {
@@ -7084,13 +7145,20 @@
       "type": "project",
       "path": "../../Domains/UserDomain/Domain.User.csproj",
       "msbuildProject": "../../Domains/UserDomain/Domain.User.csproj"
+    },
+    "MQInfrastructrue.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../InfrastuctrueBus/MQInfrastructrue.Contracts/MQInfrastructrue.Contracts.csproj",
+      "msbuildProject": "../../InfrastuctrueBus/MQInfrastructrue.Contracts/MQInfrastructrue.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Applicatiion.UserServiceContracts >= 1.0.0",
       "Domain.User >= 1.0.0",
+      "MQInfrastructrue.Contracts >= 1.0.0",
       "MediatR >= 9.0.0",
+      "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "NETStandard.Library >= 2.0.3",
       "Volo.Abp.AutoMapper >= 3.3.2",
       "Volo.Abp.Ddd.Application >= 3.3.2"
@@ -7132,6 +7200,9 @@
             },
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\Domains\\UserDomain\\Domain.User.csproj"
+            },
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\MQInfrastructrue.Contracts\\MQInfrastructrue.Contracts.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\MQInfrastructrue.Contracts\\MQInfrastructrue.Contracts.csproj"
             }
           }
         }
@@ -7149,6 +7220,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Microsoft.AspNetCore.Http.Abstractions": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
