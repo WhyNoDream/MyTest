@@ -1,0 +1,4 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\bin\Debug\netstandard2.0\CacheInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.AssemblyInfoInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.AssemblyInfo.cs
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.csprojAssemblyReference.cache
