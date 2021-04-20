@@ -14,7 +14,7 @@ namespace RedisCacheInfrastructrue.Extensions
         /// 添加RabbitMQ到服务内 自动获取RabbitMQ节点
         /// </summary>
         /// <param name="services"></param>
-        public static IServiceCollection AddRabbitMQ(this IServiceCollection services)
+        public static IServiceCollection AddCSRedis(this IServiceCollection services)
         {
             var configuration = services.BuildServiceProvider().GetRequiredService<IConfiguration>();
             services.Configure<CacheConnOption>(configuration.GetSection("CsRedis"));

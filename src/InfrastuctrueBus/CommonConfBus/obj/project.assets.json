@@ -488,16 +488,16 @@
           "buildMultiTargeting/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
+      "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.10"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/3.1.8": {
@@ -3107,6 +3107,16 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
+      "CacheInfrastructrue.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CacheInfrastructrue.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CacheInfrastructrue.Contracts.dll": {}
+        }
+      },
       "CommonUnit/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3187,19 +3197,23 @@
           "bin/placeholder/RabbitMQInfrastructrue.dll": {}
         }
       },
-      "RedisUnit/1.0.0": {
+      "RedisCacheInfrastructrue/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CacheInfrastructrue.Contracts": "1.0.0",
           "Caching.CSRedis": "3.6.60",
-          "CommonUnit": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/RedisUnit.dll": {}
+          "bin/placeholder/RedisCacheInfrastructrue.dll": {}
         },
         "runtime": {
-          "bin/placeholder/RedisUnit.dll": {}
+          "bin/placeholder/RedisCacheInfrastructrue.dll": {}
         }
       },
       "SkyWalkingUnit/1.0.0": {
@@ -3860,20 +3874,24 @@
         "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
-      "sha512": "xdl25cxDgwVxF9ckD9vJ5AdjzRE1vTGLYj9kZf6aL317ZneUijkxd/nSuzN1gEuO74dwG/Yfr1zfs636D6YZsA==",
+    "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
+      "sha512": "bu8As90/SBAouMZ6fJ+qRNo1X+KgHGrVueFhhYi+E5WqEhcnp2HoWRFnMzXQ6g4RdZbvPowFerSbKNH4Dtg5yg==",
       "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/3.1.10",
+      "path": "microsoft.extensions.caching.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll",
-        "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Caching.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Caching.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.3.1.10.nupkg.sha512",
-        "microsoft.extensions.caching.abstractions.nuspec"
+        "microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Extensions.Configuration/3.1.8": {
@@ -9502,6 +9520,11 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
+    "CacheInfrastructrue.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../RedisInfrastructrue.Contracts/CacheInfrastructrue.Contracts.csproj",
+      "msbuildProject": "../RedisInfrastructrue.Contracts/CacheInfrastructrue.Contracts.csproj"
+    },
     "CommonUnit/1.0.0": {
       "type": "project",
       "path": "../../infrastructrues/CommonUnit/CommonUnit.csproj",
@@ -9527,10 +9550,10 @@
       "path": "../RebbitMQInfrastructrue/RabbitMQInfrastructrue.csproj",
       "msbuildProject": "../RebbitMQInfrastructrue/RabbitMQInfrastructrue.csproj"
     },
-    "RedisUnit/1.0.0": {
+    "RedisCacheInfrastructrue/1.0.0": {
       "type": "project",
-      "path": "../../infrastructrues/RedisUnit/RedisUnit.csproj",
-      "msbuildProject": "../../infrastructrues/RedisUnit/RedisUnit.csproj"
+      "path": "../RedisCacheInfrastructrue/RedisCacheInfrastructrue.csproj",
+      "msbuildProject": "../RedisCacheInfrastructrue/RedisCacheInfrastructrue.csproj"
     },
     "SkyWalkingUnit/1.0.0": {
       "type": "project",
@@ -9548,7 +9571,7 @@
       "ConsulUnit >= 1.0.0",
       "ExceptionlessUnit >= 1.0.0",
       "RabbitMQInfrastructrue >= 1.0.0",
-      "RedisUnit >= 1.0.0",
+      "RedisCacheInfrastructrue >= 1.0.0",
       "SkyWalkingUnit >= 1.0.0",
       "SwaggersUnit >= 1.0.0",
       "Volo.Abp.AspNetCore.Mvc >= 3.3.2",
@@ -9592,9 +9615,6 @@
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\ExceptionlessUnit.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\ExceptionlessUnit.csproj"
             },
-            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\RedisUnit\\RedisUnit.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\RedisUnit\\RedisUnit.csproj"
-            },
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\SkyWalkingUnit\\SkyWalkingUnit.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\SkyWalkingUnit\\SkyWalkingUnit.csproj"
             },
@@ -9603,6 +9623,9 @@
             },
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\RebbitMQInfrastructrue\\RabbitMQInfrastructrue.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\RebbitMQInfrastructrue\\RabbitMQInfrastructrue.csproj"
+            },
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\RedisCacheInfrastructrue\\RedisCacheInfrastructrue.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\RedisCacheInfrastructrue\\RedisCacheInfrastructrue.csproj"
             }
           }
         }

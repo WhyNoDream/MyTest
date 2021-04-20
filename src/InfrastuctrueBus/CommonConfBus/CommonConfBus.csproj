@@ -12,10 +12,10 @@
   <ItemGroup>
     <ProjectReference Include="..\..\infrastructrues\ConsulUnit\ConsulUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\Exceptionless\ExceptionlessUnit.csproj" />
-    <ProjectReference Include="..\..\infrastructrues\RedisUnit\RedisUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\SkyWalkingUnit\SkyWalkingUnit.csproj" />
     <ProjectReference Include="..\..\infrastructrues\SwaggersUnit\SwaggersUnit.csproj" />
     <ProjectReference Include="..\RebbitMQInfrastructrue\RabbitMQInfrastructrue.csproj" />
+    <ProjectReference Include="..\RedisCacheInfrastructrue\RedisCacheInfrastructrue.csproj" />
   </ItemGroup>
 
 </Project>

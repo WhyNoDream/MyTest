@@ -10,6 +10,7 @@
       "Applicatiion.UserService/1.0.0": {
         "dependencies": {
           "Applicatiion.UserServiceContracts": "1.0.0",
+          "CacheInfrastructrue.Contracts": "1.0.0",
           "Domain.User": "1.0.0",
           "MQInfrastructrue.Contracts": "1.0.0",
           "MediatR": "9.0.0",
@@ -1760,6 +1761,11 @@
           "Applicatiion.UserServiceContracts.dll": {}
         }
       },
+      "CacheInfrastructrue.Contracts/1.0.0": {
+        "runtime": {
+          "CacheInfrastructrue.Contracts.dll": {}
+        }
+      },
       "CommonUnit/1.0.0": {
         "dependencies": {
           "EPPlus.Core.Extensions": "2.4.0",
@@ -2862,6 +2868,11 @@
       "sha512": ""
     },
     "Applicatiion.UserServiceContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CacheInfrastructrue.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

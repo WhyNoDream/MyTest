@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Byxsvu1zfakFF8aych4+AtrQYGsiQqANjWvtng3K30hMVfoNgVIGQrAyO/117YhXCehkFgSuVK0tqgxFUC4fyw==",
+  "dgSpecHash": "TLZrzeVe9mGln1/5NZGETaQjvChhVNX+LwyWbEWnA9o+vl0rN+g6IegbVUghxDa772kT9bUjScp9rbvUoJFlrA==",
   "success": true,
   "projectFilePath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\RedisCacheInfrastructrue\\RedisCacheInfrastructrue.csproj",
   "expectedPackageFiles": [

@@ -20,3 +20,5 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\Applicatiion.UserServiceContracts.xml
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\MQInfrastructrue.Contracts.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\CacheInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\Applications\UserService\bin\Debug\netstandard2.0\CacheInfrastructrue.Contracts.pdb

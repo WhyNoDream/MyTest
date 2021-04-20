@@ -1,4 +1,5 @@
-﻿using Domain.User.Events;
+﻿using CacheInfrastructrue.Contracts;
+using Domain.User.Events;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
@@ -19,10 +20,12 @@ namespace Applicatiion.UserService.EventHandle
     public class RegisteredEventHandler : INotificationHandler<RegisteredEvent>
     {
         private readonly IServiceProvider  _serviceProvider;
+        private readonly ICacheHelper  _cacheHelper;
 
-        public RegisteredEventHandler(IServiceProvider provider)
+        public RegisteredEventHandler(IServiceProvider provider, ICacheHelper cacheHelper)
         {
             _serviceProvider = provider;
+            _cacheHelper = cacheHelper;
         }
 
         public Task Handle(RegisteredEvent notification, CancellationToken cancellationToken)
@@ -35,6 +38,10 @@ namespace Applicatiion.UserService.EventHandle
             string queName = "myTest";
             byte[] body = Encoding.Unicode.GetBytes(JsonConvert.SerializeObject(notification));
             var  mqResult= mQHelper.SendMsg(exchangeName, queName, body);
+            #endregion
+
+            #region 缓存测试
+            _cacheHelper.Set("test", "测试",60*60*1000);
             #endregion
 
             return Task.CompletedTask;

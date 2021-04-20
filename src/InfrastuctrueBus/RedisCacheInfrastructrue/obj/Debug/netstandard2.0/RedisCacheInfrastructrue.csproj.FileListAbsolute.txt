@@ -1,4 +1,12 @@
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\bin\Debug\netstandard2.0\RedisCacheInfrastructrue.deps.json
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\bin\Debug\netstandard2.0\RedisCacheInfrastructrue.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\bin\Debug\netstandard2.0\RedisCacheInfrastructrue.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\bin\Debug\netstandard2.0\CacheInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\bin\Debug\netstandard2.0\CacheInfrastructrue.Contracts.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.csprojAssemblyReference.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.AssemblyInfoInputs.cache
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.AssemblyInfo.cs
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.csprojAssemblyReference.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.csproj.CoreCompileInputs.cache
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.csproj.CopyComplete
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\RedisCacheInfrastructrue\obj\Debug\netstandard2.0\RedisCacheInfrastructrue.pdb

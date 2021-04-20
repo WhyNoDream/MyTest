@@ -27,7 +27,7 @@
           "ConsulUnit": "1.0.0",
           "ExceptionlessUnit": "1.0.0",
           "RabbitMQInfrastructrue": "1.0.0",
-          "RedisUnit": "1.0.0",
+          "RedisCacheInfrastructrue": "1.0.0",
           "SkyWalkingUnit": "1.0.0",
           "SwaggersUnit": "1.0.0",
           "Volo.Abp.AspNetCore.Mvc": "3.3.2",
@@ -318,7 +318,7 @@
       "Caching.CSRedis/3.6.60": {
         "dependencies": {
           "CSRedisCore": "3.6.6",
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.10"
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/Caching.CSRedis.dll": {
@@ -762,18 +762,18 @@
       },
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
-      "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
+      "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {
-            "assemblyVersion": "3.1.10.0",
-            "fileVersion": "3.100.1020.51904"
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         },
         "compile": {
-          "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/3.1.8": {
@@ -2837,6 +2837,14 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
+      "CacheInfrastructrue.Contracts/1.0.0": {
+        "runtime": {
+          "CacheInfrastructrue.Contracts.dll": {}
+        },
+        "compile": {
+          "CacheInfrastructrue.Contracts.dll": {}
+        }
+      },
       "CommonUnit/1.0.0": {
         "dependencies": {
           "EPPlus.Core.Extensions": "2.4.0",
@@ -2907,17 +2915,21 @@
           "RabbitMQInfrastructrue.dll": {}
         }
       },
-      "RedisUnit/1.0.0": {
+      "RedisCacheInfrastructrue/1.0.0": {
         "dependencies": {
+          "CacheInfrastructrue.Contracts": "1.0.0",
           "Caching.CSRedis": "3.6.60",
-          "CommonUnit": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+          "Microsoft.Extensions.Caching.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection": "3.1.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0"
         },
         "runtime": {
-          "RedisUnit.dll": {}
+          "RedisCacheInfrastructrue.dll": {}
         },
         "compile": {
-          "RedisUnit.dll": {}
+          "RedisCacheInfrastructrue.dll": {}
         }
       },
       "SkyWalkingUnit/1.0.0": {
@@ -4662,12 +4674,12 @@
       "path": "microsoft.extensions.apidescription.server/3.0.0",
       "hashPath": "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.10": {
+    "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xdl25cxDgwVxF9ckD9vJ5AdjzRE1vTGLYj9kZf6aL317ZneUijkxd/nSuzN1gEuO74dwG/Yfr1zfs636D6YZsA==",
-      "path": "microsoft.extensions.caching.abstractions/3.1.10",
-      "hashPath": "microsoft.extensions.caching.abstractions.3.1.10.nupkg.sha512"
+      "sha512": "sha512-bu8As90/SBAouMZ6fJ+qRNo1X+KgHGrVueFhhYi+E5WqEhcnp2HoWRFnMzXQ6g4RdZbvPowFerSbKNH4Dtg5yg==",
+      "path": "microsoft.extensions.caching.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/3.1.8": {
       "type": "package",
@@ -5929,6 +5941,11 @@
       "path": "volo.abp.virtualfilesystem/3.3.2",
       "hashPath": "volo.abp.virtualfilesystem.3.3.2.nupkg.sha512"
     },
+    "CacheInfrastructrue.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CommonUnit/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -5954,7 +5971,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "RedisUnit/1.0.0": {
+    "RedisCacheInfrastructrue/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

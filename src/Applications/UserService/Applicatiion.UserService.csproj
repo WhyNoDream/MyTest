@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Domains\UserDomain\Domain.User.csproj" />
     <ProjectReference Include="..\..\InfrastuctrueBus\MQInfrastructrue.Contracts\MQInfrastructrue.Contracts.csproj" />
+    <ProjectReference Include="..\..\InfrastuctrueBus\RedisInfrastructrue.Contracts\CacheInfrastructrue.Contracts.csproj" />
     <ProjectReference Include="..\IUserService\Applicatiion.UserServiceContracts.csproj" />
   </ItemGroup>
 

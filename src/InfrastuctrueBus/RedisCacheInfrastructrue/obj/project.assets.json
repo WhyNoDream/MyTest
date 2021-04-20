@@ -869,6 +869,7 @@
     ".NETStandard,Version=v2.0": [
       "CacheInfrastructrue.Contracts >= 1.0.0",
       "Caching.CSRedis >= 3.6.60",
+      "Microsoft.Extensions.Caching.Abstractions >= 5.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 5.0.0",
       "Microsoft.Extensions.DependencyInjection >= 3.1.8",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0",
@@ -926,6 +927,10 @@
           "Caching.CSRedis": {
             "target": "Package",
             "version": "[3.6.60, )"
+          },
+          "Microsoft.Extensions.Caching.Abstractions": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",

@@ -2182,6 +2182,16 @@
           "bin/placeholder/Applicatiion.UserServiceContracts.dll": {}
         }
       },
+      "CacheInfrastructrue.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CacheInfrastructrue.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CacheInfrastructrue.Contracts.dll": {}
+        }
+      },
       "CommonUnit/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -7136,6 +7146,11 @@
       "path": "../IUserService/Applicatiion.UserServiceContracts.csproj",
       "msbuildProject": "../IUserService/Applicatiion.UserServiceContracts.csproj"
     },
+    "CacheInfrastructrue.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../InfrastuctrueBus/RedisInfrastructrue.Contracts/CacheInfrastructrue.Contracts.csproj",
+      "msbuildProject": "../../InfrastuctrueBus/RedisInfrastructrue.Contracts/CacheInfrastructrue.Contracts.csproj"
+    },
     "CommonUnit/1.0.0": {
       "type": "project",
       "path": "../../infrastructrues/CommonUnit/CommonUnit.csproj",
@@ -7155,6 +7170,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Applicatiion.UserServiceContracts >= 1.0.0",
+      "CacheInfrastructrue.Contracts >= 1.0.0",
       "Domain.User >= 1.0.0",
       "MQInfrastructrue.Contracts >= 1.0.0",
       "MediatR >= 9.0.0",
@@ -7203,6 +7219,9 @@
             },
             "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\MQInfrastructrue.Contracts\\MQInfrastructrue.Contracts.csproj": {
               "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\MQInfrastructrue.Contracts\\MQInfrastructrue.Contracts.csproj"
+            },
+            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\RedisInfrastructrue.Contracts\\CacheInfrastructrue.Contracts.csproj": {
+              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\InfrastuctrueBus\\RedisInfrastructrue.Contracts\\CacheInfrastructrue.Contracts.csproj"
             }
           }
         }

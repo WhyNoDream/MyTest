@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using RabbitMQInfrastructrue;
+using RedisCacheInfrastructrue.Extensions;
 using SwaggerUnits.Extensions;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,7 @@ namespace CommonConfBus
             services.AddConsulService();
             services.AddExceptionLessLog();
             services.AddRabbitMQ();
+            services.AddCSRedis();
             return services;
         }
         public static IApplicationBuilder WebConfigExtensions(this IApplicationBuilder app)

@@ -4,12 +4,10 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\CommonUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\ConsulUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\ExceptionlessUnit.dll
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\RedisUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\SkyWalkingUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\SwaggersUnit.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\ConsulUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\ExceptionlessUnit.pdb
-E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\RedisUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\SkyWalkingUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\SwaggersUnit.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\CommonUnit.pdb
@@ -273,3 +271,7 @@ E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\RabbitMQInfrastructrue.dll
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\RabbitMQInfrastructrue.pdb
 E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\MQInfrastructrue.Contracts.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\CacheInfrastructrue.Contracts.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\RedisCacheInfrastructrue.dll
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\RedisCacheInfrastructrue.pdb
+E:\WorkSpace\myWorkSpace\MyTestGit\MyTest\src\InfrastuctrueBus\CommonConfBus\bin\Debug\netcoreapp3.1\CacheInfrastructrue.Contracts.pdb
