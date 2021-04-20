@@ -40,7 +40,6 @@ namespace RabbitMQInfrastructrue
         {
             if (mQConnOption != null)
             {
-
                 connectionFactory = new ConnectionFactory
                 {
                     HostName = mQConnOption.Host,// ConfigManagerConf.GetValue("RabbitMQ:Host"),
