@@ -29,6 +29,12 @@ namespace UserService.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// 登录
+        /// </summary>
+        /// <param name="account"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         [HttpGet]
         public async Task<LoginDto> Login(string account, string password)
         {
