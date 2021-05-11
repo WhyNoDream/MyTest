@@ -11,11 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ExceptionlessUnit")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Fantasy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ExceptionlessUnit")]
+[assembly: System.Reflection.AssemblyProductAttribute("Fantasy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExceptionlessUnit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

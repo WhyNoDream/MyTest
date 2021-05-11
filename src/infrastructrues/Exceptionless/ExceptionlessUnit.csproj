@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Fantasy.ExceptionlessUnit</PackageId>
+    <Authors>Fantasy</Authors>
+    <Company>Fantasy</Company>
+    <Product>Fantasy</Product>
   </PropertyGroup>
 
   <ItemGroup>

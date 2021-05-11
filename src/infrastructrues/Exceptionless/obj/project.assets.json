@@ -5348,23 +5348,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\001\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\ExceptionlessUnit.csproj",
-      "projectName": "ExceptionlessUnit",
-      "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\ExceptionlessUnit.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\obj\\",
+      "projectUniqueName": "C:\\WorkSpace\\MyWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\ExceptionlessUnit.csproj",
+      "projectName": "Fantasy.ExceptionlessUnit",
+      "projectPath": "C:\\WorkSpace\\MyWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\ExceptionlessUnit.csproj",
+      "packagesPath": "C:\\Users\\001\\.nuget\\packages\\",
+      "outputPath": "C:\\WorkSpace\\MyWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\Exceptionless\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\001\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5378,8 +5374,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj": {
-              "projectPath": "E:\\WorkSpace\\myWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj"
+            "C:\\WorkSpace\\MyWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj": {
+              "projectPath": "C:\\WorkSpace\\MyWorkSpace\\MyTestGit\\MyTest\\src\\infrastructrues\\CommonUnit\\CommonUnit.csproj"
             }
           }
         }
@@ -5415,7 +5411,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
