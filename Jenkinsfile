@@ -14,30 +14,28 @@ myapplicationtype="Web";//"${applicationtype}".toLowerCase();//应用程序类�
 myapplcationpoint=GetApplicationPoint(myapplicationtype);//应用程序端口 如果为控制台程序，则返回“”
 buildnode=GetBuildNode(evn);//获取编译机器标签
 
-node (buildnode)
-{
-    stage('获取代码'){
-        dir(workpath){
-           git branch: gitbranch,
-           url: gitpath
-       }
-       dir(workpath){
-            sh '''git submodule init
-            git submodule update'''
-       }
-    }
-    stage('编译'){
-        dir(mybuildpath){
-            sh '''rm bin/publish -rf
-            dotnet publish -c Release -f net6.0 -o bin/publish
-            '''
+pipeline {
+    agent any
+    stages {
+        stage('拉取代码') {
+			dir(workpath){
+			   git branch: gitbranch,
+			   url: gitpath
+		   }
         }
-    }
-    stage('构建') {
-        docker.withRegistry('http://106.52.59.92') {//--no-cache
-            def customImage = docker.build("${projectname}/${applicationname}-${evnlowercase}:${version}",
-            "  --build-arg ENVIRONMENT=${evn} ${mybuildpath}")
-				customImage.push();
+        stage('执行构建') {
+			dir(mybuildpath){
+				sh '''rm bin/publish -rf
+				dotnet publish -c Release -f net6.0 -o bin/publish
+				'''
+			}
+        }
+        stage('运行') {
+			docker.withRegistry('http://106.52.59.92') {//--no-cache
+				def customImage = docker.build("${projectname}/${applicationname}-${evnlowercase}:${version}",
+				"  --build-arg ENVIRONMENT=${evn} ${mybuildpath}")
+					customImage.push();
+			}
         }
     }
 }
