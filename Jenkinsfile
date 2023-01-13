@@ -18,19 +18,24 @@ pipeline {
     agent any
     stages {
         stage('拉取代码') {
-            steps {
-                echo '拉取成功'
-            }
+			dir(workpath){
+			   git branch: gitbranch,
+			   url: gitpath
+		   }
         }
         stage('执行构建') {
-            steps {
-                echo '构建完成'
-            }
+			dir(mybuildpath){
+				sh '''rm bin/publish -rf
+				dotnet publish -c Release -f net6.0 -o bin/publish
+				'''
+			}
         }
         stage('把jar包构建为docker镜像并运行') {
-            steps {
-                echo '运行成功'
-            }
+			docker.withRegistry('http://106.52.59.92') {//--no-cache
+				def customImage = docker.build("${projectname}/${applicationname}-${evnlowercase}:${version}",
+				"  --build-arg ENVIRONMENT=${evn} ${mybuildpath}")
+					customImage.push();
+			}
         }
     }
 }
