@@ -1,3 +1,9 @@
+projectname="gz-net-prod";
+gitpath="http://github.com/WhyNoDream/MyTest.git";
+workpath="/data/build/wms";///share/wms-jenkins
+dllpath="/data/build/lib";//share/wms-jenkins/lib
+version="v3.1";
+
 pipeline {
     agent any
     stages {
